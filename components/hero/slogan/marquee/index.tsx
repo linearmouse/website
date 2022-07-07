@@ -20,6 +20,7 @@ const Line = styled.div`
   width: fit-content;
   transition: opacity 0.5s 0.2s ease;
   will-change: opacity;
+  white-space: nowrap;
 
   &::after {
     position: absolute;

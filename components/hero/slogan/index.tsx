@@ -6,17 +6,24 @@ const Wrapper = styled.div`
   font-family: var(--font-family-title);
   font-size: 2.5625rem;
   font-weight: bold;
+
+  @media (max-width: 1190px) {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 512px) {
+    font-size: 2rem;
+  }
 `
 
 const FlexLine = styled.div`
   display: flex;
+  flex-wrap: wrap;
   line-height: 1.3;
   overflow: hidden;
   contain: content;
-
-  @media (max-width: 1190px) {
-    justify-content: center;
-  }
 `
 
 const GradientText = styled.span`
