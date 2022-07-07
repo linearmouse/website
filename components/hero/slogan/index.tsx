@@ -1,15 +1,22 @@
 import styled from 'styled-components'
+import Marquee from './marquee'
 
 const Wrapper = styled.div`
   margin-top: 6.3125rem;
   font-family: var(--font-family-title);
   font-size: 2.5625rem;
   font-weight: bold;
-  line-height: 1.3;
 
   @media (max-width: 1190px) {
     text-align: center;
   }
+`
+
+const FlexLine = styled.div`
+  display: flex;
+  line-height: 1.3;
+  overflow: hidden;
+  contain: content;
 `
 
 const GradientText = styled.span`
@@ -30,9 +37,17 @@ const GradientText = styled.span`
 
 const Slogan = () => (
   <Wrapper>
-    Customize Mouse and Trackpad
-    <br />
-    Like a <GradientText>Pro.</GradientText>
+    <FlexLine>
+      <span>Customize&nbsp;</span>
+      <Marquee
+        lines={['Mouse and Trackpad', 'Scrolling Direction', 'Pointer Acceleration', 'Pointer Speed', 'Modifier Keys']}
+      />
+    </FlexLine>
+    <FlexLine>
+      <span>
+        Like a <GradientText>Pro.</GradientText>
+      </span>
+    </FlexLine>
   </Wrapper>
 )
 
