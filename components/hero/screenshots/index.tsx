@@ -58,7 +58,7 @@ const Screenshots = () => {
     <Wrapper>
       {screenshots.map(({ src, alt, width, height }, index) => (
         <ImageWrapper key={index} style={{ opacity: currentIndex === index ? 1 : 0 }}>
-          <Image layout="fixed" {...{ src, alt, width, height }} />
+          <Image layout="fixed" priority={index === 0} {...{ src, alt, width, height }} />
         </ImageWrapper>
       ))}
     </Wrapper>
