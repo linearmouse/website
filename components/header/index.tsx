@@ -21,6 +21,10 @@ const Wrapper = styled.div<WrapperProps>`
   & > ${MaxWidthWrapper} {
     display: flex;
     align-items: center;
+
+    @media (max-width: 512px) {
+      flex-direction: column;
+    }
   }
 
   &::after {

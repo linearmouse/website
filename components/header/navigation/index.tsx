@@ -3,10 +3,10 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   margin-left: auto;
   display: flex;
+  gap: 1.875rem;
   font-family: var(--font-family-title);
 
   a {
-    margin-left: 1.875rem;
     font-weight: bold;
     text-decoration: none;
     color: var(--color-text);
@@ -15,6 +15,11 @@ const Wrapper = styled.div`
     &:hover {
       color: var(--color-primary);
     }
+  }
+
+  @media (max-width: 512px) {
+    margin-top: 1.5rem;
+    margin-right: auto;
   }
 `
 
