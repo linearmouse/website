@@ -43,6 +43,7 @@ const InstallViaHomebrewButton = styled.button`
   background: none;
   color: var(--color-primary);
   font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
   transition: color 0.1s ease;
 
