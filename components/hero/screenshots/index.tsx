@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   top: 0;
   right: 0;
   bottom: 0;
+  z-index: -1;
   overflow: hidden;
   contain: strict;
   pointer-events: none;
@@ -27,7 +28,6 @@ const ImageWrapper = styled.div`
   right: -50px;
   top: 6.75rem;
   bottom: 0;
-  z-index: -1;
   max-width: 50vw;
   overflow: hidden;
   transition: opacity 1s;
