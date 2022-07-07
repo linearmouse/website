@@ -16,6 +16,7 @@ const Scrollable = styled.div`
 
 const Line = styled.div`
   position: relative;
+  color: var(--color-primary-dark);
   line-height: 1.3;
   width: fit-content;
   transition: opacity 0.5s 0.2s ease;

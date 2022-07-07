@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`${css`
     --color-text: hsl(217, 20%, 19%);
     --color-primary: hsl(217, 90%, 50%);
     --color-primary-darker: hsl(217, 90%, 42%);
+    --color-primary-dark: hsl(217, 90%, 25%);
     --color-white: #fff;
 
     --max-width: 1400px;
