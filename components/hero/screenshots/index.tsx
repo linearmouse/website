@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   bottom: 0;
   overflow: hidden;
   contain: strict;
+  pointer-events: none;
 
   @media (max-width: 1190px) {
     display: none;
