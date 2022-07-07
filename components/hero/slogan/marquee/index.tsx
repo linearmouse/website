@@ -7,7 +7,6 @@ export type MarqueeProps = {
 
 const Wrapper = styled.div`
   height: 1.3em;
-}
 `
 
 const Scrollable = styled.div`
