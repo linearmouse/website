@@ -23,6 +23,12 @@ const GlobalStyle = createGlobalStyle`${css`
     color: var(--color-text);
   }
 
+  @media (max-width: 768px) {
+    html {
+      font-size: 0.875em;
+    }
+  }
+
   body {
     margin: 0;
   }

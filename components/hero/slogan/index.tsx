@@ -6,6 +6,10 @@ const Wrapper = styled.div`
   font-size: 2.5625rem;
   font-weight: bold;
   line-height: 1.3;
+
+  @media (max-width: 1190px) {
+    text-align: center;
+  }
 `
 
 const GradientText = styled.span`

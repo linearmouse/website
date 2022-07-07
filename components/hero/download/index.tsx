@@ -9,6 +9,10 @@ const Buttons = styled.div`
   display: flex;
   align-items: center;
   gap: 1.875rem;
+
+  @media (max-width: 1190px) {
+    justify-content: center;
+  }
 `
 
 const DownloadButton = styled.a`

@@ -13,6 +13,7 @@ const Wrapper = styled.div<WrapperProps>`
   left: 0;
   right: 0;
   top: 0;
+  z-index: 1000;
   margin: 0 auto;
   padding: 3.4375rem 0;
   --progress: ${({ scrollTop }) => Math.min(scrollTop / 100, 1)};

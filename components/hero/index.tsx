@@ -3,30 +3,25 @@ import MaxWidthWrapper from 'components/max-width-wrapper'
 import Spacer from 'components/spacer'
 import styled from 'styled-components'
 import Download from './download'
+import Screenshots from './screenshots'
 import Slogan from './slogan'
 
 const Wrapper = styled.div`
+  position: relative;
   padding-top: 6.75rem;
-
-  & > ${MaxWidthWrapper} {
-    display: flex;
-  }
-`
-
-const LeftColumn = styled.div`
-  display: flex;
-  flex-direction: column;
+  padding-bottom: 5rem;
 `
 
 const Hero = () => (
   <Wrapper>
     <MaxWidthWrapper>
-      <LeftColumn>
-        <Slogan />
-        <Spacer size={40} />
-        <Download />
-      </LeftColumn>
+      <Slogan />
+      <Spacer size={40} />
+      <Download />
     </MaxWidthWrapper>
+
+    <Screenshots />
+
     <CircleBackground />
   </Wrapper>
 )

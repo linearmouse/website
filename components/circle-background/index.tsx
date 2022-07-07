@@ -7,8 +7,12 @@ const Wrapper = styled.div`
   left: 0;
   bottom: 0;
   overflow: hidden;
-  z-index: -1;
+  z-index: -1000;
   pointer-events: none;
+
+  @media (max-width: 1190px) {
+    display: none;
+  }
 `
 
 const Circle = styled.div`
