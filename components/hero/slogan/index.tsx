@@ -28,7 +28,7 @@ const Slogan = () => (
   <Wrapper>
     Customize Mouse and Trackpad
     <br />
-    Like a <GradientText>Pro</GradientText>.
+    Like a <GradientText>Pro.</GradientText>
   </Wrapper>
 )
 
