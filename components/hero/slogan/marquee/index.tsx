@@ -56,7 +56,15 @@ const Marquee = ({ lines }: MarqueeProps) => {
     <Wrapper>
       <Scrollable style={{ transform: `translateY(${translateY})` }}>
         {lines.map((line, index) => (
-          <Line key={index} style={{ opacity: currentIndex === 0 || currentIndex === index ? 1 : 0 }}>
+          <Line
+            key={index}
+            style={{
+              opacity: currentIndex === 0 || currentIndex === index ? 1 : 0,
+              userSelect: currentIndex === index ? undefined : 'none',
+              WebkitUserSelect: currentIndex === index ? undefined : 'none'
+            }}
+            aria-hidden={currentIndex !== index}
+          >
             {line}
           </Line>
         ))}

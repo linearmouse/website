@@ -57,7 +57,11 @@ const Screenshots = () => {
   return (
     <Wrapper>
       {screenshots.map(({ src, alt, width, height }, index) => (
-        <ImageWrapper key={index} style={{ opacity: currentIndex === index ? 1 : 0 }}>
+        <ImageWrapper
+          key={index}
+          style={{ opacity: currentIndex === index ? 1 : 0 }}
+          aria-hidden={currentIndex !== index}
+        >
           <Image layout="fixed" priority={index === 0} {...{ src, alt, width, height }} />
         </ImageWrapper>
       ))}

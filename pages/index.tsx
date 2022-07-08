@@ -6,7 +6,7 @@ import Head from 'next/head'
 const Home: NextPage = () => (
   <>
     <Head>
-      <title>LinearMouse | The mouse and trackpad utility on macOS.</title>
+      <title>LinearMouse | The Mouse and Trackpad Utility for Mac.</title>
       <meta
         name="description"
         content="Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on..."
