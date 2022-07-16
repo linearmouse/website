@@ -1,4 +1,3 @@
-import Trans from 'next-translate/Trans'
 import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import styled from 'styled-components'
@@ -87,24 +86,17 @@ const Description = styled.div`
 `
 
 const Features = () => {
-  const { t } = useTranslation('index')
-
   const images = [feature1, feature2, feature3]
+
+  const { t } = useTranslation('index')
 
   return (
     <Wrapper>
       {images.map(({ src }, index) => (
         <FeatureWrapper key={index}>
           <MaxWidthWrapper maxWidth={'calc(var(--max-width) / 2)'}>
-            <Heading>
-              <Trans
-                i18nKey={`index:features.${index}.title`}
-                components={{ strong: <strong />, br: <br />, q: <q /> }}
-              />
-            </Heading>
-            <Description>
-              <Trans i18nKey={`index:features.${index}.description`} components={{ br: <br />, p: <p /> }} />
-            </Description>
+            <Heading dangerouslySetInnerHTML={{ __html: t(`features.${index}.title`) }} />
+            <Description dangerouslySetInnerHTML={{ __html: t(`features.${index}.description`) }} />
           </MaxWidthWrapper>
 
           <FeatureImageWrapper>
