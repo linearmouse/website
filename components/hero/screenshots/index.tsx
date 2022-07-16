@@ -25,7 +25,7 @@ const Wrapper = styled.div`
 
 const ImageWrapper = styled.div`
   position: absolute;
-  right: -50px;
+  left: 52vw;
   top: 6.75rem;
   bottom: 0;
   max-width: 50vw;

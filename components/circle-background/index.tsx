@@ -17,11 +17,11 @@ const Wrapper = styled.div`
 
 const Circle = styled.div`
   position: absolute;
-  right: 0;
+  left: 52vw;
   top: 0;
   width: 1000px;
   height: 1000px;
-  transform: translate(20%, -60%);
+  transform: translate(10%, -60%);
   background-color: var(--color-circle);
   border-radius: 50%;
 `

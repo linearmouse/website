@@ -26,14 +26,14 @@ const FeatureWrapper = styled.div`
 
   ${MaxWidthWrapper} {
     margin-left: 52vw;
-    margin-right: 6.875rem;
+    margin-right: auto;
     padding: 0;
   }
 
   &:nth-child(even) {
     ${MaxWidthWrapper} {
       margin-right: 52vw;
-      margin-left: 6.875rem;
+      margin-left: auto;
     }
   }
 `
