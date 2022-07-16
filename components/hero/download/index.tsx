@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import { useCallback, useState } from 'react'
 import styled from 'styled-components'
 
@@ -76,6 +77,8 @@ const Copied = styled.span`
 `
 
 const Download = () => {
+  const { t } = useTranslation('index')
+
   const [copied, setCopied] = useState(false)
 
   const copyHomebrewInstallCommand = useCallback(() => {
@@ -100,11 +103,11 @@ const Download = () => {
     <Wrapper>
       <Buttons>
         <DownloadButton role="button" href="https://dl.linearmouse.org/latest/LinearMouse.dmg">
-          Download
+          {t('install.download')}
         </DownloadButton>
         <InstallViaHomebrewButton type="button" onClick={copyHomebrewInstallCommand}>
-          Install via Homebrew
-          <Copied style={{ opacity: copied ? 1 : 0 }}>Copied</Copied>
+          {t('install.install_via_homebrew')}
+          <Copied style={{ opacity: copied ? 1 : 0 }}>{t('install.copied')}</Copied>
         </InstallViaHomebrewButton>
       </Buttons>
     </Wrapper>

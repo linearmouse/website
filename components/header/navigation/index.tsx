@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -24,10 +25,12 @@ const Wrapper = styled.div`
 `
 
 const Navigation = () => {
+  const { t } = useTranslation('common')
+
   return (
     <Wrapper role="navigation">
-      <a href="https://github.com/linearmouse/linearmouse">GitHub</a>
-      <a href="https://github.com/linearmouse/linearmouse/discussions">Discussions</a>
+      <a href="https://github.com/linearmouse/linearmouse">{t('navigation.github')}</a>
+      <a href="https://github.com/linearmouse/linearmouse/discussions">{t('navigation.discussions')}</a>
     </Wrapper>
   )
 }

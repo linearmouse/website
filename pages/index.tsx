@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import useTranslation from 'next-translate/useTranslation'
 import Head from 'next/head'
 
 import Features from 'components/features'
@@ -6,24 +7,25 @@ import Footer from 'components/footer'
 import Header from 'components/header'
 import Hero from 'components/hero'
 
-const Home: NextPage = () => (
-  <>
-    <Head>
-      <title>LinearMouse | The mouse and trackpad utility for Mac.</title>
-      <meta
-        name="description"
-        content="Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on..."
-      />
-    </Head>
+const Home: NextPage = () => {
+  const { t } = useTranslation('index')
 
-    <Header />
+  return (
+    <>
+      <Head>
+        <title>{t('title')}</title>
+        <meta name="description" content={t('description')} />
+      </Head>
 
-    <Hero />
+      <Header />
 
-    <Features />
+      <Hero />
 
-    <Footer />
-  </>
-)
+      <Features />
+
+      <Footer />
+    </>
+  )
+}
 
 export default Home

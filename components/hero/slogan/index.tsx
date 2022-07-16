@@ -1,3 +1,4 @@
+import useTranslation from 'next-translate/useTranslation'
 import styled from 'styled-components'
 
 import Marquee from './marquee'
@@ -43,20 +44,29 @@ const GradientText = styled.span`
   }
 `
 
-const Slogan = () => (
-  <Wrapper>
-    <FlexLine>
-      <span>Customize&nbsp;</span>
-      <Marquee
-        lines={['Mouse and Trackpad', 'Scrolling Direction', 'Pointer Acceleration', 'Pointer Speed', 'Modifier Keys']}
-      />
-    </FlexLine>
-    <FlexLine>
-      <span>
-        Like a <GradientText>Pro.</GradientText>
-      </span>
-    </FlexLine>
-  </Wrapper>
-)
+const Slogan = () => {
+  const { t } = useTranslation('index')
+
+  return (
+    <Wrapper>
+      <FlexLine>
+        <span style={{ whiteSpace: 'pre' }}>{t('slogan.before_marquee')}</span>
+        <Marquee
+          lines={[
+            t('slogan.mouse_and_trackpad'),
+            t('slogan.scrolling_direction'),
+            t('slogan.pointer_acceleration'),
+            t('slogan.pointer_speed'),
+            t('slogan.modifier_keys')
+          ]}
+        />
+      </FlexLine>
+      <FlexLine>
+        <span style={{ whiteSpace: 'pre' }}>{t('slogan.before_gradient')}</span>
+        <GradientText>{t('slogan.pro')}</GradientText>
+      </FlexLine>
+    </Wrapper>
+  )
+}
 
 export default Slogan

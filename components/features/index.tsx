@@ -1,3 +1,5 @@
+import Trans from 'next-translate/Trans'
+import useTranslation from 'next-translate/useTranslation'
 import Image from 'next/image'
 import styled from 'styled-components'
 
@@ -77,7 +79,6 @@ const Heading = styled.div`
 `
 
 const Description = styled.div`
-  font-weight: 300;
   opacity: 0.8;
 
   p:not(:last-child) {
@@ -85,74 +86,34 @@ const Description = styled.div`
   }
 `
 
-const Features = () => (
-  <Wrapper>
-    <FeatureWrapper>
-      <MaxWidthWrapper>
-        <Heading>
-          For <strong>Each</strong> Pointing Device.
-        </Heading>
-        <Description>
-          <p>
-            LinearMouse supports per-device settings.
-            <br />
-            You can apply different settings to your mice and trackpads.
-          </p>
-        </Description>
-      </MaxWidthWrapper>
+const Features = () => {
+  const { t } = useTranslation('index')
 
-      <FeatureImageWrapper>
-        <Image layout="fixed" src={feature1} width={962} height={712} />
-      </FeatureImageWrapper>
-    </FeatureWrapper>
+  const images = [feature1, feature2, feature3]
 
-    <FeatureWrapper>
-      <MaxWidthWrapper>
-        <Heading>
-          <strong>More Natural</strong>
-          <br />
-          Than Natural.
-        </Heading>
-        <Description>
-          <p>
-            If you are uncomfortable with the natural scrolling of the mouse, LinearMouse can help you reverse the
-            scrolling direction.
-          </p>
-          <p>
-            As each device can be configured independently, there is no need to be concerned about the trackpad&rsquo;s
-            scrolling direction being affected.
-          </p>
-        </Description>
-      </MaxWidthWrapper>
+  return (
+    <Wrapper>
+      {images.map(({ src }, index) => (
+        <FeatureWrapper key={index}>
+          <MaxWidthWrapper>
+            <Heading>
+              <Trans
+                i18nKey={`index:features.${index}.title`}
+                components={{ strong: <strong />, br: <br />, q: <q /> }}
+              />
+            </Heading>
+            <Description>
+              <Trans i18nKey={`index:features.${index}.description`} components={{ br: <br />, p: <p /> }} />
+            </Description>
+          </MaxWidthWrapper>
 
-      <FeatureImageWrapper>
-        <Image layout="fixed" src={feature2} width={962} height={712} />
-      </FeatureImageWrapper>
-    </FeatureWrapper>
-
-    <FeatureWrapper>
-      <MaxWidthWrapper>
-        <Heading>
-          Move the Pointer
-          <br />
-          <strong>Fast and Accurately.</strong>
-        </Heading>
-        <Description>
-          <p>
-            LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the
-            pointer faster and more accurately.
-          </p>
-          <p>
-            You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.
-          </p>
-        </Description>
-      </MaxWidthWrapper>
-
-      <FeatureImageWrapper>
-        <Image layout="fixed" src={feature3} width={962} height={712} />
-      </FeatureImageWrapper>
-    </FeatureWrapper>
-  </Wrapper>
-)
+          <FeatureImageWrapper>
+            <Image layout="fixed" src={src} width={962} height={712} />
+          </FeatureImageWrapper>
+        </FeatureWrapper>
+      ))}
+    </Wrapper>
+  )
+}
 
 export default Features
