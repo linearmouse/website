@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: git-sync
+        uses: wei/git-sync@v3
+        with:
+          source_repo: https://lujjjh:${{ secrets.PAT }}@github.com/linearmouse/linearmouse.org
+          source_branch: main
+          destination_repo: https://lujjjh:${{ secrets.PAT }}@github.com/lujjjh/linearmouse.org
+          destination_branch: main
