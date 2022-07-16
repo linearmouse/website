@@ -44,12 +44,14 @@ const Wrapper = styled.div<WrapperProps>`
 `
 
 const Header = () => {
-  const [scrollTop, setScrollTop] = useState(typeof document === 'undefined' ? 0 : document.documentElement.scrollTop)
+  const [scrollTop, setScrollTop] = useState(0)
 
   useEffect(() => {
     const update = () => {
       setScrollTop(document.documentElement.scrollTop)
     }
+
+    update()
 
     addEventListener('scroll', update)
 
