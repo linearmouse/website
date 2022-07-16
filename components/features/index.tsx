@@ -95,7 +95,7 @@ const Features = () => {
     <Wrapper>
       {images.map(({ src }, index) => (
         <FeatureWrapper key={index}>
-          <MaxWidthWrapper>
+          <MaxWidthWrapper maxWidth={'calc(var(--max-width) / 2)'}>
             <Heading>
               <Trans
                 i18nKey={`index:features.${index}.title`}
