@@ -1,11 +1,11 @@
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
-import scrolling from './scrolling.png'
-import pointer from './pointer.png'
 import buttons from './buttons.png'
 import modifierKeys from './modifier-keys.png'
-import { useEffect, useState } from 'react'
+import pointer from './pointer.png'
+import scrolling from './scrolling.png'
 
 const Wrapper = styled.div`
   position: absolute;

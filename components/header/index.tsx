@@ -1,6 +1,8 @@
-import MaxWidthWrapper from 'components/max-width-wrapper'
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
+
+import MaxWidthWrapper from 'components/max-width-wrapper'
+
 import Logo from './logo'
 import Navigation from './navigation'
 

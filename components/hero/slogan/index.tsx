@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+
 import Marquee from './marquee'
 
 const Wrapper = styled.div`

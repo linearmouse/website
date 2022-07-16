@@ -1,7 +1,9 @@
+import styled from 'styled-components'
+
 import CircleBackground from 'components/circle-background'
 import MaxWidthWrapper from 'components/max-width-wrapper'
 import Spacer from 'components/spacer'
-import styled from 'styled-components'
+
 import Download from './download'
 import Screenshots from './screenshots'
 import Slogan from './slogan'
