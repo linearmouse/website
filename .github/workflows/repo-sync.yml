@@ -1,10 +1,14 @@
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
     steps:
-      - name: git-sync
+      - name: Repo sync
+        if: ${{ github.repository_owner == 'linearmouse' }}
         uses: wei/git-sync@v3
         with:
           source_repo: https://lujjjh:${{ secrets.PAT }}@github.com/linearmouse/linearmouse.org
