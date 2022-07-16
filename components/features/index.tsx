@@ -119,7 +119,7 @@ const Features = () => (
             scrolling direction.
           </p>
           <p>
-            As each device can be configured independently, there is no need to be concerned about the touchpad's
+            As each device can be configured independently, there is no need to be concerned about the trackpad&rsquo;s
             scrolling direction being affected.
           </p>
         </Description>
@@ -143,7 +143,7 @@ const Features = () => (
             pointer faster and more accurately.
           </p>
           <p>
-            You can even disable pointer acceleration if you're a gamer or designer to get the best pointer accuracy.
+            You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.
           </p>
         </Description>
       </MaxWidthWrapper>
