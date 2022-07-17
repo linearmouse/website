@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   contain: content;
 
   @media (max-width: 1190px) {
-    width: fit-content;
+    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
   }

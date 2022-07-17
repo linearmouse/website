@@ -20,6 +20,10 @@ const Wrapper = styled.div<WrapperProps>`
   padding: 3.4375rem 0;
   --progress: ${({ scrollTop }) => Math.min(scrollTop / 100, 1)};
 
+  @media (max-width: 960px) {
+    position: absolute;
+  }
+
   & > ${MaxWidthWrapper} {
     display: flex;
     align-items: center;

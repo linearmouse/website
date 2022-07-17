@@ -26,13 +26,31 @@ const FeatureWrapper = styled.div`
   ${MaxWidthWrapper} {
     margin-left: 52vw;
     margin-right: auto;
-    padding: 0;
   }
 
   &:nth-child(even) {
     ${MaxWidthWrapper} {
       margin-right: 52vw;
       margin-left: auto;
+    }
+  }
+
+  &:nth-child(odd) ${MaxWidthWrapper} {
+    padding-left: 0;
+  }
+
+  &:nth-child(even) ${MaxWidthWrapper} {
+    padding-right: 0;
+  }
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+
+    &:nth-child(odd) ${MaxWidthWrapper}, &:nth-child(even) ${MaxWidthWrapper} {
+      margin: 0;
+      padding: 0 2rem;
+      box-sizing: border-box;
+      width: 100%;
     }
   }
 `
@@ -45,6 +63,11 @@ const FeatureImageWrapper = styled.div`
   ${FeatureWrapper}:nth-child(even) > & {
     right: revert;
     left: 50vw;
+  }
+
+  @media (max-width: 960px) {
+    position: static;
+    margin-bottom: -20rem;
   }
 `
 
@@ -75,6 +98,10 @@ const Heading = styled.div`
       background-color: var(--color-primary);
       opacity: 0.2;
     }
+  }
+
+  @media (max-width: 960px) {
+    text-align: center;
   }
 `
 
