@@ -1,5 +1,5 @@
 {
-  "title": "LinearMouse | Mac 下的滑鼠和觸控板實用工具。",
+  "title": "LinearMouse | Mac 下的滑鼠和觸控式軌跡板實用工具。",
   "description": "自定義滑鼠和觸控板的捲動方向、指標加速度、指標速度……",
   "slogan": "給<Marquee />\n一個<GradientText>專屬定製。</GradientText>",
   "slogan_marquee": {
@@ -17,11 +17,11 @@
   "features": [
     {
       "title": "定製<strong>每一個</strong>指標設備。",
-      "description": "<p>LinearMouse 支援為每個設備單獨配置。.</p><p>你可以為你的滑鼠和觸控板應用不同的設置。</p>"
+      "description": "<p>LinearMouse 支援為每個設備單獨配置。.</p><p>你可以為你的滑鼠和觸控式軌跡板應用不同的設置。</p>"
     },
     {
       "title": "比<q>自然</q><strong>更自然</strong>。",
-      "description": "<p>如果你不習慣於在使用滑鼠時啟用自然捲動，LinearMouse 能夠幫助你反轉捲動方向。</p><p>由於可以為每個設備單獨配置，因此無需擔心會影響觸控板的捲動方向。</p>"
+      "description": "<p>如果你不習慣於在使用滑鼠時啟用自然捲動，LinearMouse 能夠幫助你反轉捲動方向。</p><p>由於可以為每個設備單獨配置，因此無需擔心會影響觸控式軌跡板的捲動方向。</p>"
     },
     {
       "title": "讓指標<strong>又快又准</strong>。",
