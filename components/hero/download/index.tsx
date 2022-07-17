@@ -21,7 +21,7 @@ const DownloadButton = styled.a`
   align-items: center;
   padding: 1rem 1.75rem;
   background: var(--color-primary);
-  border-radius: 10px;
+  border-radius: var(--border-radius-lg);
   color: var(--color-white);
   text-decoration: none;
   font-weight: 500;

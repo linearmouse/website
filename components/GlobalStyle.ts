@@ -16,6 +16,10 @@ const GlobalStyle = createGlobalStyle`${css`
       'Helvetica Neue', sans-serif;
     --font-family-title: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
       'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --border-radius-sm: 0.125rem;
+    --border-radius-md: 0.375rem;
+    --border-radius-lg: 0.625rem;
   }
 
   html {

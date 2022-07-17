@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 
 const Footer = () => (
   <Wrapper>
-    <MaxWidthWrapper>&copy; 2021-{new Date().getFullYear()} LinearMouse.</MaxWidthWrapper>
+    <MaxWidthWrapper>&copy; 2021-{new Date().getFullYear()} LinearMouse</MaxWidthWrapper>
   </Wrapper>
 )
 
