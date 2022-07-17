@@ -93,8 +93,9 @@ const Features = () => {
   const { tE } = useTranslationEx('index')
 
   const componentElements = {
-    strong: <strong />,
-    q: <q />
+    p: <p />,
+    q: <q />,
+    strong: <strong />
   }
 
   return (
