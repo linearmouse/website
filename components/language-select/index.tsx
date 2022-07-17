@@ -4,7 +4,8 @@ import styled from 'styled-components'
 
 const localesToShow = {
   en: 'English',
-  'zh-CN': '简体中文'
+  'zh-CN': '简体中文',
+  'zh-TW': '正體中文'
 }
 
 const Wrapper = styled.button`
