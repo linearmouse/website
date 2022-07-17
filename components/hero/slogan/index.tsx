@@ -58,7 +58,8 @@ const Slogan = () => {
                 t('slogan_marquee.modifier_keys')
               ]}
             />
-          )
+          ),
+          GradientText: <GradientText />
         }
       })}
     </Wrapper>
