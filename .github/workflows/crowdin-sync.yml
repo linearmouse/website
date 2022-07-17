@@ -1,4 +1,4 @@
-name: Crowdin
+name: Crowdin Sync
 
 on:
   push:
