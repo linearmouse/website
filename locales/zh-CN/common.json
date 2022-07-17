@@ -3,5 +3,8 @@
     "github": "GitHub",
     "discussions": "讨论",
     "language": "语言"
+  },
+  "footer": {
+    "help_translate": "帮助翻译"
   }
 }
