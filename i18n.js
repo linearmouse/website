@@ -34,6 +34,7 @@ module.exports = {
   ],
   pages: {
     '*': ['common'],
-    '/': ['index']
+    '/': ['index'],
+    '/contributing': ['contributing']
   }
 }
