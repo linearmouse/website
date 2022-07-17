@@ -1,4 +1,4 @@
-import useTranslation from 'next-translate/useTranslation'
+import useTranslationEx from 'hooks/use-translation-ex'
 import Image from 'next/image'
 import styled from 'styled-components'
 
@@ -54,6 +54,7 @@ const Heading = styled.div`
   line-height: 1.3;
   font-family: var(--font-family-title);
   font-weight: bold;
+  white-space: pre-wrap;
 
   strong {
     position: relative;
@@ -79,6 +80,7 @@ const Heading = styled.div`
 
 const Description = styled.div`
   opacity: 0.8;
+  white-space: pre-wrap;
 
   p:not(:last-child) {
     margin: 0 0 0.5rem;
@@ -88,15 +90,20 @@ const Description = styled.div`
 const Features = () => {
   const images = [feature1, feature2, feature3]
 
-  const { t } = useTranslation('index')
+  const { tE } = useTranslationEx('index')
+
+  const componentElements = {
+    strong: <strong />,
+    q: <q />
+  }
 
   return (
     <Wrapper>
       {images.map(({ src }, index) => (
         <FeatureWrapper key={index}>
           <MaxWidthWrapper maxWidth={'calc(var(--max-width) / 2)'}>
-            <Heading dangerouslySetInnerHTML={{ __html: t(`features.${index}.title`) }} />
-            <Description dangerouslySetInnerHTML={{ __html: t(`features.${index}.description`) }} />
+            <Heading>{tE(`features.${index}.title`, null, { componentElements })}</Heading>
+            <Description>{tE(`features.${index}.description`, null, { componentElements })}</Description>
           </MaxWidthWrapper>
 
           <FeatureImageWrapper>

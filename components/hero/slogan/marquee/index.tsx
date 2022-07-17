@@ -6,6 +6,8 @@ export type MarqueeProps = {
 }
 
 const Wrapper = styled.div`
+  display: inline-block;
+  vertical-align: top;
   height: 1.3em;
   overflow: hidden;
   contain: content;

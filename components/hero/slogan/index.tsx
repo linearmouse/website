@@ -1,4 +1,5 @@
-import useTranslation from 'next-translate/useTranslation'
+import useTranslationEx from 'hooks/use-translation-ex'
+import Trans from 'next-translate/Trans'
 import styled from 'styled-components'
 
 import Marquee from './marquee'
@@ -8,6 +9,10 @@ const Wrapper = styled.div`
   font-family: var(--font-family-title);
   font-size: 2.5625rem;
   font-weight: bold;
+  white-space: pre;
+  line-height: 1.3;
+  overflow: hidden;
+  contain: content;
 
   @media (max-width: 1190px) {
     width: fit-content;
@@ -18,14 +23,6 @@ const Wrapper = styled.div`
   @media (max-width: 512px) {
     font-size: 2rem;
   }
-`
-
-const FlexLine = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  line-height: 1.3;
-  overflow: hidden;
-  contain: content;
 `
 
 const GradientText = styled.span`
@@ -45,26 +42,25 @@ const GradientText = styled.span`
 `
 
 const Slogan = () => {
-  const { t } = useTranslation('index')
+  const { t, tE } = useTranslationEx('index')
 
   return (
     <Wrapper>
-      <FlexLine>
-        <span style={{ whiteSpace: 'pre' }}>{t('slogan.before_marquee')}</span>
-        <Marquee
-          lines={[
-            t('slogan.mouse_and_trackpad'),
-            t('slogan.scrolling_direction'),
-            t('slogan.pointer_acceleration'),
-            t('slogan.pointer_speed'),
-            t('slogan.modifier_keys')
-          ]}
-        />
-      </FlexLine>
-      <FlexLine>
-        <span style={{ whiteSpace: 'pre' }}>{t('slogan.before_gradient')}</span>
-        <GradientText>{t('slogan.pro')}</GradientText>
-      </FlexLine>
+      {tE('slogan', null, {
+        componentElements: {
+          Marquee: (
+            <Marquee
+              lines={[
+                t('slogan_marquee.mouse_and_trackpad'),
+                t('slogan_marquee.scrolling_direction'),
+                t('slogan_marquee.pointer_acceleration'),
+                t('slogan_marquee.pointer_speed'),
+                t('slogan_marquee.modifier_keys')
+              ]}
+            />
+          )
+        }
+      })}
     </Wrapper>
   )
 }
