@@ -1,7 +1,7 @@
 {
-  "title": "LinearMouse | Mac 下的鼠标和触控板实用工具",
+  "title": "LinearMouse | Mac 下的鼠标和触控板实用工具。",
   "description": "自定义鼠标和触控板的滚动方向、指针加速度、指针速度……",
-  "slogan": "给<Marquee />\n一个<GradientText>专属定制</GradientText>",
+  "slogan": "给<Marquee />\n一个<GradientText>专属定制。</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "鼠标和触控板",
     "scrolling_direction": "滚动方向",
@@ -16,15 +16,15 @@
   },
   "features": [
     {
-      "title": "定制<strong>每一个</strong>指针设备",
+      "title": "定制<strong>每一个</strong>指针设备。",
       "description": "<p>LinearMouse 支持为每个设备单独配置。</p><p>你可以为你的鼠标和触控板应用不同的设置。</p>"
     },
     {
-      "title": "比<q>自然</q><strong>更自然</strong>",
+      "title": "比<q>自然</q><strong>更自然</strong>。",
       "description": "<p>如果你不习惯于在使用鼠标时启用自然滚动，LinearMouse 能够帮助你反转滚动方向。</p><p>由于可以为每个设备单独配置，因此无需担心会影响触控板的滚动方向。</p>"
     },
     {
-      "title": "让指针<strong>又快又准</strong>",
+      "title": "让指针<strong>又快又准。</strong>",
       "description": "<p>LinearMouse 让你找到一个舒适的指针加速度和速度，帮助你更快、更准地移动指针。</p><p>如果你是游戏玩家或者设计师，你甚至可以禁用指针加速度来获取最精确的指针体验。</p>"
     }
   ]
