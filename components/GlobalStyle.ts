@@ -4,13 +4,13 @@ const GlobalStyle = createGlobalStyle`${css`
   :root {
     --color-background-hsl: 217 20% 98%;
     --color-background: hsl(var(--color-background-hsl));
-    --color-circle: hsl(217, 40%, 95%);
-    --color-text: hsl(217, 20%, 19%);
-    --color-primary: hsl(217, 90%, 50%);
-    --color-primary-darker: hsl(217, 90%, 42%);
-    --color-primary-dark: hsl(217, 90%, 25%);
+    --color-circle: hsl(217deg 40% 95%);
+    --color-text: hsl(217deg 20% 19%);
+    --color-primary: hsl(217deg 90% 50%);
+    --color-primary-darker: hsl(217deg 90% 42%);
+    --color-primary-dark: hsl(217deg 90% 25%);
     --color-white: #fff;
-    --color-shadow-hsl: 210 5% 62%;
+    --color-shadow-hsl: 210deg 5% 62%;
 
     --max-width: 1400px;
 
@@ -32,12 +32,12 @@ const GlobalStyle = createGlobalStyle`${css`
   @media (prefers-color-scheme: dark) {
     :root {
       --color-background-hsl: 217 20% 8%;
-      --color-circle: hsl(217, 40%, 5%);
-      --color-text: hsl(217, 20%, 85%);
-      --color-primary: hsl(217, 90%, 53%);
-      --color-primary-darker: hsl(217, 90%, 60%);
-      --color-primary-dark: hsl(217, 90%, 65%);
-      --color-white: hsl(217, 20%, 2%);
+      --color-circle: hsl(217deg 40% 5%);
+      --color-text: hsl(217deg 20% 85%);
+      --color-primary: hsl(217deg 90% 53%);
+      --color-primary-darker: hsl(217deg 90% 60%);
+      --color-primary-dark: hsl(217deg 90% 65%);
+      --color-white: hsl(217deg 20% 2%);
       --color-shadow-hsl: 218 33% 1%;
     }
   }

@@ -1,6 +1,7 @@
 import useTranslation from 'next-translate/useTranslation'
 import styled from 'styled-components'
 
+import CookieConsent from 'components/cookie-consent'
 import MaxWidthWrapper from 'components/max-width-wrapper'
 
 const Wrapper = styled.div`
@@ -50,6 +51,8 @@ const Footer = () => {
           </a>
         </Links>
       </MaxWidthWrapper>
+
+      <CookieConsent />
     </Wrapper>
   )
 }
