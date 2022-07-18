@@ -6,5 +6,9 @@
   },
   "footer": {
     "help_translate": "幫助翻譯"
-  }
+  },
+  "cookie_consent": {
+    "description": "This website uses cookies to enhance the user experience."
+  },
+  "ok": "OK"
 }
