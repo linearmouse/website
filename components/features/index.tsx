@@ -4,8 +4,11 @@ import styled from 'styled-components'
 
 import MaxWidthWrapper from 'components/max-width-wrapper'
 
+import feature1Dark from './feature-1-dark.png'
 import feature1 from './feature-1.png'
+import feature2Dark from './feature-2-dark.png'
 import feature2 from './feature-2.png'
+import feature3Dark from './feature-3-dark.png'
 import feature3 from './feature-3.png'
 
 const Wrapper = styled.div``
@@ -115,7 +118,20 @@ const Description = styled.div`
 `
 
 const Features = () => {
-  const images = [feature1, feature2, feature3]
+  const images = [
+    {
+      light: feature1,
+      dark: feature1Dark
+    },
+    {
+      light: feature2,
+      dark: feature2Dark
+    },
+    {
+      light: feature3,
+      dark: feature3Dark
+    }
+  ]
 
   const { tE } = useTranslationEx('index')
 
@@ -127,7 +143,7 @@ const Features = () => {
 
   return (
     <Wrapper>
-      {images.map(({ src }, index) => (
+      {images.map(({ light, dark }, index) => (
         <FeatureWrapper key={index}>
           <MaxWidthWrapper maxWidth={'calc(var(--max-width) / 2)'}>
             <Heading>{tE(`features.${index}.title`, null, { componentElements })}</Heading>
@@ -135,7 +151,12 @@ const Features = () => {
           </MaxWidthWrapper>
 
           <FeatureImageWrapper>
-            <Image layout="fixed" src={src} width={962} height={712} />
+            <div className="light-only">
+              <Image layout="fixed" src={light} width={962} height={712} />
+            </div>
+            <div className="dark-only">
+              <Image layout="fixed" src={dark} width={962} height={712} />
+            </div>
           </FeatureImageWrapper>
         </FeatureWrapper>
       ))}

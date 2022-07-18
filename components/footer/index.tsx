@@ -1,6 +1,4 @@
 import useTranslation from 'next-translate/useTranslation'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 import styled from 'styled-components'
 
 import MaxWidthWrapper from 'components/max-width-wrapper'

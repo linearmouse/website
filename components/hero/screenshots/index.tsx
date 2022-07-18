@@ -2,9 +2,13 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
+import buttonsDark from './buttons-dark.png'
 import buttons from './buttons.png'
+import modifierKeysDark from './modifier-keys-dark.png'
 import modifierKeys from './modifier-keys.png'
+import pointerDark from './pointer-dark.png'
 import pointer from './pointer.png'
+import scrollingDark from './scrolling-dark.png'
 import scrolling from './scrolling.png'
 
 const Wrapper = styled.div`
@@ -35,10 +39,10 @@ const ImageWrapper = styled.div`
 `
 
 const screenshots = [
-  { src: scrolling, alt: 'Screenshots - Scrolling', width: 962, height: 712 },
-  { src: pointer, alt: 'Screenshots - Pointer', width: 962, height: 712 },
-  { src: buttons, alt: 'Screenshots - Buttons', width: 962, height: 712 },
-  { src: modifierKeys, alt: 'Screenshots - Modifier Keys', width: 962, height: 712 }
+  { light: scrolling, dark: scrollingDark, alt: 'Screenshots - Scrolling', width: 962, height: 712 },
+  { light: pointer, dark: pointerDark, alt: 'Screenshots - Pointer', width: 962, height: 712 },
+  { light: buttons, dark: buttonsDark, alt: 'Screenshots - Buttons', width: 962, height: 712 },
+  { light: modifierKeys, dark: modifierKeysDark, alt: 'Screenshots - Modifier Keys', width: 962, height: 712 }
 ]
 
 const Screenshots = () => {
@@ -56,13 +60,18 @@ const Screenshots = () => {
 
   return (
     <Wrapper>
-      {screenshots.map(({ src, alt, width, height }, index) => (
+      {screenshots.map(({ light, dark, alt, width, height }, index) => (
         <ImageWrapper
           key={index}
           style={{ opacity: currentIndex === index ? 1 : 0 }}
           aria-hidden={currentIndex !== index}
         >
-          <Image layout="fixed" priority={index === 0} {...{ src, alt, width, height }} />
+          <div className="light-only">
+            <Image layout="fixed" priority={index === 0} {...{ src: light, alt, width, height }} />
+          </div>
+          <div className="dark-only">
+            <Image layout="fixed" priority={index === 0} {...{ src: dark, alt, width, height }} />
+          </div>
         </ImageWrapper>
       ))}
     </Wrapper>

@@ -22,7 +22,7 @@ const DownloadButton = styled.a`
   padding: 1rem 1.75rem;
   background: var(--color-primary);
   border-radius: var(--border-radius-lg);
-  color: var(--color-white);
+  color: #fff;
   text-decoration: none;
   font-weight: 500;
   line-height: 1.0416;

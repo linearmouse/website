@@ -40,7 +40,7 @@ const Wrapper = styled.div<WrapperProps>`
     right: 0;
     bottom: 0;
     content: '';
-    background-color: hsla(217, 20%, 98%, calc(var(--progress) * 0.8));
+    background-color: hsl(var(--color-background-hsl) / calc(var(--progress) * 0.8));
     z-index: -1;
     pointer-events: none;
     backdrop-filter: saturate(calc(100% + var(--progress) * 80%)) blur(calc(var(--progress) * 20px));
