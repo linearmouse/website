@@ -47,7 +47,7 @@ const Footer = () => {
         <Copyright>&copy; 2021-{new Date().getFullYear()} LinearMouse</Copyright>
 
         <Links>
-          <a href="https://crowdin.com/profile/lujjjh" target="_blank" rel="noreferrer noopener">
+          <a href="https://crowdin.com/project/linearmouse" target="_blank" rel="noreferrer noopener">
             {t('footer.help_translate')}
           </a>
         </Links>
