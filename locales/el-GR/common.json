@@ -1,10 +1,10 @@
 {
   "navigation": {
-    "github": "",
-    "discussions": "",
-    "language": ""
+    "github": "GitHub",
+    "discussions": "Discussions",
+    "language": "Language"
   },
   "footer": {
-    "help_translate": ""
+    "help_translate": "Help translate"
   }
 }
