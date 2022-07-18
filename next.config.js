@@ -6,7 +6,14 @@ const nextConfig = {
   trailingSlash: true,
   compiler: {
     styledComponents: true
-  }
+  },
+  redirects: async () => [
+    {
+      source: '/zh-cn/',
+      destination: '/zh-CN/',
+      permanent: true
+    }
+  ]
 }
 
 module.exports = nextTranslate(nextConfig)
