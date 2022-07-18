@@ -7,13 +7,16 @@ const nextConfig = {
   compiler: {
     styledComponents: true
   },
-  redirects: async () => [
-    {
-      source: '/zh-cn/',
-      destination: '/zh-CN/',
-      permanent: true
-    }
-  ]
+  async redirects() {
+    return [
+      {
+        source: '/zh-cn/',
+        destination: '/zh-CN/',
+        permanent: true,
+        locale: false
+      }
+    ]
+  }
 }
 
 module.exports = nextTranslate(nextConfig)
