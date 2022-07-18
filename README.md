@@ -2,4 +2,4 @@
 
 The LinearMouse website.
 
-[Help translate](https://crowdin.com/project/linearmouse-org)
+[Help translate](https://crowdin.com/project/linearmouse)
