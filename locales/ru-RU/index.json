@@ -1,13 +1,13 @@
 {
   "title": "LinearMouse | Утилита для мыши и трекпада для Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "description": "Настраивайте направление прокрутки мыши и трекпада, ускорение указателя, скорость указателя и так далее...",
+  "slogan": "Настраивайте <Marquee />\nкак <GradientText>профессионал.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Мышь и трекпад",
-    "scrolling_direction": "Направление прокрутки",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "мышь и трекпад",
+    "scrolling_direction": "направление прокрутки",
+    "pointer_acceleration": "ускорение указателя",
+    "pointer_speed": "скорость указателя",
+    "modifier_keys": "клавиши-модификаторы"
   },
   "install": {
     "download": "Скачать",
@@ -16,16 +16,16 @@
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Для <strong>каждого</strong> указательного устройства.",
+      "description": "<p>LinearMouse позволяет настроить каждое устройство по отдельности.</p><p>Вы можете применить различные настройки к вашим мышам и трекпадам.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Более естественный,</strong>\nчем <q>естественный</q>.",
+      "description": "<p>Если при использовании мышки вам неудобно с естественной прокруткой, LinearMouse поможет изменить направление прокрутки.</p><p>Поскольку каждое устройство может быть настроено самостоятельно, нет необходимости беспокоиться о влиянии направления прокрутки на трекпад.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Перемещайте указатель\n<strong>быстро и точно.</strong>",
+      "description": "<p>LinearMouse позволяет подобрать удобное ускорение и скорость указателя и поможет вам быстрее и точнее перемещать указатель.</p><p>Вы даже можете отключить ускорение указателя, если вы геймер или дизайнер, чтобы получить наилучшую точность указателя.</p>"
     }
   ]
 }
