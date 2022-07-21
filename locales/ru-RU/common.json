@@ -1,14 +1,14 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "Обсуждение",
+    "language": "Язык"
   },
   "footer": {
-    "help_translate": "Help translate"
+    "help_translate": "Помогите с переводом"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "Этот веб-сайт использует куки-файлы для повышения удобства работы пользователя."
   },
-  "ok": "OK"
+  "ok": "ОК"
 }
