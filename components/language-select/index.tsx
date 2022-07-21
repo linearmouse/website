@@ -6,7 +6,8 @@ const localesToShow = {
   en: 'English',
   'zh-CN': '简体中文',
   'zh-TW': '正體中文',
-  'pl-PL': 'Polski'
+  'pl-PL': 'Polski',
+  'ru-RU': 'Русский'
 }
 
 const Wrapper = styled.button`
