@@ -4,10 +4,11 @@ import styled from 'styled-components'
 
 const localesToShow = {
   en: 'English',
-  'zh-CN': '简体中文',
-  'zh-TW': '正體中文',
   'pl-PL': 'Polski',
-  'ru-RU': 'Русский'
+  'ru-RU': 'Русский',
+  'tr-TR': 'Türkçe',
+  'zh-CN': '简体中文',
+  'zh-TW': '正體中文'
 }
 
 const Wrapper = styled.button`
