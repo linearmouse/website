@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac için fare ve dokunmatik yüzey aracı.",
   "description": "Fare ve dokunmatik yüzeyinizin kaydırma yönünü, işaretçi ivmesini, işaretçi hızını vb. özelleştirin...",
-  "slogan": "Bir profesyonel <GradientText> gibi </GradientText> özelleştirin.<Marquee />",
+  "slogan": "Bir profesyonel <GradientText>gibi</GradientText>\nözelleştirin <Marquee />",
   "slogan_marquee": {
     "mouse_and_trackpad": "Fare ve dokunmatik yüzey",
     "scrolling_direction": "Kaydırma yönü",
@@ -17,15 +17,15 @@
   "features": [
     {
       "title": "Her <strong> bir </strong> işaretçi cihazı için.",
-      "description": "<p> LinearMouse cihaza bağlı ayarları destekliyor.</p></p>Fare ve dokunmatik yüzeyinize farklı ayarlar yapabilirsiniz.</p>"
+      "description": "<p>LinearMouse cihaza bağlı ayarları destekliyor.</p><p>Fare ve dokunmatik yüzeyinize farklı ayarlar yapabilirsiniz.</p>"
     },
     {
-      "title": "Doğaldan</q> Daha<strong> doğal.</strong>.",
-      "description": "<p>Farenizin doğal kaydırışından rahatsız iseniz LinearMouse kaydırma yönünü değiştirmek için size yardım edebilir.</p><p> Her bir cihazı özel olarak yapılandırabilirsiniz, dokunmatik yüzeyinizin yönünün değişeceğinden endişelenmeyin.</p>"
+      "title": "<q>Doğaldan</q> Daha <strong>doğal</strong>.",
+      "description": "<p>Farenizin doğal kaydırışından rahatsız iseniz LinearMouse kaydırma yönünü değiştirmek için size yardım edebilir.</p><p>Her bir cihazı özel olarak yapılandırabilirsiniz, dokunmatik yüzeyinizin yönünün değişeceğinden endişelenmeyin.</p>"
     },
     {
-      "title": "İşaretçinizi Kaydırın\n<strong>Daha hızlı ve daha isabetli</strong>",
-      "description": "<p>LinearMouse işaretçinizin ivmesini ve hızını ayarlamanıza izin vererek işaretçinizin daha hızlı ve daha isabetli olmasına olanak veriyor.<p></p>Eğer bir tasarımcı veya bilgisayar oyuncusuysanız işaretçi ivmesini kapatarak işaretçinizi daha isabetli bir hale getirebilirsiniz.</p>"
+      "title": "İşaretçinizi Kaydırın\n<strong>Daha hızlı ve daha isabetli.</strong>",
+      "description": "<p>LinearMouse işaretçinizin ivmesini ve hızını ayarlamanıza izin vererek işaretçinizin daha hızlı ve daha isabetli olmasına olanak veriyor.</p><p>Eğer bir tasarımcı veya bilgisayar oyuncusuysanız işaretçi ivmesini kapatarak işaretçinizi daha isabetli bir hale getirebilirsiniz.</p>"
     }
   ]
 }
