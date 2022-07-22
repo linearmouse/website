@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Mac için fare ve dokunmatik yüzey aracı.",
+  "description": "Fare ve dokunmatik yüzeyinizin kaydırma yönünü, işaretçi ivmesini, işaretçi hızını vb. özelleştirin...",
+  "slogan": "Bir profesyonel <GradientText> gibi </GradientText> özelleştirin.<Marquee />",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Fare ve dokunmatik yüzey",
+    "scrolling_direction": "Kaydırma yönü",
+    "pointer_acceleration": "İşaretçi ivmesi",
+    "pointer_speed": "İşaretçi hızı",
+    "modifier_keys": "Niteleyici tuşlar"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "İndir",
+    "install_via_homebrew": "Homebrew ile indir",
+    "copied": "Kopyalandı"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Her <strong> bir </strong> işaretçi cihazı için.",
+      "description": "<p> LinearMouse cihaza bağlı ayarları destekliyor.</p></p>Fare ve dokunmatik yüzeyinize farklı ayarlar yapabilirsiniz.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "Doğaldan</q> Daha<strong> doğal.</strong>.",
+      "description": "<p>Farenizin doğal kaydırışından rahatsız iseniz LinearMouse kaydırma yönünü değiştirmek için size yardım edebilir.</p><p> Her bir cihazı özel olarak yapılandırabilirsiniz, dokunmatik yüzeyinizin yönünün değişeceğinden endişelenmeyin.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "İşaretçinizi Kaydırın\n<strong>Daha hızlı ve daha isabetli</strong>",
+      "description": "<p>LinearMouse işaretçinizin ivmesini ve hızını ayarlamanıza izin vererek işaretçinizin daha hızlı ve daha isabetli olmasına olanak veriyor.<p></p>Eğer bir tasarımcı veya bilgisayar oyuncusuysanız işaretçi ivmesini kapatarak işaretçinizi daha isabetli bir hale getirebilirsiniz.</p>"
     }
   ]
 }
