@@ -9,26 +9,25 @@ const Wrapper = styled.div`
   left: 0;
   right: 0;
   bottom: 0;
-  height: 4rem;
   z-index: 10;
+  padding: 1rem 0;
   background-color: hsl(var(--color-background-hsl) / 0.8);
   backdrop-filter: saturate(180%) blur(20px);
-  contain: strict;
 
   & > ${MaxWidthWrapper} {
     display: flex;
     align-items: center;
-    height: 100%;
     gap: 2rem;
   }
 
   button {
     appearance: none;
     margin: 0 0 0 auto;
-    padding: 0.2rem 1rem;
+    padding: 0.4rem 1.5rem;
     border: 0 none;
     border-radius: var(--border-radius-sm);
     font: inherit;
+    font-weight: bold;
     color: #fff;
     background-color: var(--color-primary);
     cursor: pointer;
@@ -36,6 +35,21 @@ const Wrapper = styled.div`
 
     &:active {
       background-color: var(--color-primary-darker);
+    }
+  }
+
+  @media (max-width: 512px) {
+    padding-bottom: 2rem;
+
+    & > ${MaxWidthWrapper} {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    button {
+      margin: 0;
+      width: 100%;
     }
   }
 `
