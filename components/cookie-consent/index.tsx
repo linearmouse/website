@@ -39,8 +39,6 @@ const Wrapper = styled.div`
   }
 
   @media (max-width: 512px) {
-    padding-bottom: 2rem;
-
     & > ${MaxWidthWrapper} {
       flex-direction: column;
       align-items: flex-start;
