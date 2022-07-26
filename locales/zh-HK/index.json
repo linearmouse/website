@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Mac 下的滑鼠和觸控板實用工具。",
+  "description": "自定義滑鼠和觸控板的捲動方向、指標加速度、指標速度……",
+  "slogan": "給<Marquee />\n一個<GradientText>專屬定製。</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "滑鼠和觸控板",
+    "scrolling_direction": "捲動方向",
+    "pointer_acceleration": "指標加速度",
+    "pointer_speed": "指標速度",
+    "modifier_keys": "變更鍵"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "下載",
+    "install_via_homebrew": "透過 Homebrew 安裝",
+    "copied": "已複製"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "定製<strong>每一個</strong>指標設備。",
+      "description": "<p>LinearMouse 支援為每個設備單獨配置。</p><p>你可以為你的滑鼠和觸控板應用不同的設置。</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "比<q>自然</q><strong>更自然</strong>。",
+      "description": "<p>如果你不習慣於在使用滑鼠時啟用自然捲動，LinearMouse 能夠幫助你反轉捲動方向。</p><p>由於可以為每個設備單獨配置，因此無需擔心會影響觸控板的捲動方向。</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "讓指標<strong>又快又准</strong>。",
+      "description": "<p>LinearMouse 讓你找到一個舒適的指標加速度和速度，幫助你更快、更准地移動指標。</p><p>如果你是遊戲玩家或者設計師，你甚至可以禁用指標加速度來獲取最精確的指標體驗。</p>"
     }
   ]
 }
