@@ -1,17 +1,17 @@
 {
   "title": "LinearMouse | Mac 下的滑鼠和觸控式軌跡板實用工具。",
-  "description": "自定義滑鼠和觸控板的捲動方向、指標加速度、指標速度……",
+  "description": "自定義滑鼠和觸控式軌跡板的捲動方向、指標加速度、指標速度……",
   "slogan": "給<Marquee />\n一個<GradientText>專屬定製。</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "滑鼠和觸控板",
+    "mouse_and_trackpad": "滑鼠和觸控式軌跡板",
     "scrolling_direction": "捲動方向",
     "pointer_acceleration": "指標加速度",
     "pointer_speed": "指標速度",
-    "modifier_keys": "輔助鍵"
+    "modifier_keys": "變更鍵"
   },
   "install": {
     "download": "下載",
-    "install_via_homebrew": "用 Homebrew 安裝",
+    "install_via_homebrew": "透過 Homebrew 安裝",
     "copied": "已複製"
   },
   "features": [
