@@ -8,7 +8,8 @@ const localesToShow = {
   'ru-RU': 'Русский',
   'tr-TR': 'Türkçe',
   'zh-CN': '简体中文',
-  'zh-TW': '正體中文'
+  'zh-TW': '繁體中文',
+  'zh-HK': '繁體中文 (香港)'
 }
 
 const Wrapper = styled.button`
@@ -21,6 +22,7 @@ const Wrapper = styled.button`
   font: inherit;
   font-weight: bold;
   cursor: pointer;
+  text-align: start;
 
   span {
     transition: color 0.15s ease;

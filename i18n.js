@@ -30,6 +30,7 @@ module.exports = {
     'uk-UA',
     'vi-VN',
     'zh-CN',
+    'zh-HK',
     'zh-TW'
   ],
   pages: {
