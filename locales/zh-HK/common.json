@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "github": "GitHub",
+    "discussions": "討論",
+    "language": "語言"
+  },
+  "footer": {
+    "help_translate": "幫忙翻譯"
+  },
+  "cookie_consent": {
+    "description": "此網站使用 cookies 來增強用戶體驗。"
+  },
+  "ok": "確認"
+}
