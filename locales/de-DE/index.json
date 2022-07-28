@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Die Maus- und Trackpad-Dienstprogramm für Mac.",
+  "description": "Individualisiere Maus- und Trackpad-Scrollrichtung, Zeigerbeschleunigung, Zeigergeschwindigkeit, usw. ...",
+  "slogan": "Individualisiere <Marquee />\nWie ein <GradientText>Profi.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Maus und Trackpad",
+    "scrolling_direction": "Scrollrichtungen",
+    "pointer_acceleration": "Zeigerbeschleunigung",
+    "pointer_speed": "Zeigergeschwindigkeit",
+    "modifier_keys": "Tastenkürzel"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Herunterladen",
+    "install_via_homebrew": "Installation über Homebrew",
+    "copied": "Kopiert"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Für <strong>jedes</strong> Eingabegerät.",
+      "description": "<p>LinearMouse unterstützt Einstellungen pro Gerät.</p><p>Verwende unterschiedliche Einstellungen für jede Maus und jedes Trackpad, das du nutzt.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Natürlicher</strong>\nAls <q>Natürlich</q>.",
+      "description": "<p>Wenn du dich mit der natürlichen Scrollrichtung unwohl fühlst, während du eine Maus verwendest, kann dir LinearMouse dabei helfen, die Scrollrichtung umzukehren.</p><p>Da jedes Gerät unabhängig konfiguriert werden kann, musst du dir keine Sorgen machen, dass die Scrollrichtung des Trackpads beeinflusst wird.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Bewege den Zeiger\n<strong>Schnell und präzise.</strong>",
+      "description": "<p>LinearMouse ermöglicht es dir, eine angenehme Zeigerbeschleunigung & -geschwindigkeit zu finden und hilft, den Zeiger schneller und präziser zu bewegen.</p><p>Du kannst die Zeigerbeschleunigung sogar deaktivieren, wenn du beispielsweise als Gamer oder Designer die höchste Zeigergenauigkeit benötigst.</p>"
     }
   ]
 }
