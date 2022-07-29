@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const localesToShow = {
   en: 'English',
+  'de-DE': 'Deutsch',
   'pl-PL': 'Polski',
   'ru-RU': 'Русский',
   'tr-TR': 'Türkçe',
