@@ -10,8 +10,8 @@
     "modifier_keys": "Modifier Keys"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
+    "download": "다운로드",
+    "install_via_homebrew": "Homebrew로 설치하기",
     "copied": "Copied"
   },
   "features": [
