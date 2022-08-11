@@ -1,18 +1,18 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
+  "title": "LinearMouse | Mac 전용 마우스 및 트랙패드 유틸리티.",
   "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "slogan": "맞춤형 <Marquee /> 설정\n<GradientText>프로</GradientText>처럼.",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "마우스 및 트랙패드",
+    "scrolling_direction": "스크롤 방향",
+    "pointer_acceleration": "포인터 가속도",
+    "pointer_speed": "포인터 민감도",
+    "modifier_keys": "보조 키"
   },
   "install": {
     "download": "다운로드",
     "install_via_homebrew": "Homebrew로 설치하기",
-    "copied": "Copied"
+    "copied": "복사됨"
   },
   "features": [
     {
@@ -20,11 +20,11 @@
       "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
+      "title": "<q>자연스럽게</q>보다\n<strong>더 자연스럽게.</strong>",
       "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
+      "title": "마우스 포인터를\n<strong>빠르고 정확하게.</strong>",
       "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
     }
   ]
