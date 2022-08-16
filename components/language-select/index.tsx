@@ -3,8 +3,9 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 const localesToShow = {
-  en: 'English',
   'de-DE': 'Deutsch',
+  en: 'English',
+  'ko-KR': '한국어',
   'pl-PL': 'Polski',
   'ru-RU': 'Русский',
   'tr-TR': 'Türkçe',
