@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac 전용 마우스 및 트랙패드 유틸리티.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "맞춤형 <Marquee /> 설정\n<GradientText>프로</GradientText>처럼.",
+  "description": "마우스 및 트랙패드의 스크롤 방향, 포인터 가속도, 포인터 속도 등을 사용자 정의하세요.",
+  "slogan": "사용자 정의 <Marquee />\n<GradientText>프로</GradientText>처럼.",
   "slogan_marquee": {
     "mouse_and_trackpad": "마우스 및 트랙패드",
     "scrolling_direction": "스크롤 방향",
@@ -16,16 +16,16 @@
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "입력 장치 설정 <strong>독립</strong>.",
+      "description": "<p>LinearMouse는 장치별 설정을 지원합니다.</p><p>마우스와 트랙패드에 서로 다른 설정을 적용할 수 있습니다.</p>"
     },
     {
       "title": "<q>자연스럽게</q>보다\n<strong>더 자연스럽게.</strong>",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "description": "<p>마우스를 사용할 때 자연스러운 스크롤이 불편했다면, LinearMouse로 스크롤 방향을 뒤집어 보세요.</p><p>각 장치는 독립적으로 설정되므로, 트랙패드의 스크롤 방향이 영향을 받는 것에 대해 걱정할 필요가 없습니다.</p>"
     },
     {
       "title": "마우스 포인터를\n<strong>빠르고 정확하게.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "description": "<p>LinearMouse는 사용자가 빠르고 정확한 포인터 가속도와 속도를 찾을 수 있도록 도와줍니다.</p><p>게이머나 디자이너라면, 최고의 포인터 정확도를 얻기 위해 포인터 가속을 비활성화할 수도 있습니다.</p>"
     }
   ]
 }
