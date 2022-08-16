@@ -1,11 +1,11 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "커뮤니티",
+    "discussions": "포럼",
     "language": "언어"
   },
   "footer": {
-    "help_translate": "번역을 도와주세요"
+    "help_translate": "번역 참여하기"
   },
   "cookie_consent": {
     "description": "이 웹사이트는 사용자 경험을 향상시키기 위해 쿠키를 사용합니다."
