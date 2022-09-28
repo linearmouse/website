@@ -1,26 +1,26 @@
 {
   "title": "LinearMouse | The mouse and trackpad utility for Mac.",
   "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "slogan": "<Marquee />を \n<GradientText>Pro</GradientText>のようにカスタマイズ",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "マウスとタッチパッド",
+    "scrolling_direction": "スクロール方向の反転",
+    "pointer_acceleration": "ポインタのアクセラレーション",
+    "pointer_speed": "ポインタの速度",
+    "modifier_keys": "修飾キー"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "ダウンロード",
+    "install_via_homebrew": "Homebrew でインストール",
+    "copied": "コピーしました"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "装着<strong>ごと</strong>に。",
+      "description": "<p>LinearMouseはデバイスごとの設定に対応します。</p><p>マウスとトラックパッドに異なる設定を適用できます。</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
+      "title": "<strong>ナチュラル</strong>\nより <q>ナチュラルに</q>.",
       "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
     },
     {
