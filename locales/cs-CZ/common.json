@@ -1,14 +1,14 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "Komunita",
+    "language": "Jazyk"
   },
   "footer": {
-    "help_translate": "Help translate"
+    "help_translate": "Pomozte s překlady aplikace"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "Tento web používá cookies pro zlepšení uživatelského zážitku."
   },
   "ok": "OK"
 }
