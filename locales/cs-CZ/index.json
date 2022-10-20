@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Myš a trackpad na steroidech pro Váš Mac.",
+  "description": "Přizpůsobte směr posouvání myši a trackpadu, zrychlení kurzoru, rychlost kurzoru a další.",
+  "slogan": "Nastavte si to po svém <Marquee />\nJako <GradientText>profesionálové.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Myš a Trackpad",
+    "scrolling_direction": "Směr posouvání",
+    "pointer_acceleration": "Zrychlení kurzoru",
+    "pointer_speed": "Rychlost kurzoru",
+    "modifier_keys": "Modifikační klávesy"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Stáhnout",
+    "install_via_homebrew": "Instalovat pomocí Homebrew",
+    "copied": "Zkopírováno"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Pro <strong>každou</strong> myš i trackpad.",
+      "description": "<p>LinearMouse podporuje vlastní nastavení pro každé zařízení.</p><p>Můžete použít jiná nastavení pro myš a jiná pro trackpad.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Přirozenější</strong>\nnež <q>Přirozené</q>.",
+      "description": "<p>Pokud jste nespokojeni se stávajícím režimem posouváním při použití myši nebo trackpadu, LinearMouse vám může pomoci obrátit směr posouvání.</p><p>Vzhledem k tomu, že každé zařízení může být nastaveno samostatně, je snadné si obrácené posouvání nastavit pouze pro myš tak, aby trackpad fungoval jako doposud.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Buďte\n<strong>rychlí a přesní.</strong>",
+      "description": "<p>LinearMouse umožňuje vyladit zrychlení a rychlost kurzoru dle vašich preferencí a pomůže Vám tak k vyšší rychlosti a přesnosti při používání.</p><p>Pokud na svém Macu hrajete hry nebo tvoříte, můžete, pro zvýšení přesnosti, zrychlení kurzoru zcela zakázat.</p>"
     }
   ]
 }
