@@ -1,14 +1,14 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "掲示板",
+    "language": "言語"
   },
   "footer": {
-    "help_translate": "Help translate"
+    "help_translate": "翻訳を改善する"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "本ウェブサイトでは、使用者経験の向上のため、クッキーを使用しております。"
   },
-  "ok": "OK"
+  "ok": "了解"
 }
