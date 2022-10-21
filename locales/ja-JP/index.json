@@ -5,8 +5,8 @@
   "slogan_marquee": {
     "mouse_and_trackpad": "マウスとタッチパッドを",
     "scrolling_direction": "スクロール方向の反転を",
-    "pointer_acceleration": "ポインタのアクセラレーション",
-    "pointer_speed": "ポインタの速度",
+    "pointer_acceleration": "ポインタのアクセラレーションを",
+    "pointer_speed": "ポインタの速度を",
     "modifier_keys": "修飾キーを"
   },
   "install": {
