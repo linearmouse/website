@@ -1,5 +1,5 @@
 {
-  "title": "LinearMouse | Mac 전용 마우스 및 트랙패드 유틸리티.",
+  "title": "LinearMouse | Mac을 위한 마우스 및 트랙패드 유틸리티.",
   "description": "마우스 및 트랙패드의 스크롤 방향, 포인터 가속, 포인터 속도 등을 자유롭게 조절하세요.",
   "slogan": "사용자 지정 <Marquee />\n<GradientText>프로</GradientText>처럼.",
   "slogan_marquee": {
@@ -16,7 +16,7 @@
   },
   "features": [
     {
-      "title": "입력 장치 <strong>각자</strong>를 위해.",
+      "title": "<strong>각각의</strong> 입력 장치를 위해.",
       "description": "<p>LinearMouse는 장치별 설정을 지원합니다.</p><p>따라서 마우스와 트랙패드에 서로 다른 설정을 적용할 수 있죠.</p>"
     },
     {
