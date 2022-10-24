@@ -4,8 +4,8 @@
   "slogan": "<Marquee /> \n<GradientText>Pro</GradientText>のようにカスタマイズ",
   "slogan_marquee": {
     "mouse_and_trackpad": "マウスとタッチパッドを",
-    "scrolling_direction": "スクロール方向の反転を",
-    "pointer_acceleration": "ポインタのアクセラレーションを",
+    "scrolling_direction": "スクロール方向を",
+    "pointer_acceleration": "ポインタの加速度を",
     "pointer_speed": "ポインタの速度を",
     "modifier_keys": "修飾キーを"
   },
