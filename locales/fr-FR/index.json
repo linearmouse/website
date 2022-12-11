@@ -3,16 +3,16 @@
   "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
   "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
+    "mouse_and_trackpad": "Souris et trackpad",
+    "scrolling_direction": "Sens de défilement",
+    "pointer_acceleration": "Accélération du pointeur",
+    "pointer_speed": "Vitesse du pointeur",
     "modifier_keys": "Modifier Keys"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Télécharger",
+    "install_via_homebrew": "Installer via Homebrew",
+    "copied": "Copié"
   },
   "features": [
     {
