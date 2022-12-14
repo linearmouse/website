@@ -31,6 +31,8 @@ const GlobalStyle = createGlobalStyle`${css`
 
   @media (prefers-color-scheme: dark) {
     :root {
+      color-scheme: dark;
+      
       --color-background-hsl: 217 20% 8%;
       --color-circle: hsl(217deg 40% 5%);
       --color-text: hsl(217deg 20% 85%);
