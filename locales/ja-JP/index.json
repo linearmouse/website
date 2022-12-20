@@ -4,9 +4,9 @@
   "slogan": "<Marquee /> \n<GradientText>Pro</GradientText>のようにカスタマイズ",
   "slogan_marquee": {
     "mouse_and_trackpad": "マウスとタッチパッドを",
-    "scrolling_direction": "スクロール方向の反転を",
-    "pointer_acceleration": "ポインタのアクセラレーション",
-    "pointer_speed": "ポインタの速度",
+    "scrolling_direction": "スクロール方向を",
+    "pointer_acceleration": "ポインタの加速度を",
+    "pointer_speed": "ポインタの速度を",
     "modifier_keys": "修飾キーを"
   },
   "install": {
@@ -21,11 +21,11 @@
     },
     {
       "title": "<strong>ナチュラル</strong>\nより <q>ナチュラルに</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "description": "<p>自然なスクロールが合わない方は、LinearMouseでスクロール方向を逆にすることができます。</p><p>各々の装置に応じて別個の設定できるから、トラックパッドに影響を及ぼす恐れもございません。</p>"
     },
     {
-      "title": "ポインターを動かせます\n<strong>素早く正確に。</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "ポインターを動かせます。\n<strong>素早く、正確に。</strong>",
+      "description": "<p>LinearMouseでは、自分に合う快適なポインタ加速度と速度を見つけることができます。より速く、より正確にポインターを操作しましょう。 <p></p><p>ゲーマーやデザイナーなら、ポインター加速度を完全に無効にし、マウスをより精密に使いこなせます。</p>"
     }
   ]
 }

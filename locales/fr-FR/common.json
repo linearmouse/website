@@ -2,13 +2,13 @@
   "navigation": {
     "github": "GitHub",
     "discussions": "Discussions",
-    "language": "Language"
+    "language": "Langue"
   },
   "footer": {
-    "help_translate": "Help translate"
+    "help_translate": "Contribuer à la traduction"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "Ce site web utilise des cookies pour améliorer votre expérience utilisateur."
   },
-  "ok": "OK"
+  "ok": "Ok"
 }
