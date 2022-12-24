@@ -6,6 +6,7 @@ const localesToShow = {
   'cs-CZ' :'Čeština',
   'de-DE': 'Deutsch',
   en: 'English',
+  'es-ES': 'Español',
   'ja-JP': '日本語',
   'ko-KR': '한국어',
   'pl-PL': 'Polski',
