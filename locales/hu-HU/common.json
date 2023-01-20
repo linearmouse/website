@@ -1,14 +1,14 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "Beszélgetések",
+    "language": "Nyelv"
   },
   "footer": {
-    "help_translate": "Help translate"
+    "help_translate": "Segíts a fordításban"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "A weboldal sütiket használ a felhasználói élmény javítása érdekében."
   },
   "ok": "OK"
 }
