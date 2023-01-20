@@ -1,18 +1,18 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
+  "title": "LinearMouse | Az egér és trackpad segédprogram Machez.",
+  "description": "Testreszabhatod az egér és a trackpad görgetési irányát, gyorsítását, sebességét, satöbbi...",
   "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Egér és Trackpad",
+    "scrolling_direction": "Görgetés Iránya",
+    "pointer_acceleration": "Mutató Gyorsulása",
+    "pointer_speed": "Mutató Sebessége",
+    "modifier_keys": "Módosító Billentyűk"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Letöltés",
+    "install_via_homebrew": "Telepítés Homebrew használatával",
+    "copied": "Másolva"
   },
   "features": [
     {
