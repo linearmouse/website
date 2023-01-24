@@ -39,10 +39,10 @@ const ImageWrapper = styled.div`
 `
 
 const screenshots = [
-  { light: scrolling, dark: scrollingDark, alt: 'Screenshots - Scrolling', width: 962, height: 712 },
-  { light: pointer, dark: pointerDark, alt: 'Screenshots - Pointer', width: 962, height: 712 },
-  { light: buttons, dark: buttonsDark, alt: 'Screenshots - Buttons', width: 962, height: 712 },
-  { light: modifierKeys, dark: modifierKeysDark, alt: 'Screenshots - Modifier Keys', width: 962, height: 712 }
+  { light: scrolling, dark: scrollingDark, alt: 'Screenshots - Scrolling', width: 962, height: 740 },
+  { light: pointer, dark: pointerDark, alt: 'Screenshots - Pointer', width: 962, height: 740 },
+  { light: buttons, dark: buttonsDark, alt: 'Screenshots - Buttons', width: 962, height: 740 },
+  { light: modifierKeys, dark: modifierKeysDark, alt: 'Screenshots - Modifier Keys', width: 962, height: 740 }
 ]
 
 const Screenshots = () => {
