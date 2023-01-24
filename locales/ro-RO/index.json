@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Utilitar pentru mouse și trackpad pentru Mac.",
+  "description": "Personalizați direcția de derulare a mouse-ului și a trackpad-ului, accelerația indicatorului, viteza cursorului și așa mai departe...",
+  "slogan": "Personalizați <Marquee />\nCa un <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Mouse și Trackpad",
+    "scrolling_direction": "Direcție derulare",
+    "pointer_acceleration": "Accelerarea indicatorului",
+    "pointer_speed": "Viteza Indicatorului",
+    "modifier_keys": "Modificator de taste"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Descărcare",
+    "install_via_homebrew": "Instalați prin Homebrew",
+    "copied": "Copiat"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Pentru <strong>Fiecare</strong> Dispozitiv indicator.",
+      "description": "<p>LinearMouse acceptă setările per-dispozitiv.</p><p>Poți aplica setări diferite pentru mouse și trackpad.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Mai Natural</strong>\nDecât <q>Natural</q>.",
+      "description": "<p>Dacă ești neconfortabil cu derularea naturală atunci când folosești un mouse, LinearMouse te poate ajuta să inversezi direcția de derulare.</p><p>Deoarece fiecare dispozitiv poate fi configurat independent, nu trebuie să fie îngrijorat de faptul că direcția de derulare a trackpad-ului este afectată.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Mută indicatorul\n<strong>Rapid și cu acuratețe.</strong>",
+      "description": "<p>LinearMouse îți permite să găsești o accelerație și o viteză confortabilă și te ajută să muți indicatorul mai repede și mai exact.</p><p>Poți chiar să dezactivezi accelerația cursorului dacă ești un gamer sau un designer pentru a obține cea mai bună acuratețe.</p>"
     }
   ]
 }
