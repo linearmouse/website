@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 const localesToShow = {
-  'cs-CZ' :'Čeština',
+  'cs-CZ': 'Čeština',
   'de-DE': 'Deutsch',
   en: 'English',
   'es-ES': 'Español',
@@ -55,10 +55,19 @@ const Wrapper = styled.button`
     border-radius: var(--border-radius-md);
     transition: opacity 0.15s ease;
     box-shadow: var(--shadow-md);
+    column-count: 2;
 
     a {
       display: block;
       padding: 0.1em 1em;
+    }
+  }
+
+  @media (max-width: 1840px) {
+    menu {
+      left: auto;
+      right: -20px;
+      transform: none;
     }
   }
 
