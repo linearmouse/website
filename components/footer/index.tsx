@@ -10,14 +10,16 @@ const Wrapper = styled.div`
 
   & > ${MaxWidthWrapper} {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 2rem;
   }
 `
 
 const Copyright = styled.div`
-  flex: 1;
   opacity: 0.8;
+  flex: 1;
+  min-width: 0;
 `
 
 const Links = styled.ol`
@@ -37,8 +39,15 @@ const Links = styled.ol`
   }
 `
 
+const DigitalOceanBadge = styled.a`
+  display: flex;
+  align-items: center;
+`
+
 const Footer = () => {
   const { t } = useTranslation('common')
+
+  const showDigitalOceanBadge = process.env.NEXT_PUBLIC_CLUSTER_NAME === 'digitalocean'
 
   return (
     <Wrapper>
@@ -50,6 +59,21 @@ const Footer = () => {
             {t('footer.help_translate')}
           </a>
         </Links>
+
+        {showDigitalOceanBadge && (
+          <DigitalOceanBadge
+            href="https://www.digitalocean.com/?refcode=f272815c14b2&utm_campaign=Referral_Invite&utm_source=LinearMouse"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              alt="DigitalOcean Referral Badge"
+              width={30}
+              height={30}
+              src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_icon_blue.svg"
+            />
+          </DigitalOceanBadge>
+        )}
       </MaxWidthWrapper>
 
       <CookieConsent />
