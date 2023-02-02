@@ -5,6 +5,10 @@ import styled from 'styled-components'
 import CookieConsent from 'components/cookie-consent'
 import MaxWidthWrapper from 'components/max-width-wrapper'
 
+const {
+  publicRuntimeConfig: { CLUSTER_NAME }
+} = getConfig()
+
 const Wrapper = styled.div`
   padding: 2rem 0;
   font-size: 0.875rem;
@@ -45,12 +49,10 @@ const DigitalOceanBadge = styled.a`
   align-items: center;
 `
 
-const { publicRuntimeConfig } = getConfig()
-
 const Footer = () => {
   const { t } = useTranslation('common')
 
-  const showDigitalOceanBadge = publicRuntimeConfig?.clusterName === 'digitalocean'
+  const showDigitalOceanBadge = CLUSTER_NAME === 'digitalocean'
 
   return (
     <Wrapper>

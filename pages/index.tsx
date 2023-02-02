@@ -28,4 +28,13 @@ const Home: NextPage = () => {
   )
 }
 
+// TODO: SSG
+export const getServerSideProps: GetServerSideProps = async ({ res }) => {
+  res.setHeader('Cache-Control', 'public, s-maxage=10, stale-while-revalidate=59')
+
+  return {
+    props: {}
+  }
+}
+
 export default Home
