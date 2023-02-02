@@ -1,4 +1,5 @@
 import useTranslation from 'next-translate/useTranslation'
+import getConfig from 'next/config'
 import styled from 'styled-components'
 
 import CookieConsent from 'components/cookie-consent'
@@ -44,10 +45,12 @@ const DigitalOceanBadge = styled.a`
   align-items: center;
 `
 
+const { publicRuntimeConfig } = getConfig()
+
 const Footer = () => {
   const { t } = useTranslation('common')
 
-  const showDigitalOceanBadge = process.env.NEXT_PUBLIC_CLUSTER_NAME === 'digitalocean'
+  const showDigitalOceanBadge = publicRuntimeConfig?.clusterName === 'digitalocean'
 
   return (
     <Wrapper>

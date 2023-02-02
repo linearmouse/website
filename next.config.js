@@ -7,6 +7,9 @@ const nextConfig = {
   trailingSlash: true,
   compiler: {
     styledComponents: true
+  },
+  publicRuntimeConfig: {
+    clusterName: process.env.CLUSTER_NAME
   }
 }
 
