@@ -1,9 +1,4 @@
 const nextTranslate = require('next-translate')
-const nextRuntimeDotenv = require('next-runtime-dotenv')
-
-const runtimeDotenv = nextRuntimeDotenv({
-  public: ['CLUSTER_NAME']
-})
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -15,4 +10,4 @@ const nextConfig = {
   }
 }
 
-module.exports = runtimeDotenv(nextTranslate(nextConfig))
+module.exports = nextTranslate(nextConfig)

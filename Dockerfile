@@ -10,6 +10,9 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
+ARG CLUSTER_NAME
+ENV NEXT_PUBLIC_CLUSTER_NAME=$CLUSTER_NAME
+
 ENV NEXT_TELEMETRY_DISABLED 1
 
 RUN npm run build

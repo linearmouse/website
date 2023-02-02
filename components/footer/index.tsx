@@ -1,13 +1,10 @@
 import useTranslation from 'next-translate/useTranslation'
-import getConfig from 'next/config'
 import styled from 'styled-components'
 
 import CookieConsent from 'components/cookie-consent'
 import MaxWidthWrapper from 'components/max-width-wrapper'
 
-const {
-  publicRuntimeConfig: { CLUSTER_NAME }
-} = getConfig()
+const CLUSTER_NAME = process.env.NEXT_PUBLIC_CLUSTER_NAME
 
 const Wrapper = styled.div`
   padding: 2rem 0;
