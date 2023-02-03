@@ -20,8 +20,12 @@ const Wrapper = styled.div`
 
 const Copyright = styled.div`
   opacity: 0.8;
-  flex: 1;
-  min-width: 0;
+`
+
+const ICPLicense = styled.a`
+  opacity: 0.8;
+  color: var(--color-text);
+  text-decoration: none;
 `
 
 const Links = styled.ol`
@@ -32,6 +36,10 @@ const Links = styled.ol`
   li {
     margin: 0;
     padding: 0;
+  }
+
+  & {
+    margin-left: auto;
   }
 
   a {
@@ -49,12 +57,19 @@ const DigitalOceanBadge = styled.a`
 const Footer = () => {
   const { t } = useTranslation('common')
 
+  const showICPLicense = CLUSTER_NAME === 'qcloud'
   const showDigitalOceanBadge = CLUSTER_NAME === 'digitalocean'
 
   return (
     <Wrapper>
       <MaxWidthWrapper>
         <Copyright>&copy; 2021-{new Date().getFullYear()} LinearMouse</Copyright>
+
+        {showICPLicense && (
+          <ICPLicense href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer noopener">
+            沪ICP备2023003051号
+          </ICPLicense>
+        )}
 
         <Links>
           <a href="https://crowdin.com/project/linearmouse" target="_blank" rel="noreferrer noopener">
