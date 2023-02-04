@@ -12,8 +12,10 @@ export default class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
 
-          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-HDDCHC7YZH"></Script>
-          <script
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-HDDCHC7YZH" strategy="afterInteractive"></Script>
+          <Script
+            id="google-analytics"
+            strategy="beforeInteractive"
             dangerouslySetInnerHTML={{
               __html: `
   window.dataLayer = window.dataLayer || [];
