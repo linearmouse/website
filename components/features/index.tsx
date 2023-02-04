@@ -152,10 +152,10 @@ const Features = () => {
 
           <FeatureImageWrapper>
             <div className="light-only">
-              <Image layout="fixed" alt="" src={light} width={962} height={740} />
+              <Image alt="" src={light} width={962} height={740} />
             </div>
             <div className="dark-only">
-              <Image layout="fixed" alt="" src={dark} width={962} height={740} />
+              <Image alt="" src={dark} width={962} height={740} />
             </div>
           </FeatureImageWrapper>
         </FeatureWrapper>

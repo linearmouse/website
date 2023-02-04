@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
@@ -67,15 +67,15 @@ const Screenshots = () => {
           aria-hidden={currentIndex !== index}
         >
           <div className="light-only">
-            <Image layout="fixed" priority={index === 0} {...{ src: light, alt, width, height }} />
+            <Image priority={index === 0} {...{ src: light, alt, width, height }} />
           </div>
           <div className="dark-only">
-            <Image layout="fixed" priority={index === 0} {...{ src: dark, alt, width, height }} />
+            <Image priority={index === 0} {...{ src: dark, alt, width, height }} />
           </div>
         </ImageWrapper>
       ))}
     </Wrapper>
-  )
+  );
 }
 
 export default Screenshots
