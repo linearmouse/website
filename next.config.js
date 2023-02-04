@@ -7,6 +7,9 @@ const nextConfig = {
   trailingSlash: true,
   compiler: {
     styledComponents: true
+  },
+  images: {
+    unoptimized: true
   }
 }
 
