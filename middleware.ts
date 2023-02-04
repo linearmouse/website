@@ -9,7 +9,7 @@ export const middleware: NextMiddleware = (req) => {
   if (isMainlandChinaCluster) return
 
   // no contry redirect?
-  if (req.cookies.get('NCR') === '1') return
+  if (req.cookies.get('NCR')?.value === '1') return
 
   // set no-contry-redirect cookie?
   if (req.nextUrl.pathname === '/ncr/') {
