@@ -38,7 +38,7 @@ const Navigation = () => {
       <a href="https://github.com/linearmouse/linearmouse/discussions">{t('navigation.discussions')}</a>
 
       {!isMainlandChinaCluster && <LanguageSelect />}
-      {isMainlandChinaCluster && <a href="https://linearmouse.app">Global</a>}
+      {isMainlandChinaCluster && <a href="https://linearmouse.app/ncr/">Global</a>}
     </Wrapper>
   )
 }
