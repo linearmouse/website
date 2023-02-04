@@ -23,7 +23,7 @@ const Copyright = styled.div`
 `
 
 const ICPLicense = styled.a`
-  opacity: 0.8;
+  opacity: 0.5;
   color: var(--color-text);
   text-decoration: none;
 `
