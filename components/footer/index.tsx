@@ -1,10 +1,9 @@
 import useTranslation from 'next-translate/useTranslation'
 import styled from 'styled-components'
+import { CLUSTER_NAME, isMainlandChinaCluster } from 'utils/config'
 
 import CookieConsent from 'components/cookie-consent'
 import MaxWidthWrapper from 'components/max-width-wrapper'
-
-const CLUSTER_NAME = process.env.NEXT_PUBLIC_CLUSTER_NAME
 
 const Wrapper = styled.div`
   padding: 2rem 0;
@@ -57,7 +56,6 @@ const DigitalOceanBadge = styled.a`
 const Footer = () => {
   const { t } = useTranslation('common')
 
-  const showICPLicense = CLUSTER_NAME === 'qcloud'
   const showDigitalOceanBadge = CLUSTER_NAME === 'digitalocean'
 
   return (
@@ -65,7 +63,7 @@ const Footer = () => {
       <MaxWidthWrapper>
         <Copyright>&copy; 2021-{new Date().getFullYear()} LinearMouse</Copyright>
 
-        {showICPLicense && (
+        {isMainlandChinaCluster && (
           <ICPLicense href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer noopener">
             沪ICP备2023003051号
           </ICPLicense>
@@ -93,7 +91,7 @@ const Footer = () => {
         )}
       </MaxWidthWrapper>
 
-      <CookieConsent />
+      {!isMainlandChinaCluster && <CookieConsent />}
     </Wrapper>
   )
 }

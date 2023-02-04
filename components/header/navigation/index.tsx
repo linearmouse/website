@@ -1,5 +1,6 @@
 import useTranslation from 'next-translate/useTranslation'
 import styled from 'styled-components'
+import { isMainlandChinaCluster } from 'utils/config'
 
 import LanguageSelect from 'components/language-select'
 
@@ -35,7 +36,9 @@ const Navigation = () => {
     <Wrapper role="navigation">
       <a href="https://github.com/linearmouse/linearmouse">{t('navigation.github')}</a>
       <a href="https://github.com/linearmouse/linearmouse/discussions">{t('navigation.discussions')}</a>
-      <LanguageSelect />
+
+      {!isMainlandChinaCluster && <LanguageSelect />}
+      {isMainlandChinaCluster && <a href="https://linearmouse.app">Global</a>}
     </Wrapper>
   )
 }
