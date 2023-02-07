@@ -18,7 +18,7 @@ export default class MyDocument extends Document {
                 __html: `var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?bea29ce25bf357abb82bdcaa58cff168";
+  hm.src = "https://hm.baidu.com/hm.js?b309ad83535f9f8875e32616df239396";
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
