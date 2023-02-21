@@ -1,9 +1,12 @@
 import useTranslation from 'next-translate/useTranslation'
+import Image from 'next/image'
 import styled from 'styled-components'
 import { CLUSTER_NAME, isMainlandChinaCluster } from 'utils/config'
 
 import CookieConsent from 'components/cookie-consent'
 import MaxWidthWrapper from 'components/max-width-wrapper'
+
+import digitalOceanReferralBadge from './digitalocean-referral-badge.svg'
 
 const Wrapper = styled.div`
   padding: 2rem 0;
@@ -81,12 +84,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener"
           >
-            <img
-              alt="DigitalOcean Referral Badge"
-              width={30}
-              height={30}
-              src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_icon_blue.svg"
-            />
+            <Image alt="DigitalOcean Referral Badge" width={133} height={43} src={digitalOceanReferralBadge} />
           </DigitalOceanBadge>
         )}
       </MaxWidthWrapper>
