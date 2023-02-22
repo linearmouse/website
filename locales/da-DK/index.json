@@ -11,21 +11,21 @@
   },
   "install": {
     "download": "Download",
-    "install_via_homebrew": "Installér via Homebrew",
+    "install_via_homebrew": "Installer via Homebrew",
     "copied": "Kopieret"
   },
   "features": [
     {
       "title": "For <strong>Hver</strong> Pegeenhed.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "description": "<p>LinearMouse understøtter indstillinger for hver enhed.</p><p>Du kan anvende forskellige indstillinger til dine mus og pegefelter.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Mere Naturligt</strong>\nEnd <q>Naturlig</q>.",
+      "description": "<p>Hvis du er utilpas med naturlig rulning når du bruger en mus, kan LinearMouse hjælpe dig med omvendt rulning.</p><p>Da hver enhed kan indstilles individuelt er der ingen grund til at bekymre sig om, at pegefeltets rulleretning påvirkes.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Flyt Markøren\n<strong>Hurtigt og Præcist.</strong>",
+      "description": "<p>LinearMouse giver dig mulighed for at finde en komfortabel markøracceleration og hastighed og hjælper dig med at flytte markøren hurtigere og mere præcist.</p><p>Du kan endda deaktivere markøracceleration, hvis du er gamer eller designer for at få den bedste markørnøjagtighed.</p>"
     }
   ]
 }
