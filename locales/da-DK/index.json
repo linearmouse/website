@@ -1,22 +1,22 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Hjælpeværktøjet for mus og pegefelt til Mac.",
+  "description": "Tilpas mus og pegefelts rulleretning, markøracceleration, markørhastighed og så videre...",
+  "slogan": "Tilpas <Marquee />\nSom en <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Mus og Pegefelt",
+    "scrolling_direction": "Rulleretning",
+    "pointer_acceleration": "Markøracceleration",
+    "pointer_speed": "Markørhastighed",
+    "modifier_keys": "Kombitaster"
   },
   "install": {
     "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "install_via_homebrew": "Installér via Homebrew",
+    "copied": "Kopieret"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
+      "title": "For <strong>Hver</strong> Pegeenhed.",
       "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
     },
     {
