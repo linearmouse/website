@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const localesToShow = {
   'ar-SA': 'العربية',
   'cs-CZ': 'Čeština',
+  'da-DK': 'Dansk',
   'de-DE': 'Deutsch',
   en: 'English',
   'es-ES': 'Español',
