@@ -17,7 +17,7 @@
   "features": [
     {
       "title": "定制<strong>每一个</strong>指针设备。",
-      "description": "<p>LinearMouse 支持为每个设备单独配置。</p><p>你可以为你的鼠标和触控板应用不同的设置。</p>"
+      "description": "<p>LinearMouse 支持为每个设备单独配置。</p><p>你可以为你的鼠标和触控板定制不同的参数。</p>"
     },
     {
       "title": "比<q>自然</q><strong>更自然</strong>。",
@@ -25,7 +25,7 @@
     },
     {
       "title": "让指针<strong>又快又准</strong>。",
-      "description": "<p>LinearMouse 让你找到一个舒适的指针加速度和速度，帮助你更快、更准地移动指针。</p><p>如果你是游戏玩家或者设计师，你甚至可以禁用指针加速度来获取最精确的指针体验。</p>"
+      "description": "<p>LinearMouse 让你找到一个舒适的指针加速度和速度，让你更快、更准地移动指针。</p><p>如果你是游戏玩家或者设计师，你还可以禁用指针加速度来获得最精确的指针体验。</p>"
     }
   ]
 }
