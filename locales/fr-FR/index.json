@@ -1,13 +1,13 @@
 {
   "title": "LinearMouse | L'utilitaire de souris et de trackpad pour Mac.",
   "description": "Personnalisez le sens de défilement de votre souris et de votre trackpad, l'accélération du pointeur, sa vitesse et bien d'autres choses...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "slogan": "Customiser <Marquee />\nComme un <GradientText>Pro</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Souris et trackpad",
     "scrolling_direction": "Sens de défilement",
     "pointer_acceleration": "Accélération du pointeur",
     "pointer_speed": "Vitesse du pointeur",
-    "modifier_keys": "Modifier Keys"
+    "modifier_keys": "Modificateur de touches"
   },
   "install": {
     "download": "Télécharger",
@@ -16,8 +16,8 @@
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Pour <strong>chacune</strong> des appareils pointeurs.",
+      "description": "<p>LinearMouse prend en charge les paramètres par appareils.</p><p>Vous pouvez appliquer des paramètres differents pour chacune de vos souris et pavés tactiles.</p>"
     },
     {
       "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
