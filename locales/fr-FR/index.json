@@ -1,9 +1,9 @@
 {
-  "title": "LinearMouse | L'utilitaire de souris et de trackpad pour Mac.",
-  "description": "Personnalisez le sens de défilement de votre souris et de votre trackpad, l'accélération du pointeur, sa vitesse et bien d'autres choses...",
+  "title": "LinearMouse | L'utilitaire de souris et de pavé tactile pour Mac.",
+  "description": "Personnalisez le sens de défilement de votre souris et de votre pavé tactile, l'accélération du pointeur, sa vitesse et bien plus...",
   "slogan": "Customiser <Marquee />\nComme un <GradientText>Pro</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Souris et trackpad",
+    "mouse_and_trackpad": "Souris et pavé tactile",
     "scrolling_direction": "Sens de défilement",
     "pointer_acceleration": "Accélération du pointeur",
     "pointer_speed": "Vitesse du pointeur",
@@ -11,21 +11,21 @@
   },
   "install": {
     "download": "Télécharger",
-    "install_via_homebrew": "Installer via Homebrew",
+    "install_via_homebrew": "Installer avec Homebrew",
     "copied": "Copié"
   },
   "features": [
     {
-      "title": "Pour <strong>chacune</strong> des appareils pointeurs.",
-      "description": "<p>LinearMouse prend en charge les paramètres par appareils.</p><p>Vous pouvez appliquer des paramètres differents pour chacune de vos souris et pavés tactiles.</p>"
+      "title": "Pour <strong>chacun</strong> des appareils de pointage.",
+      "description": "<p>LinearMouse prend en charge les paramètres par appareils.</p><p>Vous pouvez appliquer des paramètres différents pour chacune de vos souris et pavés tactiles.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Plus naturel</strong>\nQue <q>\"Naturel\"</q>.",
+      "description": "<p>Si vous vous sentez pas comfortable avec le défilement naturel quand vous utilisez une souris, LinearMouse peut vous aider à inverser la direction du défilement.</p><p>Comme chaque appareil peut-être configuré indépendamment, il n'y plus besoin de s'inquiéter quand le scroll du pavé tactile est activé.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Bouger le curseur\n<strong>De manière rapide et précise.</strong>",
+      "description": "<p>LinearMouse vous permet de trouver une vitesse de pointeur confortable qui vous aide à bouger votre curseur rapidement et de manière plus précise.</p><p> Vous pouvez même désactiver l'accélération du pointeur si vous êtes un joueur ou un designer pour avec la meilleure précision de pointage.</p>"
     }
   ]
 }
