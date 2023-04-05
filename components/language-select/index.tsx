@@ -9,6 +9,7 @@ const localesToShow = {
   'de-DE': 'Deutsch',
   en: 'English',
   'es-ES': 'Español',
+  'fr-FR': 'Français',
   'hu-HU': 'Magyar',
   'ja-JP': '日本語',
   'ko-KR': '한국어',
