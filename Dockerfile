@@ -37,4 +37,7 @@ EXPOSE 3000
 
 ENV PORT 3000
 
+HEALTHCHECK --timeout=3s --start-period=10s \
+    CMD wget -nv -t1 --spider http://localhost:3000/ || exit 1
+
 CMD ["node", "server.js"]
