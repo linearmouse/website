@@ -6,13 +6,13 @@
     "mouse_and_trackpad": "Mouse and Trackpad",
     "scrolling_direction": "Scrolling Direction",
     "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "pointer_speed": "Швидкість курсору",
+    "modifier_keys": "Клавіші-модифікатори"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Завантажити",
+    "install_via_homebrew": "Встановити за допомогою Homebrew",
+    "copied": "Скопійовано"
   },
   "features": [
     {
