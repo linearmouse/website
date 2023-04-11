@@ -1,22 +1,22 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
+  "title": "LinearMouse | Утиліта для миші та тачпаду для Mac.",
   "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
   "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Миша і Трекпад",
+    "scrolling_direction": "Напрямок прокрутки",
+    "pointer_acceleration": "Пришвидшення Курсора",
+    "pointer_speed": "Швидкість курсору",
+    "modifier_keys": "Клавіші-модифікатори"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Завантажити",
+    "install_via_homebrew": "Встановити за допомогою Homebrew",
+    "copied": "Скопійовано"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
+      "title": "Для <strong>кожного</strong> пристрою для керування курсором.",
       "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
     },
     {
