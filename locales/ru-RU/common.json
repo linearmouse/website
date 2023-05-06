@@ -5,7 +5,8 @@
     "language": "Язык"
   },
   "footer": {
-    "help_translate": "Помогите с переводом"
+    "help_translate": "Помогите с переводом",
+    "privacy_policy": "Privacy Policy"
   },
   "cookie_consent": {
     "description": "Этот веб-сайт использует куки-файлы для повышения удобства работы пользователя."
