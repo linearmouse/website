@@ -5,7 +5,8 @@
     "language": "Sprog"
   },
   "footer": {
-    "help_translate": "Hjælp med at oversætte"
+    "help_translate": "Hjælp med at oversætte",
+    "privacy_policy": "Privacy Policy"
   },
   "cookie_consent": {
     "description": "Denne hjemmeside bruger cookies for at forbedre brugeroplevelsen."
