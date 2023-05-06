@@ -5,7 +5,8 @@
     "language": "Nyelv"
   },
   "footer": {
-    "help_translate": "Segíts a fordításban"
+    "help_translate": "Segíts a fordításban",
+    "privacy_policy": "Privacy Policy"
   },
   "cookie_consent": {
     "description": "A weboldal sütiket használ a felhasználói élmény javítása érdekében."
