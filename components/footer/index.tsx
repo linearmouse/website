@@ -76,6 +76,7 @@ const Footer = () => {
           <a href="https://crowdin.com/project/linearmouse" target="_blank" rel="noreferrer noopener">
             {t('footer.help_translate')}
           </a>
+          <a href="/privacy.html">Privacy Policy</a>
         </Links>
 
         {showDigitalOceanBadge && (
