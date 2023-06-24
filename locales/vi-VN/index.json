@@ -1,7 +1,7 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
+  "title": "LinearMouse | Tiện ích chuột và trackpad cho Mac.",
   "description": "Tuỳ biến hướng cuộn, tốc độ con trở, tăng tốc con trỏ, và nhiều hơn nữa... của chuột và trackpad",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "slogan": "Tuỳ biến <Marquee />\nMột cách <GradientText>chuyên nghiệp.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Chuột và Trackpad",
     "scrolling_direction": "Hướng cuộn",
@@ -16,15 +16,15 @@
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "<strong>Đối với mỗi</strong> thiết bị như chuột.",
+      "description": "<p>LinearMouse hỗ trợ cài đặt trên mỗi thiết bị.</p><p>Bạn có thể áp dụng các cài đặt khác nhau cho chuột và bàn di chuột của mình.</p>"
     },
     {
       "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "description": "<p>Nếu bạn không thoải mái với cách cuộn tự nhiên khi sử dụng chuột, LinearMouse có thể giúp bạn đảo ngược hướng cuộn.</p><p>Vì mỗi thiết bị có thể được cấu hình độc lập nên bạn không cần lo lắng về việc hướng cuộn của bàn di chuột bị ảnh hưởng.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
+      "title": "Di chuyển con trở\n<strong>Nhanh chóng và chính xác.</strong>",
       "description": "<p>LinearMouse cho phép bạn tìm thấy tốc độ và gia tốc con trỏ thoải mái, đồng thời giúp bạn di chuyển con trỏ nhanh hơn và chính xác hơn.</p><p>Bạn thậm chí có thể tắt gia tốc con trỏ nếu bạn là một game thủ hoặc nhà thiết kế để có được độ chính xác của con trỏ tốt nhất.</p>"
     }
   ]
