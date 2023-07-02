@@ -20,6 +20,7 @@ jobs:
       matrix:
         cluster:
           - digitalocean
+          - global
           - qcloud
 
     env:
