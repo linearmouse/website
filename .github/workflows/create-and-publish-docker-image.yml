@@ -20,7 +20,7 @@ jobs:
       matrix:
         cluster:
           - digitalocean
-          - global
+          - bwg
           - qcloud
 
     env:
