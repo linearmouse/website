@@ -1,4 +1,4 @@
-# [linearmouse.org](https://linearmouse.org)
+# [linearmouse.app](https://linearmouse.app)
 
 The LinearMouse website.
 
