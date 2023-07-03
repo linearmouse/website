@@ -11,6 +11,7 @@ const localesToShow = {
   'es-ES': 'Español',
   'fr-FR': 'Français',
   'hu-HU': 'Magyar',
+  'it-IT': 'Italiano',
   'ja-JP': '日本語',
   'ko-KR': '한국어',
   'pl-PL': 'Polski',
@@ -18,6 +19,7 @@ const localesToShow = {
   'ru-RU': 'Русский',
   'tr-TR': 'Türkçe',
   'uk-UA': 'Українська',
+  'vi-VN': 'Tiếng Việt',
   'zh-CN': '简体中文',
   'zh-TW': '繁體中文',
   'zh-HK': '繁體中文 (香港)'
