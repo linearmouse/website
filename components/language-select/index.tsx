@@ -97,7 +97,7 @@ const LanguageSelect = () => {
       <span>{t('navigation.language')}</span>
       <menu>
         {Object.entries(localesToShow).map(([locale, language]) => (
-          <Link key={locale} href="" locale={locale} onClick={() => persistLocale(locale)}>
+          <Link key={locale} lang={locale} href="" locale={locale} onClick={() => persistLocale(locale)}>
             {language}
           </Link>
         ))}
