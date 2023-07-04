@@ -7,10 +7,11 @@ import Logo from './logo'
 import Navigation from './navigation'
 
 type WrapperProps = {
-  scrollTop: number
+  $scrollTop: number
 }
 
-const Wrapper = styled.div<WrapperProps>`
+const Wrapper = styled.div.attrs(props => ({
+}))<WrapperProps>`
   position: fixed;
   left: 0;
   right: 0;
@@ -18,7 +19,7 @@ const Wrapper = styled.div<WrapperProps>`
   z-index: 1000;
   margin: 0 auto;
   padding: 3.4375rem 0;
-  --progress: ${({ scrollTop }) => Math.min(scrollTop / 100, 1)};
+  --progress: ${({ $scrollTop }) => Math.min($scrollTop / 100, 1)};
 
   @media (max-width: 960px) {
     position: absolute;
@@ -63,7 +64,7 @@ const Header = () => {
   }, [])
 
   return (
-    <Wrapper role="banner" scrollTop={scrollTop}>
+    <Wrapper role="banner" $scrollTop={scrollTop}>
       <MaxWidthWrapper>
         <Logo />
         <Navigation />

@@ -145,7 +145,7 @@ const Features = () => {
     <Wrapper>
       {images.map(({ light, dark }, index) => (
         <FeatureWrapper key={index}>
-          <MaxWidthWrapper maxWidth={'calc(var(--max-width) / 2)'}>
+          <MaxWidthWrapper $maxWidth={'calc(var(--max-width) / 2)'}>
             <Heading>{tE(`features.${index}.title`, null, { componentElements })}</Heading>
             <Description>{tE(`features.${index}.description`, null, { componentElements })}</Description>
           </MaxWidthWrapper>
