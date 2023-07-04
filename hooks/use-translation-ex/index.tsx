@@ -46,7 +46,7 @@ const useTranslationEx = (defaultNS?: string) => {
   ) => {
     const text = t(i18nKey, query, options)
 
-    if (!options?.componentElements) return text
+    if (!text || !options?.componentElements) return text
 
     return formatElements(text, options.componentElements)
   }
