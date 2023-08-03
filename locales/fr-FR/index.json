@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | L'utilitaire de souris et de pavé tactile pour Mac.",
   "description": "Personnalisez le sens de défilement de votre souris et de votre pavé tactile, l'accélération du pointeur, sa vitesse et bien plus...",
-  "slogan": "Customiser <Marquee />\nComme un <GradientText>Pro</GradientText>",
+  "slogan": "Personnaliser <Marquee />\nComme un <GradientText>Pro</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Souris et pavé tactile",
     "scrolling_direction": "Sens de défilement",
@@ -21,7 +21,7 @@
     },
     {
       "title": "<strong>Plus naturel</strong>\nQue <q>\"Naturel\"</q>.",
-      "description": "<p>Si vous vous sentez pas comfortable avec le défilement naturel quand vous utilisez une souris, LinearMouse peut vous aider à inverser la direction du défilement.</p><p>Comme chaque appareil peut-être configuré indépendamment, il n'y plus besoin de s'inquiéter quand le scroll du pavé tactile est activé.</p>"
+      "description": "<p>Si vous êtes mal à l'aise avec le défilement naturel lors de l'utilisation d'une souris, LinearMouse peut vous aider à inverser la direction du défilement.</p><p>Comme chaque dispositif peut être configuré indépendamment, pas besoin de s'inquiéter de l'effet sur la direction de défilement du trackpad.</p>"
     },
     {
       "title": "Bouger le curseur\n<strong>De manière rapide et précise.</strong>",
