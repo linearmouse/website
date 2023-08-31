@@ -1,15 +1,15 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "Discussões",
+    "language": "Idioma"
   },
   "footer": {
-    "help_translate": "Help translate",
-    "privacy_policy": "Privacy Policy"
+    "help_translate": "Ajude a traduzir",
+    "privacy_policy": "Política de Privacidade"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "Este site utiliza cookies para melhorar a experiência do usuário."
   },
   "ok": "OK"
 }
