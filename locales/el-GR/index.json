@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Το εργαλείο διαχείρισης ποντικιού και επιφάνειας αφής για Mac.",
+  "description": "Προσαρμόστε την κατεύθυνση κύλισης του ποντικιού και της επιφάνειας αφής, την επιτάχυνση του δείκτη και ούτω καθεξής...",
+  "slogan": "Προσαρμόστε <Marquee />\nΌπως οι <GradientText>Επαγγελματίες.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Ποντίκι και Επιφάνεια Αφής",
+    "scrolling_direction": "Κατεύθυνση Κύλισης",
+    "pointer_acceleration": "Επιτάχυνση Δείκτη",
+    "pointer_speed": "Ταχύτητα Δείκτη",
+    "modifier_keys": "Τροποποιητικά Πλήκτρα"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Λήψη",
+    "install_via_homebrew": "Εγκατάσταση μέσω Homebrew",
+    "copied": "Αντιγράφηκε"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Για <strong>Κάθε</strong> Συσκευή Δείκτη.",
+      "description": "<p>Το LinearMouse υποστηρίζει ρυθμίσεις ανά συσκευή.</p><p>Μπορείτε να εφαρμόσετε διαφορετικές ρυθμίσεις στα ποντίκια και τις επιφάνειες αφής σας.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Πιο Φυσικό</strong>\nΚαι από το <q>Φυσικό</q>.",
+      "description": "<p>Εάν δεν νιώθετε άνετοι με τη φυσική κύλιση όταν χρησιμοποιείτε ένα ποντίκι, το LinearMouse μπορεί να σας βοηθήσει να αντιστρέψετε την κατεύθυνση κύλισης.</p><p>Καθώς κάθε συσκευή μπορεί να ρυθμιστεί ανεξάρτητα, δεν χρειάζεται να ανησυχείτε για το αν θα επηρεαστεί η κατεύθυνση κύλησης της επιφάνειας αφής σας.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Μετακινήστε τον Δείκτη\n<strong>Γρήγορα και με Ακρίβεια.</strong>",
+      "description": "<p>Το LinearMouse σας επιτρέπει να βρείτε μια επιτάχυνση και ταχύτητα δείκτη που να σας βολεύει και σας βοηθά να μετακινήσετε τον δείκτη πιο γρήγορα και με μεγαλύτερη ακρίβεια.</p><p>Μπορείτε ακόμη και να απενεργοποιήσετε την επιτάχυνση εάν είστε gamer ή σχεδιαστής για μεγαλύτερη ακρίβεια.</p>"
     }
   ]
 }
