@@ -1,15 +1,15 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "Συζητήσεις",
+    "language": "Γλώσσα"
   },
   "footer": {
-    "help_translate": "Help translate",
-    "privacy_policy": "Privacy Policy"
+    "help_translate": "Βοηθήστε στη μετάφραση",
+    "privacy_policy": "Πολιτική Απορρήτου"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "Αυτή η ιστοσελίδα χρησιμοποιεί cookies για να βελτιώσει την εμπειρία του χρήστη."
   },
-  "ok": "OK"
+  "ok": "Εντάξει"
 }
