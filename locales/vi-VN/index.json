@@ -5,27 +5,27 @@
   "slogan_marquee": {
     "mouse_and_trackpad": "Chuột và Trackpad",
     "scrolling_direction": "Hướng cuộn",
-    "pointer_acceleration": "Tăng tốc con trỏ",
+    "pointer_acceleration": "Gia tốc con trỏ",
     "pointer_speed": "Tốc độ con trỏ",
-    "modifier_keys": "Cài đặt bàn phím"
+    "modifier_keys": "Phím bổ trợ"
   },
   "install": {
     "download": "Tải về",
-    "install_via_homebrew": "Tải về thông qua Homebrew",
+    "install_via_homebrew": "Cài đặt qua Homebrew",
     "copied": "Đã sao chép"
   },
   "features": [
     {
-      "title": "<strong>Đối với mỗi</strong> thiết bị như chuột.",
+      "title": "Dành cho <strong>mọi</strong> thiết bị điều hướng.",
       "description": "<p>LinearMouse hỗ trợ cài đặt trên mỗi thiết bị.</p><p>Bạn có thể áp dụng các cài đặt khác nhau cho chuột và bàn di chuột của mình.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
+      "title": "<strong>Tự nhiên</strong>\nHơn cả <q>Tự nhiên</q>.",
       "description": "<p>Nếu bạn không thoải mái với cách cuộn tự nhiên khi sử dụng chuột, LinearMouse có thể giúp bạn đảo ngược hướng cuộn.</p><p>Vì mỗi thiết bị có thể được cấu hình độc lập nên bạn không cần lo lắng về việc hướng cuộn của bàn di chuột bị ảnh hưởng.</p>"
     },
     {
-      "title": "Di chuyển con trở\n<strong>Nhanh chóng và chính xác.</strong>",
-      "description": "<p>LinearMouse cho phép bạn tìm thấy tốc độ và gia tốc con trỏ thoải mái, đồng thời giúp bạn di chuyển con trỏ nhanh hơn và chính xác hơn.</p><p>Bạn thậm chí có thể tắt gia tốc con trỏ nếu bạn là một game thủ hoặc nhà thiết kế để có được độ chính xác của con trỏ tốt nhất.</p>"
+      "title": "Di chuyển con trỏ\n<strong>Nhanh và chính xác.</strong>",
+      "description": "<p>LinearMouse giúp bạn dễ dàng thiết đặt tốc độ và gia tốc con trỏ phù hợp, đồng thời giúp bạn di chuyển con trỏ nhanh hơn và chính xác hơn.</p><p>Bạn thậm chí có thể tắt gia tốc con trỏ nếu bạn là một game thủ hoặc nhà thiết kế để có được độ chính xác cao nhất.</p>"
     }
   ]
 }
