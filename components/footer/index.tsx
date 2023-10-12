@@ -41,7 +41,7 @@ const Links = styled.ol`
   }
 
   & {
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 
   a {

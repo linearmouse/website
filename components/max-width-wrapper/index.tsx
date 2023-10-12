@@ -5,8 +5,8 @@ export type MaxWidthWrapperProps = {
 }
 
 const MaxWidthWrapper = styled.div<MaxWidthWrapperProps>`
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
   padding-left: 4rem;
   padding-right: 4rem;
   max-width: ${({ $maxWidth }) => (typeof $maxWidth === 'number' ? `${$maxWidth}px` : $maxWidth ?? `var(--max-width)`)};

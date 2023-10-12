@@ -27,23 +27,23 @@ const FeatureWrapper = styled.div`
   }
 
   ${MaxWidthWrapper} {
-    margin-left: 52vw;
-    margin-right: auto;
+    margin-inline-start: 52vw;
+    margin-inline-end: auto;
   }
 
   &:nth-child(even) {
     ${MaxWidthWrapper} {
-      margin-right: 52vw;
-      margin-left: auto;
+      margin-inline-end: 52vw;
+      margin-inline-start: auto;
     }
   }
 
   &:nth-child(odd) ${MaxWidthWrapper} {
-    padding-left: 0;
+    padding-inline-start: 0;
   }
 
   &:nth-child(even) ${MaxWidthWrapper} {
-    padding-right: 0;
+    padding-inline-end: 0;
   }
 
   @media (max-width: 960px) {
@@ -63,9 +63,21 @@ const FeatureImageWrapper = styled.div`
   right: 50vw;
   top: 3.75rem;
 
+  &:lang(ar),
+  &:lang(he) {
+    right: revert;
+    left: 50vw;
+  }
+
   ${FeatureWrapper}:nth-child(even) > & {
     right: revert;
     left: 50vw;
+
+    &:lang(ar),
+    &:lang(he) {
+      right: 50vw;
+      left: revert;
+    }
   }
 
   @media (max-width: 960px) {

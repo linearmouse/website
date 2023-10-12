@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`${css`
   @media (prefers-color-scheme: dark) {
     :root {
       color-scheme: dark;
-      
+
       --color-background-hsl: 217 20% 8%;
       --color-circle: hsl(217deg 40% 5%);
       --color-text: hsl(217deg 20% 85%);
@@ -49,6 +49,11 @@ const GlobalStyle = createGlobalStyle`${css`
     line-height: 1.5;
     background-color: var(--color-background);
     color: var(--color-text);
+  }
+
+  html:lang(ar),
+  html:lang(he) {
+    direction: rtl;
   }
 
   @media (max-width: 768px) {

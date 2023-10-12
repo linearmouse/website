@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import styled from 'styled-components'
+import styled, { createGlobalStyle, css } from 'styled-components'
 
 import buttonsDark from './buttons-dark.png'
 import buttons from './buttons.png'
@@ -36,6 +36,12 @@ const ImageWrapper = styled.div`
   overflow: hidden;
   transition: opacity 1s;
   will-change: opacity;
+
+  &:lang(ar),
+  &:lang(he) {
+    left: revert;
+    right: 52vw;
+  }
 `
 
 const screenshots = [

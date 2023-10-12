@@ -5,7 +5,7 @@ import { isMainlandChinaCluster } from 'utils/config'
 import LanguageSelect from 'components/language-select'
 
 const Wrapper = styled.div`
-  margin-left: auto;
+  margin-inline-start: auto;
   display: flex;
   gap: 1.875rem;
   font-family: var(--font-family-title);
