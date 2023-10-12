@@ -11,6 +11,7 @@ const localesToShow = {
   en: 'English',
   'es-ES': 'Español',
   'fr-FR': 'Français',
+  'he-IL': 'עברית',
   'hu-HU': 'Magyar',
   'it-IT': 'Italiano',
   'ja-JP': '日本語',
