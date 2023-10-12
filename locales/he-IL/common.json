@@ -1,15 +1,15 @@
 {
   "navigation": {
-    "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "github": "גיטהאב",
+    "discussions": "דיונים",
+    "language": "שפה"
   },
   "footer": {
-    "help_translate": "Help translate",
-    "privacy_policy": "Privacy Policy"
+    "help_translate": "עזרו לתרגם",
+    "privacy_policy": "מדיניות פרטיות"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "האתר הזה משתמש בעוגיות על מנת לשפר את חווית המשתמש."
   },
-  "ok": "OK"
+  "ok": "אישור"
 }

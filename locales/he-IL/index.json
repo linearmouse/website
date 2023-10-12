@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | כלי העכבר וה-Trackpad ל-Mac.",
+  "description": "התאימו אישית את כיווני הגלילה של העכבר וה-Trackpad, מהירות תאוצה, מהירות, ועוד...",
+  "slogan": "התאימו אישית <Marquee />\nכמו <GradientText>מקצוענים.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "עכבר ו-Trackpad",
+    "scrolling_direction": "מהירות גלילה",
+    "pointer_acceleration": "תאוצת העכבר",
+    "pointer_speed": "מהירות העכבר",
+    "modifier_keys": "קיצורי מקלדת"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "הורדה",
+    "install_via_homebrew": "התקנה דרך Homebrew",
+    "copied": "הועתק"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "עבור <strong>כל אחד</strong> ממכישירי המצביעים.",
+      "description": "<p>LinearMouse תומך בהגדרות שונות לכל מכשיר.</p><p>ניתן לקבוע הגדרות שונות לעכברים ול-Trackpads שלכם.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>יותר טבעי</strong>\nמ<q>טבעי</q>.",
+      "description": "<p>אם אתם מרגישים לא בנוח עם גלילה רגילה בעזרת העכבר שלכם, LinearMouse יכול לשנות לכם את כיוון הגלילה.</p><p>בגלל שכל מכשיר יכול להיות מוגדר באופן עצמאי, אין סיבה לדאוג בקשר לכיוון הגלילה של ה-Trackpad מכיוון שהוא לא ישתנה.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "הזיזו את העכבר\n<strong>מהר ומדויק.</strong>",
+      "description": "<p>LinearMouse מאפשר לכם למצוא את תאוצת ומהירות העכבר שנוחה לכם ועוזר לכם להזיז את העכבר מהר יותר ומדויק יותר.</p><p>אתם אפילו יכולים לבטל את תאוצת העכבר אם אתם גיימרים או מעצבים כדי לקבל את הדיוק הגבוה ביותר מהעכבר שלכם.</p>"
     }
   ]
 }

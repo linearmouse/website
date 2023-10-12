@@ -1,12 +1,12 @@
 {
   "navigation": {
-    "github": "GitHub",
+    "github": "GitHubページ",
     "discussions": "掲示板",
     "language": "言語"
   },
   "footer": {
     "help_translate": "翻訳を改善する",
-    "privacy_policy": "Privacy Policy"
+    "privacy_policy": "個人情報保護方針"
   },
   "cookie_consent": {
     "description": "本ウェブサイトでは、使用者経験の向上のため、クッキーを使用しております。"
