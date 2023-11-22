@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | Утиліта для миші та тачпаду для Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Утиліта для миші та трекпада на Mac.",
+  "description": "Налаштуйте напрямок прокрутки миші та трекпада, пришвидшення вказівника, швидкість вказівника тощо...",
+  "slogan": "Налаштовуйте <Marquee />\nяк <GradientText>професіонал.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Миша і Трекпад",
     "scrolling_direction": "Напрямок прокрутки",
-    "pointer_acceleration": "Пришвидшення Курсора",
-    "pointer_speed": "Швидкість курсору",
+    "pointer_acceleration": "Пришвидшення вказівника",
+    "pointer_speed": "Швидкість вказівника",
     "modifier_keys": "Клавіші-модифікатори"
   },
   "install": {
     "download": "Завантажити",
-    "install_via_homebrew": "Встановити за допомогою Homebrew",
+    "install_via_homebrew": "Установити через Homebrew",
     "copied": "Скопійовано"
   },
   "features": [
     {
       "title": "Для <strong>кожного</strong> пристрою для керування курсором.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "description": "<p>LinearMouse має підтримку налаштування для кожного пристрою.</p><p>Ви можете застосовувати різні налаштування до мишок і трекпадів.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Природніше</strong>\nніж <q>природно</q>.",
+      "description": "<p>Якщо вам незручно користуватися природною прокруткою при використанні миші, LinearMouse може допомогти вам змінити напрямок прокрутки.</p><p>Оскільки кожен пристрій можна налаштувати незалежно, не потрібно турбуватися про те, що це вплине на напрямок прокрутки трекпада.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Переміщуйте вказівник\n<strong>швидко і точно.</strong>",
+      "description": "<p>LinearMouse дозволяє знайти комфортне пришвидшення і швидкість вказівника, а також допомагає переміщати вказівник швидше і точніше.</p><p>Ви навіть можете вимкнути пришвидшення вказівника, якщо ви ґеймер або дизайнер, щоб мати найкращу точність вказівника.</p>"
     }
   ]
 }
