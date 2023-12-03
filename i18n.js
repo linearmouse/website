@@ -25,6 +25,7 @@ let locales = [
   'pt-PT',
   'ro-RO',
   'ru-RU',
+  'sk-SK',
   'sr-SP',
   'sv-SE',
   'tr-TR',
