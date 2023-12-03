@@ -1,0 +1,15 @@
+{
+  "navigation": {
+    "github": "GitHub",
+    "discussions": "Diskusia",
+    "language": "Jazyk"
+  },
+  "footer": {
+    "help_translate": "Pomôcť s prekladom",
+    "privacy_policy": "Zásady ochrany osobných údajov"
+  },
+  "cookie_consent": {
+    "description": "Táto webová stránka používa cookies na zlepšenie používateľského zážitku."
+  },
+  "ok": "OK"
+}

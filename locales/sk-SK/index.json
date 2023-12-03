@@ -1,0 +1,31 @@
+{
+  "title": "LinearMouse | Myš a trackpad pomôcka pre váš Mac.",
+  "description": "Prispôsobte smer posúvania myši a trackpadu, zrýchlenie ukazovateľa, rýchlosť ukazovateľa atď...",
+  "slogan": "Prispôsobte si to <Marquee />\nako <GradientText>Profesionál.</GradientText>",
+  "slogan_marquee": {
+    "mouse_and_trackpad": "Myš a Trackpad",
+    "scrolling_direction": "Smer posúvania",
+    "pointer_acceleration": "Zrýchlenie ukazovateľa",
+    "pointer_speed": "Rýchlosť ukazovateľa",
+    "modifier_keys": "Modifikačné klávesy"
+  },
+  "install": {
+    "download": "Stiahnuť",
+    "install_via_homebrew": "Inštalovať pomocou Homebrew",
+    "copied": "Skopírované"
+  },
+  "features": [
+    {
+      "title": "Pre <strong>každé</strong> ukazovacie zariadenie.",
+      "description": "<p>LinearMouse podporuje nastavenie pre každé zariadenie zvlášť.</p><p>Môžete použiť iné nastavenie pre myš a iné pre trackpad.</p>"
+    },
+    {
+      "title": "<strong>Prirodzenejšie</strong>\nako <q>Prirodzené</q>.",
+      "description": "<p>Ak vám nevyhovuje prirodzené posúvanie pri používaní myši, aplikácia LinearMouse vám pomôže zmeniť smer posúvania.</p><p>Keďže každé zariadenie možno nakonfigurovať nezávisle, nemusíte sa obávať, že by bol ovplyvnený smer posúvania trackpadu.</p>"
+    },
+    {
+      "title": "Presun ukazovateľa\n<strong>Rýchlo a presne.</strong>",
+      "description": "<p>LinearMouse umožňuje nastaviť pohodlnú akceleráciu a rýchlosť ukazovateľa a pomáha vám pohybovať ukazovateľom rýchlejšie a presnejšie.</p><p> Ak ste hráč alebo dizajnér, môžete akceleráciu ukazovateľa dokonca vypnúť, aby ste dosiahli najlepšiu presnosť ukazovateľa.</p>"
+    }
+  ]
+}

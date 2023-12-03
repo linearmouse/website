@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac을 위한 마우스 및 트랙패드 유틸리티.",
   "description": "마우스 및 트랙패드의 스크롤 방향, 포인터 가속, 포인터 속도 등을 자유롭게 조절하세요.",
-  "slogan": "사용자 지정 <Marquee />\n<GradientText>프로</GradientText>처럼.",
+  "slogan": "<Marquee />\n모두 <GradientText>내 맘대로.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "마우스 및 트랙패드",
     "scrolling_direction": "스크롤 방향",
@@ -16,11 +16,11 @@
   },
   "features": [
     {
-      "title": "<strong>각각의</strong> 입력 장치를 위해.",
+      "title": "입력 장치마다 <strong>다른 설정.</strong>",
       "description": "<p>LinearMouse는 장치별 설정을 지원합니다.</p><p>따라서 마우스와 트랙패드에 서로 다른 설정을 적용할 수 있죠.</p>"
     },
     {
-      "title": "<q>자연스럽게</q>보다\n<strong>더 자연스럽게.</strong>",
+      "title": "<q>자연스럽게</q>가\n<strong>자연스럽지 않을 때.</strong>",
       "description": "<p>마우스를 사용할 때 자연스러운 스크롤이 불편했다면, LinearMouse로 스크롤 방향을 뒤집어 보세요.</p><p>각 장치는 독립적으로 설정되므로, 트랙패드의 스크롤 방향이 영향을 받는 것에 대해 걱정할 필요가 없습니다.</p>"
     },
     {
