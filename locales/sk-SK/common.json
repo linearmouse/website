@@ -2,14 +2,14 @@
   "navigation": {
     "github": "GitHub",
     "discussions": "Discussions",
-    "language": "Language"
+    "language": "Jazyk"
   },
   "footer": {
-    "help_translate": "Help translate",
-    "privacy_policy": "Privacy Policy"
+    "help_translate": "Pomôcť s prekladom",
+    "privacy_policy": "Zásady ochrany osobných údajov"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "Táto webová stránka používa cookies na zlepšenie používateľského zážitku."
   },
   "ok": "OK"
 }
