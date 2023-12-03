@@ -1,30 +1,30 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Myš a trackpad pomôcka pre váš Mac.",
+  "description": "Prispôsobte smer posúvania myši a trackpadu, zrýchlenie ukazovateľa, rýchlosť ukazovateľa atď...",
+  "slogan": "Prispôsobte si to <Marquee />\nako <GradientText>Profesionál.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "mouse_and_trackpad": "Myš a Trackpad",
+    "scrolling_direction": "Smer posúvania",
+    "pointer_acceleration": "Zrýchlenie ukazovateľa",
+    "pointer_speed": "Rýchlosť ukazovateľa",
+    "modifier_keys": "Modifikačné klávesy"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Stiahnuť",
+    "install_via_homebrew": "Inštalovať pomocou Homebrew",
+    "copied": "Skopírované"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "Pre <strong>každé</strong> ukazovacie zariadenie.",
+      "description": "<p>LinearMouse podporuje nastavenie pre každé zariadenie zvlášť.</p><p>Môžete použiť iné nastavenie pre myš a iné pre trackpad.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Prirodzenejšie</strong>\nako <q>Prirodzené</q>.",
+      "description": "<p>Ak vám nevyhovuje prirodzené posúvanie pri používaní myši, aplikácia LinearMouse vám pomôže zmeniť smer posúvania.</p><p>Keďže každé zariadenie možno nakonfigurovať nezávisle, nemusíte sa obávať, že by bol ovplyvnený smer posúvania trackpadu.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
+      "title": "Presun ukazovateľa\n<strong>Rýchlo a presne.</strong>",
       "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
     }
   ]
