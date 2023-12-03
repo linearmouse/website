@@ -20,6 +20,7 @@ const localesToShow = {
   'pl-PL': 'Polski',
   'ro-RO': 'Română',
   'ru-RU': 'Русский',
+  'sk-SK': 'Slovenčina',
   'tr-TR': 'Türkçe',
   'uk-UA': 'Українська',
   'vi-VN': 'Tiếng Việt',
