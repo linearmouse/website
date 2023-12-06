@@ -3,20 +3,20 @@
   "description": "Personalize a direção da rolagem do mouse e do trackpad, aceleração do ponteiro e velocidade do ponteiro e assim por diante...",
   "slogan": "Personalize <Marquee />\nComo um <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
+    "mouse_and_trackpad": "Mouse e Trackpad",
+    "scrolling_direction": "Direção de rolagem",
+    "pointer_acceleration": "Aceleração de ponteiro",
+    "pointer_speed": "Velocidade do ponteiro",
     "modifier_keys": "Modifier Keys"
   },
   "install": {
-    "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "download": "Baixar",
+    "install_via_homebrew": "Instalar via Homebrew",
+    "copied": "Copiado"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
+      "title": "Para <strong>Cada</strong> Dispositivo de ponta.",
       "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
     },
     {
@@ -24,7 +24,7 @@
       "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
+      "title": "Mova o Cursor\n<strong>Rápido e com Precisão</strong>",
       "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
     }
   ]
