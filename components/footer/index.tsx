@@ -62,36 +62,37 @@ const Footer = () => {
   const showDigitalOceanBadge = CLUSTER_NAME === 'digitalocean'
 
   return (
-    <Wrapper>
-      <MaxWidthWrapper>
-        <Copyright>&copy; 2021-{new Date().getFullYear()} LinearMouse</Copyright>
+    <>
+      <Wrapper>
+        <MaxWidthWrapper>
+          <Copyright>&copy; 2021-{new Date().getFullYear()} LinearMouse</Copyright>
 
-        {isMainlandChinaCluster && (
-          <ICPLicense href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer noopener">
-            沪ICP备2023003051号
-          </ICPLicense>
-        )}
+          {isMainlandChinaCluster && (
+            <ICPLicense href="https://beian.miit.gov.cn" target="_blank" rel="noreferrer noopener">
+              沪ICP备2023003051号
+            </ICPLicense>
+          )}
 
-        <Links>
-          <a href="https://crowdin.com/project/linearmouse" target="_blank" rel="noreferrer noopener">
-            {t('footer.help_translate')}
-          </a>
-          <a href="/privacy.html">{t('footer.privacy_policy')}</a>
-        </Links>
+          <Links>
+            <a href="https://crowdin.com/project/linearmouse" target="_blank" rel="noreferrer noopener">
+              {t('footer.help_translate')}
+            </a>
+            <a href="/privacy.html">{t('footer.privacy_policy')}</a>
+          </Links>
 
-        {showDigitalOceanBadge && (
-          <DigitalOceanBadge
-            href="https://www.digitalocean.com/?refcode=f272815c14b2&utm_campaign=Referral_Invite&utm_source=LinearMouse"
-            target="_blank"
-            rel="noopener"
-          >
-            <Image alt="DigitalOcean Referral Badge" width={133} height={43} src={digitalOceanReferralBadge} />
-          </DigitalOceanBadge>
-        )}
-      </MaxWidthWrapper>
-
+          {showDigitalOceanBadge && (
+            <DigitalOceanBadge
+              href="https://www.digitalocean.com/?refcode=f272815c14b2&utm_campaign=Referral_Invite&utm_source=LinearMouse"
+              target="_blank"
+              rel="noopener"
+            >
+              <Image alt="DigitalOcean Referral Badge" width={133} height={43} src={digitalOceanReferralBadge} />
+            </DigitalOceanBadge>
+          )}
+        </MaxWidthWrapper>
+      </Wrapper>
       {!isMainlandChinaCluster && <CookieConsent />}
-    </Wrapper>
+    </>
   )
 }
 
