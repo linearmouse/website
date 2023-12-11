@@ -5,9 +5,7 @@ import styled from 'styled-components'
 import MaxWidthWrapper from 'components/max-width-wrapper'
 
 const Wrapper = styled.div`
-  position: fixed;
-  left: 0;
-  right: 0;
+  position: sticky;
   bottom: 0;
   z-index: 10;
   padding: 1rem 0;
