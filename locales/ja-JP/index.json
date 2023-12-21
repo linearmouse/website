@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac向けのマウスとトラックパッドユーティリティ。",
   "description": "マウスとトラックパッドのスクロール方向、ポインタ加速度、ポインタ速度等をカスタマイズ。",
-  "slogan": "<Marquee /> \n<GradientText>Pro</GradientText>のようにカスタマイズ",
+  "slogan": "<Marquee /> \n<GradientText>Pro</GradientText>のようにカスタマイズ。",
   "slogan_marquee": {
     "mouse_and_trackpad": "マウスとタッチパッドを",
     "scrolling_direction": "スクロール方向を",
@@ -16,12 +16,12 @@
   },
   "features": [
     {
-      "title": "装着<strong>ごと</strong>に。",
+      "title": "ポインティングデバイス<strong>ごと</strong>に。",
       "description": "<p>LinearMouseはデバイスごとの設定に対応します。</p><p>マウスとトラックパッドに異なる設定を適用できます。</p>"
     },
     {
       "title": "<strong>ナチュラル</strong>\nより <q>ナチュラルに</q>.",
-      "description": "<p>自然なスクロールが合わない方は、LinearMouseでスクロール方向を逆にすることができます。</p><p>各々の装置に応じて別個の設定できるから、トラックパッドに影響を及ぼす恐れもございません。</p>"
+      "description": "<p>ナチュラルスクロールが合わない方は、LinearMouseでスクロール方向を逆にすることができます。</p><p>各々の装置に応じて別個に設定できるため、トラックパッドに影響を及ぼす恐れもありません。</p>"
     },
     {
       "title": "ポインターを動かせます。\n<strong>素早く、正確に。</strong>",
