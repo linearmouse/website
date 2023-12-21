@@ -6,10 +6,10 @@
   },
   "footer": {
     "help_translate": "翻訳を改善する",
-    "privacy_policy": "個人情報保護方針"
+    "privacy_policy": "プライバシーポリシー"
   },
   "cookie_consent": {
-    "description": "本ウェブサイトでは、使用者経験の向上のため、クッキーを使用しております。"
+    "description": "本ウェブサイトでは、使用体験向上のため、クッキーを使用しております。"
   },
-  "ok": "了解"
+  "ok": "OK"
 }
