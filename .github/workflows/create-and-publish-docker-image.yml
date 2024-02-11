@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         cluster:
-          - bwg
+          - global
           - qcloud
 
     env:
