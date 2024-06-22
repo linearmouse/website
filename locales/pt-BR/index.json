@@ -1,5 +1,5 @@
 {
-  "title": "LinearMouse | O mouse e trackpad para Mac.",
+  "title": "LinearMouse | O utilitário de mouse e trackpad para Mac.",
   "description": "Personalize a direção da rolagem do mouse e do trackpad, aceleração do ponteiro e velocidade do ponteiro e assim por diante...",
   "slogan": "Personalize <Marquee />\nComo um <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
@@ -7,7 +7,7 @@
     "scrolling_direction": "Direção de rolagem",
     "pointer_acceleration": "Aceleração de ponteiro",
     "pointer_speed": "Velocidade do ponteiro",
-    "modifier_keys": "Modifier Keys"
+    "modifier_keys": "Teclas Modificadoras"
   },
   "install": {
     "download": "Baixar",
@@ -17,15 +17,15 @@
   "features": [
     {
       "title": "Para <strong>Cada</strong> Dispositivo de ponta.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "description": "<p>O LinearMouse suporta as configurações por dispositivo.</p><p>Você pode aplicar configurações diferentes para seus mouses e trackpads.</p>"
     },
     {
-      "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "title": "<strong>Mais Natural</strong>\nQue <q>Natural</q>.",
+      "description": "<p>Se você está desconfortável com a rolagem natural ao usar um mouse, o LinearMouse pode ajudá-lo a reverter a direção da rolagem.</p><p>Como cada dispositivo pode ser configurado de forma independente, não há necessidade de se preocupar com a direção da rolagem do trackpad ser afetada.</p>"
     },
     {
       "title": "Mova o Cursor\n<strong>Rápido e com Precisão</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "description": "<p>O LinearMouse permite que você encontre uma aceleração e velocidade do ponteiro confortáveis e ajuda a mover o ponteiro mais rápido e com mais precisão.</p><p>Você pode até desativar a aceleração do ponteiro se for um jogador ou designer para obter a melhor precisão do ponteiro.</p>"
     }
   ]
 }
