@@ -21,6 +21,7 @@ jobs:
         cluster:
           - global
           - qcloud
+          - aliyun
 
     env:
       NEXT_PUBLIC_CLUSTER_NAME: '${{ matrix.cluster }}'
