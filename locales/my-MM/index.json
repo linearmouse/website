@@ -1,31 +1,31 @@
 {
-  "title": "LinearMouse | The mouse and trackpad utility for Mac.",
-  "description": "Customize mouse and trackpad's scrolling direction, pointer acceleration, pointer speed and so on...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "title": "LinearMouse | Mac တွင်အသုံးပြုရန် Mouse နဲ့ Trackpad များအတွက်။.",
+  "description": "Mouse နဲ့ Trackpad တွေရဲ့ scrolling direction, pointer acceleration, pointer speed နှင့် တခြားသောအရာများကို ပြင်ဆင်နိုင်ပါသည်...",
+  "slogan": "<Marquee /> ကို <GradientText> Pro ကဲ့သို့ ပြင်ဆင်လိုက်ပါ။ </GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Mouse and Trackpad",
-    "scrolling_direction": "Scrolling Direction",
-    "pointer_acceleration": "Pointer Acceleration",
-    "pointer_speed": "Pointer Speed",
-    "modifier_keys": "Modifier Keys"
+    "scrolling_direction": "Scrolling ဦးတည်ချက်",
+    "pointer_acceleration": "Pointer အရှိန်",
+    "pointer_speed": "Pointer မြန်နှုန်း",
+    "modifier_keys": "Modifier ခလုတ်များ"
   },
   "install": {
     "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
-    "copied": "Copied"
+    "install_via_homebrew": "Homebrew တစ်ဆင့် ထည့်သွင်းရန်",
+    "copied": "Copy ပြီးပါပြီ"
   },
   "features": [
     {
-      "title": "For <strong>Each</strong> Pointing Device.",
-      "description": "<p>LinearMouse supports per-device settings.</p><p>You can apply different settings to your mice and trackpads.</p>"
+      "title": "<strong> Mouse နဲ့ Trackpad </strong> တစ်ခုစီတိုင်းအတွက်။.",
+      "description": "<p>Device တစ်ခု Setting တစ်ခု</p>\n<p>LinearMouse သည် device တစ်ခုချင်းစီအတွက် setting ထားနိုင်ပါသည်။ </p>"
     },
     {
       "title": "<strong>More Natural</strong>\nThan <q>Natural</q>.",
-      "description": "<p>If you are uncomfortable with the natural scrolling when using a mouse, LinearMouse can help you reverse the scrolling direction.</p><p>As each device can be configured independently, there is no need to be concerned about the trackpad's scrolling direction being affected.</p>"
+      "description": "<p>Mouse အသုံးပြုသည့်အခါ natural scrolling နှင့်အဆင်မပြေလျှင် LinearMouse သည် scrolling directionကို ပြန်လည်ပြောင်းရန် သင့်အား ကူညီနိုင်သည်။</p><p> စက်တစ်ခုချင်းစီမူတည်ပြီး ပြောင်းလဲနိုင်တော့ကြောင့် laptop trackpad ရဲ့ scrolling direction။ ကို သက်ရောက်မှာ စိုးရိမ်ရန်မလိုပါ။ </p>"
     },
     {
-      "title": "Move the Pointer\n<strong>Fast and Accurately.</strong>",
-      "description": "<p>LinearMouse allows you to find a comfortable pointer acceleration and speed and helps you to move the pointer faster and more accurately.</p><p>You can even disable pointer acceleration if you are a gamer or designer to get the best pointer accuracy.</p>"
+      "title": "Pointer များကို\n<strong> မြန်မြန်နှင့်မှန်မှန် </strong> ရွေ့လိုက်ပါ။",
+      "description": "<p>LinearMouse သည်သင့်အား သက်သောင့်သက်သာအဖြစ်ဆုံး pointer acceleration နှင့် speed အားရှာပေးနိုင်ပေးနိုင်ပြီး pointer အား ပိုမြန်ပြီး ပိုမှန်ကန်စွာ လုပ်ဆောင်နိုင်ရန်ကူညီပေးနိုင်ပါသည်။</p><p> သင်သည် ဂိမ်းကစားသူ သို့မဟုတ် ဒီဇိုင်နာဖြစ်ပါက အကောင်းဆုံး pointer accuracy ရရန် pointer acceleration ကိုပင် ပိတ်ထားနိုင်ပါသည်။ </p>"
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
   "navigation": {
     "github": "GitHub",
-    "discussions": "Discussions",
-    "language": "Language"
+    "discussions": "ဆွေးနွေးချက်များ",
+    "language": "ဘာသာစကားများ"
   },
   "footer": {
-    "help_translate": "Help translate",
-    "privacy_policy": "Privacy Policy"
+    "help_translate": "ဘာသာပြန်ခြင်း ကူညီပေးရန်",
+    "privacy_policy": "မူပိုင်ခွင့် မူဝါဒ"
   },
   "cookie_consent": {
-    "description": "This website uses cookies to enhance the user experience."
+    "description": "ဤဝဘ်ဆိုဒ်သည် အသုံးပြုသူအတွေ့အကြုံကို မြှင့်တင်ရန် cookies များကို အသုံးပြုထားပါသည်။."
   },
   "ok": "OK"
 }
