@@ -77,6 +77,10 @@ const Wrapper = styled.button`
     box-shadow: var(--shadow-md);
     column-count: 2;
 
+    /* Add scrollable behavior */
+    max-height: 500px;
+    overflow-y: auto;
+
     a {
       display: block;
       padding: 0.1em 1em;
