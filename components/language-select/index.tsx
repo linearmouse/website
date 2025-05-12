@@ -75,11 +75,13 @@ const Wrapper = styled.button`
     border-radius: var(--border-radius-md);
     transition: opacity 0.15s ease;
     box-shadow: var(--shadow-md);
-    column-count: 2;
-
-    /* Add scrollable behavior */
-    max-height: 500px;
+    
+    max-height: min(600px, 100vh - 150px);
     overflow-y: auto;
+    
+    & > div {
+      column-count: 2;
+    }
 
     a {
       display: block;
@@ -114,11 +116,13 @@ const LanguageSelect = () => {
     <Wrapper type="button">
       <span>{t('navigation.language')}</span>
       <menu>
-        {Object.entries(localesToShow).map(([locale, language]) => (
-          <Link key={locale} lang={locale} href="" locale={locale} onClick={() => persistLocale(locale)}>
-            {language}
-          </Link>
-        ))}
+        <div>
+          {Object.entries(localesToShow).map(([locale, language]) => (
+            <Link key={locale} lang={locale} href="" locale={locale} onClick={() => persistLocale(locale)}>
+              {language}
+            </Link>
+          ))}
+        </div>
       </menu>
     </Wrapper>
   )
