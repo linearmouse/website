@@ -78,6 +78,7 @@ const Wrapper = styled.button`
     
     max-height: min(600px, 100vh - 150px);
     overflow-y: auto;
+    overscroll-behavior: contain;
     
     & > div {
       column-count: 2;
