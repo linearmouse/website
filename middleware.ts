@@ -6,6 +6,8 @@ const countryRedirects: Partial<Record<string, string>> = {
 }
 
 export const middleware: NextMiddleware = (req) => {
+  return
+
   if (isMainlandChinaCluster) return
 
   // no contry redirect?
