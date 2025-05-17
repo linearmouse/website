@@ -39,6 +39,7 @@ USER nextjs
 
 EXPOSE 3000
 
+ENV HOSTNAME="0.0.0.0"
 ENV PORT=3000
 
 HEALTHCHECK --timeout=3s --start-period=10s \
