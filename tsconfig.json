@@ -24,9 +24,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "*": [
-        "*"
+      "components/*": [
+        "components/*"
       ],
+      "i18n/*": [
+        "i18n/*"
+      ]
     }
   },
   "include": [

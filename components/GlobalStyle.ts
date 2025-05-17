@@ -1,6 +1,13 @@
 'use client'
 
+import { PT_Sans } from 'next/font/google'
 import { createGlobalStyle, css } from 'styled-components'
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  fallback: []
+})
 
 const GlobalStyle = createGlobalStyle`${css`
   :root {
@@ -20,8 +27,8 @@ const GlobalStyle = createGlobalStyle`${css`
       -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
       sans-serif;
     --font-family-title:
-      'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-      'Helvetica Neue', sans-serif;
+      ${ptSans.style.fontFamily}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+      'Open Sans', 'Helvetica Neue', sans-serif;
 
     --border-radius-sm: 0.25rem;
     --border-radius-md: 0.375rem;
