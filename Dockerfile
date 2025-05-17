@@ -1,27 +1,29 @@
-FROM node:18-alpine AS deps
-RUN apk add --no-cache libc6-compat
+FROM node:24-slim AS deps
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
 WORKDIR /app
 
 COPY pnpm-lock.yaml package.json ./
 RUN pnpm install --frozen-lockfile
 
-FROM node:18-alpine AS builder
+FROM node:24-slim AS builder
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-ARG CLUSTER_NAME
-ENV NEXT_PUBLIC_CLUSTER_NAME=$CLUSTER_NAME
-
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN pnpm run build
 
-FROM node:18-alpine AS runner
+FROM node:24-slim AS runner
 WORKDIR /app
 
-ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NODE_ENV=production
+ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
@@ -35,7 +37,7 @@ USER nextjs
 
 EXPOSE 3000
 
-ENV PORT 3000
+ENV PORT=3000
 
 HEALTHCHECK --timeout=3s --start-period=10s \
     CMD wget -nv -t1 --spider http://localhost:3000/ || exit 1
