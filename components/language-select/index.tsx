@@ -1,7 +1,9 @@
 import { useTranslations } from 'next-intl'
 import styled from 'styled-components'
 
-import { Link } from 'i18n/navigation'
+import { Link, redirect } from 'i18n/navigation'
+import i18nConfig from 'i18n/index'
+import NextLink from 'next/link'
 
 const localesToShow = {
   'af-ZA': 'Afrikaans',
@@ -115,11 +117,15 @@ const LanguageSelect = () => {
       <span>{t('navigation.language')}</span>
       <menu>
         <div>
-          {Object.entries(localesToShow).map(([locale, language]) => (
-            <Link key={locale} lang={locale} href="/" locale={locale}>
-              {language}
-            </Link>
-          ))}
+          {Object.entries(localesToShow).map(([locale, language]) => {
+            // It seems that next-intl will force prefixing the default locale,
+            // which causes _rsc requests to fail.
+            return (
+              <Link key={locale} lang={locale} href="/" locale={locale} prefetch={false}>
+                {language}
+              </Link>
+            )
+          })}
         </div>
       </menu>
     </Wrapper>
