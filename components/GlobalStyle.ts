@@ -1,4 +1,13 @@
+'use client'
+
+import { PT_Sans } from 'next/font/google'
 import { createGlobalStyle, css } from 'styled-components'
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  fallback: []
+})
 
 const GlobalStyle = createGlobalStyle`${css`
   :root {
@@ -14,16 +23,19 @@ const GlobalStyle = createGlobalStyle`${css`
 
     --max-width: 1400px;
 
-    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-      'Helvetica Neue', sans-serif;
-    --font-family-title: 'PT Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    --font-family:
+      -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+      sans-serif;
+    --font-family-title:
+      ${ptSans.style.fontFamily}, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
       'Open Sans', 'Helvetica Neue', sans-serif;
 
     --border-radius-sm: 0.25rem;
     --border-radius-md: 0.375rem;
     --border-radius-lg: 0.625rem;
 
-    --shadow-md: 0.3px 0.5px 0.7px hsl(var(--color-shadow-hsl) / 0.21),
+    --shadow-md:
+      0.3px 0.5px 0.7px hsl(var(--color-shadow-hsl) / 0.21),
       0.8px 1.6px 2.1px -0.7px hsl(var(--color-shadow-hsl) / 0.23),
       1.9px 3.7px 5px -1.3px hsl(var(--color-shadow-hsl) / 0.26),
       4.3px 8.7px 11.6px -2px hsl(var(--color-shadow-hsl) / 0.29);
