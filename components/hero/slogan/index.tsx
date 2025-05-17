@@ -57,7 +57,7 @@ const Slogan = () => {
             ]}
           />
         ),
-        GradientText: () => <GradientText />
+        GradientText: (chunks) => <GradientText>{chunks}</GradientText>
       })}
     </Wrapper>
   )

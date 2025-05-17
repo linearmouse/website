@@ -29,7 +29,7 @@ const DownloadButton = styled.a`
   transition: background-color 0.1s ease;
 
   &::before {
-    margin-right: 0.625rem;
+    margin-inline-end: 0.625rem;
     content: '';
     font-size: 1.2rem;
   }
