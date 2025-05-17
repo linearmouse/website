@@ -1,5 +1,4 @@
-import useTranslationEx from 'hooks/use-translation-ex'
-import Trans from 'next-translate/Trans'
+import { useTranslations } from 'next-intl'
 import styled from 'styled-components'
 
 import Marquee from './marquee'
@@ -42,25 +41,23 @@ const GradientText = styled.span`
 `
 
 const Slogan = () => {
-  const { t, tE } = useTranslationEx('index')
+  const t = useTranslations('index')
 
   return (
     <Wrapper>
-      {tE('slogan', null, {
-        componentElements: {
-          Marquee: (
-            <Marquee
-              lines={[
-                t('slogan_marquee.mouse_and_trackpad'),
-                t('slogan_marquee.scrolling_direction'),
-                t('slogan_marquee.pointer_acceleration'),
-                t('slogan_marquee.pointer_speed'),
-                t('slogan_marquee.modifier_keys')
-              ]}
-            />
-          ),
-          GradientText: <GradientText />
-        }
+      {t.rich('slogan', {
+        Marquee: () => (
+          <Marquee
+            lines={[
+              t('slogan_marquee.mouse_and_trackpad'),
+              t('slogan_marquee.scrolling_direction'),
+              t('slogan_marquee.pointer_acceleration'),
+              t('slogan_marquee.pointer_speed'),
+              t('slogan_marquee.modifier_keys')
+            ]}
+          />
+        ),
+        GradientText: () => <GradientText />
       })}
     </Wrapper>
   )

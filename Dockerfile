@@ -2,8 +2,8 @@ FROM node:18-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-COPY package.json package-lock.json* ./
-RUN npm ci
+COPY pnpm-lock.yaml package.json ./
+RUN pnpm install --frozen-lockfile
 
 FROM node:18-alpine AS builder
 WORKDIR /app
@@ -15,7 +15,7 @@ ENV NEXT_PUBLIC_CLUSTER_NAME=$CLUSTER_NAME
 
 ENV NEXT_TELEMETRY_DISABLED 1
 
-RUN npm run build
+RUN pnpm run build
 
 FROM node:18-alpine AS runner
 WORKDIR /app

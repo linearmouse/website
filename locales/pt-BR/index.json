@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | O utilitário de mouse e trackpad para Mac.",
   "description": "Personalize a direção da rolagem do mouse e do trackpad, aceleração do ponteiro e velocidade do ponteiro e assim por diante...",
-  "slogan": "Personalize <Marquee />\nComo um <GradientText>Pro.</GradientText>",
+  "slogan": "Personalize <Marquee></Marquee>\nComo um <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Mouse e Trackpad",
     "scrolling_direction": "Direção de rolagem",

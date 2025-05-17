@@ -1,6 +1,6 @@
-const { isMainlandChinaCluster } = require('./utils/config')
+import { I18NConfig } from 'node_modules/next/dist/server/config-shared'
 
-let locales = [
+const locales = [
   'af-ZA',
   'ar-SA',
   'ca-ES',
@@ -37,18 +37,11 @@ let locales = [
   'zh-TW'
 ]
 
-let defaultLocale = 'en'
+const defaultLocale = 'en'
 
-if (isMainlandChinaCluster) {
-  defaultLocale = 'zh-CN'
-  locales = [defaultLocale]
-}
-
-module.exports = {
+const i18nConfig: I18NConfig = {
   defaultLocale,
-  locales,
-  pages: {
-    '*': ['common'],
-    '/': ['index']
-  }
+  locales
 }
+
+export default i18nConfig

@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Myš a trackpad na steroidech pro Váš Mac.",
   "description": "Přizpůsobte směr posouvání myši a trackpadu, zrychlení kurzoru, rychlost kurzoru a další.",
-  "slogan": "Nastavte si to po svém <Marquee />\nJako <GradientText>profesionálové.</GradientText>",
+  "slogan": "Nastavte si to po svém <Marquee></Marquee>\nJako <GradientText>profesionálové.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Myš a Trackpad",
     "scrolling_direction": "Směr posouvání",

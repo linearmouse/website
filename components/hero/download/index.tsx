@@ -1,4 +1,4 @@
-import useTranslation from 'next-translate/useTranslation'
+import { useTranslations } from 'next-intl'
 import { useCallback, useState } from 'react'
 import styled from 'styled-components'
 
@@ -77,7 +77,7 @@ const Copied = styled.span`
 `
 
 const Download = () => {
-  const { t } = useTranslation('index')
+  const t = useTranslations('index')
 
   const [copied, setCopied] = useState(false)
 

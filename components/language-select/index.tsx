@@ -1,4 +1,4 @@
-import useTranslation from 'next-translate/useTranslation'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import styled from 'styled-components'
 
@@ -75,11 +75,11 @@ const Wrapper = styled.button`
     border-radius: var(--border-radius-md);
     transition: opacity 0.15s ease;
     box-shadow: var(--shadow-md);
-    
+
     max-height: min(600px, 100vh - 150px);
     overflow-y: auto;
     overscroll-behavior: contain;
-    
+
     & > div {
       column-count: 2;
     }
@@ -111,7 +111,7 @@ const LanguageSelect = () => {
     document.cookie = `NEXT_LOCALE=${locale}; max-age=${30 * 24 * 3600}; path=/`
   }
 
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
 
   return (
     <Wrapper type="button">

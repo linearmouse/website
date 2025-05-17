@@ -1,4 +1,4 @@
-import useTranslationEx from 'hooks/use-translation-ex'
+import { RichTagsFunction, useTranslations } from 'next-intl'
 import Image from 'next/image'
 import styled from 'styled-components'
 
@@ -145,12 +145,12 @@ const Features = () => {
     }
   ]
 
-  const { tE } = useTranslationEx('index')
+  const t = useTranslations('index')
 
-  const componentElements = {
-    p: <p />,
-    q: <q />,
-    strong: <strong />
+  const componentElements: Record<string, RichTagsFunction> = {
+    p: (chunks) => <p>{chunks}</p>,
+    q: (chunks) => <q>{chunks}</q>,
+    strong: (chunks) => <strong>{chunks}</strong>
   }
 
   return (
@@ -158,8 +158,8 @@ const Features = () => {
       {images.map(({ light, dark }, index) => (
         <FeatureWrapper key={index}>
           <MaxWidthWrapper $maxWidth={'calc(var(--max-width) / 2)'}>
-            <Heading>{tE(`features.${index}.title`, null, { componentElements })}</Heading>
-            <Description>{tE(`features.${index}.description`, null, { componentElements })}</Description>
+            <Heading>{t.rich(`features.${index}.title`, componentElements)}</Heading>
+            <Description>{t.rich(`features.${index}.description`, componentElements)}</Description>
           </MaxWidthWrapper>
 
           <FeatureImageWrapper>

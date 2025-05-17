@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Konfigurator myszy i gładzika dla Maca.",
   "description": "Dostosuj właściwości myszy i gładzika, takie jak kierunek przewijania, przyspieszenie wskaźnika, szybkość wskaźnika i więcej...",
-  "slogan": "Dostosowywuj <Marquee />\nJak <GradientText>profesjonalista.</GradientText>",
+  "slogan": "Dostosowywuj <Marquee></Marquee>\nJak <GradientText>profesjonalista.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Mysz i gładzik",
     "scrolling_direction": "Kierunek przewijania",

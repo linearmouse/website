@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Az egér és trackpad segédprogram Machez.",
   "description": "Testreszabhatod az egér és a trackpad görgetési irányát, gyorsítását, sebességét, satöbbi...",
-  "slogan": "Customize <Marquee />\nLike a <GradientText>Pro.</GradientText>",
+  "slogan": "Customize <Marquee></Marquee>\nLike a <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Egér és Trackpad",
     "scrolling_direction": "Görgetés Iránya",

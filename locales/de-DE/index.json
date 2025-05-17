@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Die Maus- und Trackpad-Dienstprogramm für Mac.",
   "description": "Individualisiere Maus- und Trackpad-Scrollrichtung, Zeigerbeschleunigung, Zeigergeschwindigkeit, usw. ...",
-  "slogan": "Individualisiere <Marquee />\nWie ein <GradientText>Profi.</GradientText>",
+  "slogan": "Individualisiere <Marquee></Marquee>\nWie ein <GradientText>Profi.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Maus und Trackpad",
     "scrolling_direction": "Scrollrichtungen",

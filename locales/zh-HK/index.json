@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac 下的滑鼠和觸控板實用工具。",
   "description": "自定義滑鼠和觸控板的捲動方向、指標加速度、指標速度……",
-  "slogan": "給<Marquee />\n一個<GradientText>專屬定製。</GradientText>",
+  "slogan": "給<Marquee></Marquee>\n一個<GradientText>專屬定製。</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "滑鼠和觸控板",
     "scrolling_direction": "捲動方向",

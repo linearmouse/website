@@ -1,4 +1,4 @@
-import useTranslation from 'next-translate/useTranslation'
+import { useTranslations } from 'next-intl'
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
@@ -53,7 +53,7 @@ const Wrapper = styled.div`
 const storageKey = 'cookie_consent_informed'
 
 const CookieConsent = () => {
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {

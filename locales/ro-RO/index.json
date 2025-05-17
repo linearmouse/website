@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Utilitar pentru mouse și trackpad pentru Mac.",
   "description": "Personalizați direcția de derulare a mouse-ului și a trackpad-ului, accelerația indicatorului, viteza cursorului și așa mai departe...",
-  "slogan": "Personalizați <Marquee />\nCa un <GradientText>Pro.</GradientText>",
+  "slogan": "Personalizați <Marquee></Marquee>\nCa un <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Mouse și Trackpad",
     "scrolling_direction": "Direcție derulare",

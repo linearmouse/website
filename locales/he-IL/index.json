@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | כלי העכבר וה-Trackpad ל-Mac.",
   "description": "התאימו אישית את כיווני הגלילה של העכבר וה-Trackpad, מהירות תאוצה, מהירות, ועוד...",
-  "slogan": "התאימו אישית <Marquee />\nכמו <GradientText>מקצוענים.</GradientText>",
+  "slogan": "התאימו אישית <Marquee></Marquee>\nכמו <GradientText>מקצוענים.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "עכבר ו-Trackpad",
     "scrolling_direction": "מהירות גלילה",
