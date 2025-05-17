@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Hjælpeværktøjet for mus og pegefelt til Mac.",
   "description": "Tilpas mus og pegefelts rulleretning, markøracceleration, markørhastighed og så videre...",
-  "slogan": "Tilpas <Marquee />\nSom en <GradientText>Pro.</GradientText>",
+  "slogan": "Tilpas <Marquee></Marquee>\nSom en <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Mus og Pegefelt",
     "scrolling_direction": "Rulleretning",

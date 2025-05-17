@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac을 위한 마우스 및 트랙패드 유틸리티.",
   "description": "마우스 및 트랙패드의 스크롤 방향, 포인터 가속, 포인터 속도 등을 자유롭게 조절하세요.",
-  "slogan": "<Marquee />\n모두 <GradientText>내 맘대로.</GradientText>",
+  "slogan": "<Marquee></Marquee>\n모두 <GradientText>내 맘대로.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "마우스 및 트랙패드",
     "scrolling_direction": "스크롤 방향",

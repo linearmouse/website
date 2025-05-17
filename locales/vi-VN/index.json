@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Tiện ích chuột và trackpad cho Mac.",
   "description": "Tuỳ biến hướng cuộn, tốc độ con trở, tăng tốc con trỏ, và nhiều hơn nữa... của chuột và trackpad",
-  "slogan": "Tuỳ biến <Marquee />\nMột cách <GradientText>chuyên nghiệp.</GradientText>",
+  "slogan": "Tuỳ biến <Marquee></Marquee>\nMột cách <GradientText>chuyên nghiệp.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Chuột và Trackpad",
     "scrolling_direction": "Hướng cuộn",

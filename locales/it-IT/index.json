@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Utility del mouse e del trackpad per Mac.",
   "description": "Personalizza la direzione di scorrimento del mouse e del trackpad, l'accelerazione del puntatore, la velocità del puntatore e così via...",
-  "slogan": "Personalizza <Marquee />\nCome un <GradientText>Pro.</GradientText>",
+  "slogan": "Personalizza <Marquee></Marquee>\nCome un <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Mouse e Trackpad",
     "scrolling_direction": "Direzione di Scorrimento",

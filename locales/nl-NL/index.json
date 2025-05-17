@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | De muis en trackpad applicatie voor Mac.",
   "description": "Pas de scroll-richting van je muis en trackpad aan, wijzig de aanwijzerversnelling, aanwijzer snelheid en veel meer...",
-  "slogan": "Customiseer je <Marquee />\nAls een <GradientText>Pro.</GradientText>",
+  "slogan": "Customiseer je <Marquee></Marquee>\nAls een <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Muis en Trackpad",
     "scrolling_direction": "Scrollrichting",

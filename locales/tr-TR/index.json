@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Mac için fare ve dokunmatik yüzey aracı.",
   "description": "Fare ve dokunmatik yüzeyinizin kaydırma yönünü, imleç ivmesini, imleç hızını vb. özelleştirin...",
-  "slogan": "<Marquee /> bir <GradientText>Profesyonel</GradientText>\ngibi özelleştirin",
+  "slogan": "<Marquee></Marquee> bir <GradientText>Profesyonel</GradientText>\ngibi özelleştirin",
   "slogan_marquee": {
     "mouse_and_trackpad": "Fare ve dokunmatik yüzeyini",
     "scrolling_direction": "Kaydırma yönünü",

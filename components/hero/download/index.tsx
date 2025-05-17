@@ -1,4 +1,4 @@
-import useTranslation from 'next-translate/useTranslation'
+import { useTranslations } from 'next-intl'
 import { useCallback, useState } from 'react'
 import styled from 'styled-components'
 
@@ -29,7 +29,7 @@ const DownloadButton = styled.a`
   transition: background-color 0.1s ease;
 
   &::before {
-    margin-right: 0.625rem;
+    margin-inline-end: 0.625rem;
     content: '';
     font-size: 1.2rem;
   }
@@ -77,7 +77,7 @@ const Copied = styled.span`
 `
 
 const Download = () => {
-  const { t } = useTranslation('index')
+  const t = useTranslations('index')
 
   const [copied, setCopied] = useState(false)
 

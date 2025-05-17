@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Το εργαλείο διαχείρισης ποντικιού και επιφάνειας αφής για Mac.",
   "description": "Προσαρμόστε την κατεύθυνση κύλισης του ποντικιού και της επιφάνειας αφής, την επιτάχυνση του δείκτη και ούτω καθεξής...",
-  "slogan": "Προσαρμόστε <Marquee />\nΌπως οι <GradientText>Επαγγελματίες.</GradientText>",
+  "slogan": "Προσαρμόστε <Marquee></Marquee>\nΌπως οι <GradientText>Επαγγελματίες.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Ποντίκι και Επιφάνεια Αφής",
     "scrolling_direction": "Κατεύθυνση Κύλισης",

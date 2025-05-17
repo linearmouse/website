@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | L'utilitaire de souris et de pavé tactile pour Mac.",
   "description": "Personnalisez le sens de défilement de votre souris et de votre pavé tactile, l'accélération du pointeur, sa vitesse et bien plus...",
-  "slogan": "Personnaliser <Marquee />\nComme un <GradientText>Pro</GradientText>",
+  "slogan": "Personnaliser <Marquee></Marquee>\nComme un <GradientText>Pro</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "Souris et pavé tactile",
     "scrolling_direction": "Sens de défilement",

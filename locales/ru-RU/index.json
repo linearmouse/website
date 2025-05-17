@@ -1,7 +1,7 @@
 {
   "title": "LinearMouse | Утилита для мыши и трекпада для Mac.",
   "description": "Настраивайте направление прокрутки мыши и трекпада, ускорение указателя, скорость указателя и так далее...",
-  "slogan": "Настраивайте <Marquee />\nкак <GradientText>профессионал.</GradientText>",
+  "slogan": "Настраивайте <Marquee></Marquee>\nкак <GradientText>профессионал.</GradientText>",
   "slogan_marquee": {
     "mouse_and_trackpad": "мышь и трекпад",
     "scrolling_direction": "направление прокрутки",

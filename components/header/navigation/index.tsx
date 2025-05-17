@@ -1,6 +1,5 @@
-import useTranslation from 'next-translate/useTranslation'
+import { useTranslations } from 'next-intl'
 import styled from 'styled-components'
-import { isMainlandChinaCluster } from 'utils/config'
 
 import LanguageSelect from 'components/language-select'
 
@@ -30,15 +29,14 @@ const Wrapper = styled.div`
 `
 
 const Navigation = () => {
-  const { t } = useTranslation('common')
+  const t = useTranslations('common')
 
   return (
     <Wrapper role="navigation">
       <a href="https://github.com/linearmouse/linearmouse">{t('navigation.github')}</a>
       <a href="https://github.com/linearmouse/linearmouse/discussions">{t('navigation.discussions')}</a>
 
-      {!isMainlandChinaCluster && <LanguageSelect />}
-      {isMainlandChinaCluster && <a href="https://linearmouse.app/ncr/">Global</a>}
+      <LanguageSelect />
     </Wrapper>
   )
 }
