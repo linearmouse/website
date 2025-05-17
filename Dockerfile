@@ -22,6 +22,8 @@ RUN pnpm run build
 FROM node:24-slim AS runner
 WORKDIR /app
 
+RUN apt update && apt install -y wget
+
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 
