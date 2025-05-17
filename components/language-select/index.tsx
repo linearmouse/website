@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
-import Link from 'next/link'
 import styled from 'styled-components'
+
+import { Link } from 'i18n/navigation'
 
 const localesToShow = {
   'af-ZA': 'Afrikaans',
@@ -107,10 +108,6 @@ const Wrapper = styled.button`
 `
 
 const LanguageSelect = () => {
-  const persistLocale = (locale: string) => {
-    document.cookie = `NEXT_LOCALE=${locale}; max-age=${30 * 24 * 3600}; path=/`
-  }
-
   const t = useTranslations('common')
 
   return (
@@ -119,7 +116,7 @@ const LanguageSelect = () => {
       <menu>
         <div>
           {Object.entries(localesToShow).map(([locale, language]) => (
-            <Link key={locale} lang={locale} href="" locale={locale} onClick={() => persistLocale(locale)}>
+            <Link key={locale} lang={locale} href="/" locale={locale}>
               {language}
             </Link>
           ))}

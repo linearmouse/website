@@ -1,3 +1,5 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 import { useCallback, useState } from 'react'
 import styled from 'styled-components'

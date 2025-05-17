@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
 
@@ -10,8 +12,7 @@ type WrapperProps = {
   $scrollTop: number
 }
 
-const Wrapper = styled.div.attrs(props => ({
-}))<WrapperProps>`
+const Wrapper = styled.div.attrs((props) => ({}))<WrapperProps>`
   position: fixed;
   left: 0;
   right: 0;

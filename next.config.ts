@@ -1,4 +1,4 @@
-import i18nConfig from './i18n'
+import createNextIntlPlugin from 'next-intl/plugin'
 
 const nextConfig: import('next').NextConfig = {
   output: 'standalone',
@@ -9,8 +9,8 @@ const nextConfig: import('next').NextConfig = {
   },
   images: {
     unoptimized: true
-  },
-  i18n: i18nConfig
+  }
 }
 
-export default nextConfig
+const withNextIntl = createNextIntlPlugin()
+export default withNextIntl(nextConfig)
