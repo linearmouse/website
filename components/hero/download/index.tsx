@@ -104,10 +104,7 @@ const Download = () => {
   return (
     <Wrapper>
       <Buttons>
-        <DownloadButton
-          role="button"
-          href="https://github.com/linearmouse/linearmouse/releases/latest/download/LinearMouse.dmg"
-        >
+        <DownloadButton role="button" href="https://dl.linearmouse.org/latest/LinearMouse.dmg">
           {t('install.download')}
         </DownloadButton>
         <InstallViaHomebrewButton type="button" onClick={copyHomebrewInstallCommand}>
