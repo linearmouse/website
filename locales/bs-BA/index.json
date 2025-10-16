@@ -1,5 +1,5 @@
 {
-  "title": "LinearMouse | Mek aplikacija za miš i trekped.",
+  "title": "LinearMouse | Mac aplikacija za miš i trekped.",
   "description": "Podesite smijer skrolanja, ubrzanje i brzinu pokazivača miša i trekpeda, te još mnogo toga...",
   "slogan": "Prilagodi <Marquee></Marquee>\nKao <GradientText>Pro.</GradientText>",
   "slogan_marquee": {
@@ -7,7 +7,7 @@
     "scrolling_direction": "Smjer skrolanja",
     "pointer_acceleration": "Ubrzanje pokazivača",
     "pointer_speed": "Brzina pokazivača",
-    "modifier_keys": "Specijalne Tipke"
+    "modifier_keys": "Modifikatorske tipke"
   },
   "install": {
     "download": "Preuzmi",
@@ -24,8 +24,8 @@
       "description": "<p>Ako ti ne odgovara \"prirodni\" mod skrolanja, LinearMouse ti može pomoći da se vratiš na normalni način skrolanja.</p><p>Postavke za svaki uređaj se spašavaju odvojeno, pa se ne moraš brinuti da poremetiš trenutne postavke svog trekpeda.</p>"
     },
     {
-      "title": "Pomjeraj Pokazivač\n<strong>brzo i precizno</strong>.",
-      "description": "<p>LinearMouse ti omogućava da nađeš sebi najbolju postavku brzine i ubrzanja pokazivača da bi bio što precizniji.</p><p>Također možeš i ugasiti postavku ubrzanja pokazivača pogotovo ako si gejmer ili dizajner, za još preciznije pokrete.</p>"
+      "title": "Pomjeraj pokazivač\n<strong>brzo i precizno</strong>",
+      "description": "<p>LinearMouse ti omogućava da nađeš najbolju postavku brzine i ubrzanja pokazivača za veći komfor.</p><p>Također možeš i ugasiti postavku ubrzanja pokazivača pogotovo ako si gejmer ili dizajner, za još preciznije pokrete.</p>"
     }
   ]
 }
