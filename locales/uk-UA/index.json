@@ -3,7 +3,7 @@
   "description": "Налаштуйте напрямок прокрутки миші та трекпада, пришвидшення вказівника, швидкість вказівника тощо...",
   "slogan": "Налаштовуйте <Marquee></Marquee>\nяк <GradientText>професіонал.</GradientText>",
   "slogan_marquee": {
-    "mouse_and_trackpad": "Миша і Трекпад",
+    "mouse_and_trackpad": "Мишу та Трекпад",
     "scrolling_direction": "Напрямок прокрутки",
     "pointer_acceleration": "Пришвидшення вказівника",
     "pointer_speed": "Швидкість вказівника",
