@@ -1,0 +1,15 @@
+{
+  "navigation": {
+    "github": "GitHub",
+    "discussions": "Diskusije",
+    "language": "Jezik"
+  },
+  "footer": {
+    "help_translate": "Dodaj prijevod",
+    "privacy_policy": "Politika privatnosti"
+  },
+  "cookie_consent": {
+    "description": "Ova stranica koristi kolačiće za bolje korisničko iskustvo."
+  },
+  "ok": "OK"
+}

@@ -11,7 +11,7 @@
   },
   "install": {
     "download": "Download",
-    "install_via_homebrew": "Install via Homebrew",
+    "install_via_homebrew": "Installera via Homebrew",
     "copied": "Copied"
   },
   "features": [
