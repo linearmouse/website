@@ -171,12 +171,11 @@ button:disabled,
   visibility: hidden;
   pointer-events: none;
   transform: translateY(calc(-100% - 1rem));
-  will-change: transform;
 }
 
 .header-bar-float {
   pointer-events: auto;
-  border-color: var(--line);
+  border: 1px solid var(--line);
   background-color: color-mix(in oklab, var(--surface) 74%, transparent);
   -webkit-backdrop-filter: blur(30px) saturate(2.25) brightness(1.03);
   backdrop-filter: blur(30px) saturate(2.25) brightness(1.03);
@@ -262,9 +261,9 @@ button:disabled,
   }
 
   .header-float {
+    visibility: hidden;
     animation-duration: 1s !important;
     animation-timing-function: steps(1, end) !important;
     animation-range: var(--header-float-start) calc(var(--header-float-start) + 1px) !important;
-    will-change: auto;
   }
 }
