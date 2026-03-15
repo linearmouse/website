@@ -11,6 +11,12 @@
     "required": ["GITHUB_TOKEN"],
   },
   "main": "./src/server.ts",
+  "routes": [
+    {
+      "pattern": "linearmouse.app",
+      "custom_domain": true,
+    },
+  ],
   "observability": {
     "enabled": true,
   },
