@@ -66,3 +66,8 @@ export function applyThemeMode(theme: ThemeMode) {
   root.dataset.resolvedTheme = resolvedTheme
   root.style.colorScheme = getThemeColorScheme(theme)
 }
+
+export function setThemeMode(theme: ThemeMode) {
+  writeThemeCookie(theme)
+  applyThemeMode(theme)
+}

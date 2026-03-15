@@ -1,38 +1,16 @@
 import { Menu } from '@base-ui/react/menu'
 import { Check } from 'lucide-react'
-import { useEffect, useState } from 'react'
 
 import { m } from '#/paraglide/messages'
-import { Route as RootRoute } from '#/routes/__root'
 
 import { menuItemClass, menuPopupClass, navTriggerClass, themeModes, type ThemeMode } from './constants'
-import { applyThemeMode, readThemeModeFromDocument, writeThemeCookie } from './theme'
+import { useThemeMode } from './ThemeProvider'
 
 export function ThemeMenu() {
-  const { theme: initialTheme } = RootRoute.useLoaderData()
-  const [theme, setTheme] = useState<ThemeMode>(initialTheme)
-
-  useEffect(() => {
-    setTheme(initialTheme)
-    applyThemeMode(initialTheme)
-  }, [initialTheme])
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-    const syncSystemTheme = () => {
-      if (readThemeModeFromDocument() === 'system') {
-        applyThemeMode('system')
-      }
-    }
-
-    mediaQuery.addEventListener('change', syncSystemTheme)
-    return () => mediaQuery.removeEventListener('change', syncSystemTheme)
-  }, [])
+  const { theme, setThemeMode } = useThemeMode()
 
   function handleThemeChange(nextTheme: ThemeMode) {
-    setTheme(nextTheme)
-    writeThemeCookie(nextTheme)
-    applyThemeMode(nextTheme)
+    setThemeMode(nextTheme)
   }
 
   const currentTheme = themeModes.find((option) => option.value === theme) ?? themeModes[0]
