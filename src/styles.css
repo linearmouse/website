@@ -92,15 +92,15 @@ button:disabled,
 .glass-surface {
   background: var(--surface);
   border: 1px solid var(--line);
-  backdrop-filter: blur(20px) saturate(1.8);
   -webkit-backdrop-filter: blur(20px) saturate(1.8);
+  backdrop-filter: blur(20px) saturate(1.8);
 }
 
 @media (prefers-reduced-transparency: reduce) {
   .glass-surface {
     background: color-mix(in oklab, var(--surface) 90%, var(--canvas));
-    backdrop-filter: none;
     -webkit-backdrop-filter: none;
+    backdrop-filter: none;
   }
 }
 
@@ -158,8 +158,8 @@ button:disabled,
 .header-bar-home {
   border-color: transparent;
   background-color: transparent;
-  backdrop-filter: none;
   -webkit-backdrop-filter: none;
+  backdrop-filter: none;
   box-shadow: none;
 }
 
@@ -177,8 +177,8 @@ button:disabled,
   pointer-events: auto;
   border-color: var(--line);
   background-color: color-mix(in oklab, var(--surface) 74%, transparent);
-  backdrop-filter: blur(30px) saturate(2.25) brightness(1.03);
   -webkit-backdrop-filter: blur(30px) saturate(2.25) brightness(1.03);
+  backdrop-filter: blur(30px) saturate(2.25) brightness(1.03);
   box-shadow:
     inset 0 1px 0 light-dark(rgba(255, 255, 255, 0.48), rgba(255, 255, 255, 0.12)),
     0 1px 10px -3px light-dark(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.18)),
