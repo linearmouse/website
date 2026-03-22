@@ -1,6 +1,7 @@
 import { m } from '#/paraglide/messages'
 
 import { containerClass, featureScreenshots } from './constants'
+import { FeatureProfilesDemo } from './FeatureProfilesDemo'
 import { RichHeadingText } from './RichHeadingText'
 import { messageToRichTokens, richTokensToPlainText } from './richText'
 import { ThemedImage } from './ThemedImage'
@@ -55,13 +56,19 @@ export function HomeFeatures() {
               </div>
 
               <div className={`${index > 0 ? 'scroll-reveal-image' : 'scroll-reveal'} mx-auto mt-12 max-w-[800px]`}>
-                <ThemedImage
-                  light={feature.light}
-                  dark={feature.dark}
-                  alt={richTokensToPlainText(titleTokens)}
-                  sizes="(min-width: 1024px) 800px, 100vw"
-                  className="w-full"
-                />
+                {index === 0
+                  ? (
+                    <FeatureProfilesDemo />
+                    )
+                  : (
+                    <ThemedImage
+                      light={feature.light}
+                      dark={feature.dark}
+                      alt={richTokensToPlainText(titleTokens)}
+                      sizes="(min-width: 1024px) 800px, 100vw"
+                      className="w-full"
+                    />
+                    )}
               </div>
             </div>
           </section>
