@@ -25,6 +25,13 @@ describe('linearmouse-go worker', () => {
     expect(response.headers.get('location')).toBe('https://github.com/linearmouse/linearmouse')
   })
 
+  it('redirects pointer speed limitations to the issue', async () => {
+    const response = await app.request('https://go.linearmouse.app/pointer-speed-limitations')
+
+    expect(response.status).toBe(307)
+    expect(response.headers.get('location')).toBe('https://github.com/linearmouse/linearmouse/issues/270')
+  })
+
   it('returns method not allowed for non-get methods', async () => {
     const response = await app.request('https://go.linearmouse.app/github', {
       method: 'HEAD',
