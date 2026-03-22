@@ -3,6 +3,13 @@
   "name": "linearmouse-go",
   "compatibility_date": "2026-03-21",
   "main": "./src/index.ts",
+  "routes": [
+    {
+      "pattern": "go.linearmouse.app",
+      "custom_domain": true
+    }
+  ],
+  "preview_urls": true,
   "observability": {
     "enabled": true
   },
