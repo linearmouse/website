@@ -5,6 +5,7 @@ const urlMap = new Map<string, string>([
   ['/github', 'https://github.com/linearmouse/linearmouse'],
   ['/accessibility-permission', 'https://github.com/linearmouse/linearmouse/blob/main/ACCESSIBILITY.md'],
   ['/disable-pointer-acceleration-and-speed', 'https://github.com/linearmouse/linearmouse/discussions/201'],
+  ['/pointer-speed-limitations', 'https://github.com/linearmouse/linearmouse/issues/270'],
   ['/bug-report', 'https://github.com/linearmouse/linearmouse/issues/new?template=bug_report.yml&labels=bug'],
   ['/feature-request', 'https://github.com/linearmouse/linearmouse/issues/new?template=feature_request.yml&labels=enhancement'],
   ['/donate', 'https://github.com/sponsors/linearmouse'],
