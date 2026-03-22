@@ -17,8 +17,10 @@ function redirectLocaleRootWithTrailingSlash(request: Request) {
 }
 
 export default {
-  async fetch(req: Request, env: Env) {
-    const appcastResponse = await handleAppcastRequest(req, env)
+  async fetch(req: Request, env: Env, ctx: ExecutionContext) {
+    const appcastResponse = await handleAppcastRequest(req, env, (promise) => {
+      ctx.waitUntil(promise)
+    })
 
     if (appcastResponse) {
       return appcastResponse

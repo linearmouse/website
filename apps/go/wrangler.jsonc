@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "linearmouse-go",
+  "compatibility_date": "2026-03-21",
+  "main": "./src/index.ts",
+  "observability": {
+    "enabled": true
+  },
+  "placement": {
+    "mode": "smart"
+  }
+}

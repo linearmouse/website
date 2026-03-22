@@ -1,0 +1,23 @@
+{
+  "name": "linearmouse-schema",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --port 3002",
+    "build": "vite build",
+    "preview": "vite preview --port 4175",
+    "test": "vitest run",
+    "deploy": "pnpm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.10.5"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.28.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.0",
+    "vitest": "^4.1.0",
+    "wrangler": "^4.73.0"
+  }
+}

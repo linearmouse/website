@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "#/*": ["./src/*"]
+    },
+    "types": [
+        "./worker-configuration.d.ts",
+        "node",
+        "vite/client"
+    ]
+  }
+}

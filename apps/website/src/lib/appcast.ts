@@ -60,6 +60,7 @@ type GitHubRelease = {
 
 type FetchLike = typeof fetch
 type AppcastEnv = Pick<Env, 'GITHUB_TOKEN'>
+type WaitUntilLike = (promise: Promise<unknown>) => void
 
 let cachedAppcastXml: string | null = null
 let appcastLastUpdatedAt = 0
@@ -172,7 +173,11 @@ async function updateAppcast(fetchImpl: FetchLike, env: AppcastEnv) {
   appcastLastUpdatedAt = Date.now()
 }
 
-export async function getAppcastXml(env: AppcastEnv, fetchImpl: FetchLike = fetch) {
+export async function getAppcastXml(
+  env: AppcastEnv,
+  fetchImpl: FetchLike = fetch,
+  waitUntil?: WaitUntilLike,
+) {
   const isFresh =
     cachedAppcastXml !== null &&
     Date.now() - appcastLastUpdatedAt < APPCAST_MIN_UPDATE_INTERVAL_MS
@@ -188,6 +193,10 @@ export async function getAppcastXml(env: AppcastEnv, fetchImpl: FetchLike = fetc
   }
 
   if (cachedAppcastXml !== null) {
+    if (waitUntil) {
+      waitUntil(appcastUpdatePromise)
+    }
+
     return cachedAppcastXml
   }
 
@@ -204,7 +213,11 @@ export function matchesSparkle2(userAgent: string | null) {
   return userAgent !== null && uaSparkle2Re.test(userAgent)
 }
 
-export async function handleAppcastRequest(request: Request, env: AppcastEnv) {
+export async function handleAppcastRequest(
+  request: Request,
+  env: AppcastEnv,
+  waitUntil?: WaitUntilLike,
+) {
   const { pathname } = new URL(request.url)
 
   if (pathname !== APPCAST_PATH) {
@@ -220,7 +233,7 @@ export async function handleAppcastRequest(request: Request, env: AppcastEnv) {
     })
   }
 
-  const appcastXml = await getAppcastXml(env)
+  const appcastXml = await getAppcastXml(env, fetch, waitUntil)
 
   return new Response(appcastXml, {
     headers: {

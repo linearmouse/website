@@ -1,29 +1,15 @@
-# LinearMouse Website
+# LinearMouse Monorepo
 
-Marketing site and update feed for [LinearMouse](https://linearmouse.app), built with TanStack Start and deployed to Cloudflare Workers.
+This repository now uses a pnpm workspace monorepo layout so multiple Cloudflare Workers apps and shared packages can live together.
 
-## Stack
+## Layout
 
-- React 19
-- TanStack Start + TanStack Router
-- Vite
-- Tailwind CSS v4
-- Paraglide / inlang for localized routes and messages
-- Cloudflare Workers via Wrangler
+- `apps/website`: the current Linearmouse marketing site and update feed
+- `apps/go`: short-link Worker for `go.linearmouse.app`
+- `apps/schema`: schema proxy Worker for `schema.linearmouse.app`
+- `packages/`: reserved for future shared packages and configs
 
-## What Lives Here
-
-- The localized homepage and marketing content
-- Theme switching and cookie-backed theme persistence
-- Download entry points for the latest LinearMouse release
-- `/appcast.xml` generation for Sparkle updates, backed by GitHub releases
-
-## Requirements
-
-- Node.js 20+
-- pnpm
-
-## Getting Started
+## Workspace Commands
 
 Install dependencies:
 
@@ -31,78 +17,28 @@ Install dependencies:
 pnpm install
 ```
 
-Start the local dev server on `http://localhost:3000`:
+Run the website locally:
 
 ```bash
 pnpm dev
 ```
 
-Build for production:
+Build the website:
 
 ```bash
 pnpm build
 ```
 
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
-
-Run tests:
+Run the website tests:
 
 ```bash
 pnpm test
 ```
 
-Regenerate Cloudflare Worker types after changing `wrangler.jsonc`:
+Deploy the website Worker:
 
 ```bash
-pnpm run cf-typegen
+pnpm deploy
 ```
 
-## Project Structure
-
-- `src/routes/`: TanStack Router file-based routes
-- `src/components/home/`: homepage sections and interactive UI
-- `src/lib/appcast.ts`: Sparkle appcast generation and GitHub release fetching
-- `src/lib/seo.ts`: localized canonical and alternate URL helpers
-- `messages/`: localized message catalogs
-- `public/`: static assets, icons, screenshots, and verification files
-- `wrangler.jsonc`: Cloudflare Worker configuration
-
-## Internationalization
-
-This site uses Paraglide for message generation and localized URLs.
-
-- Source messages are compiled into `src/paraglide/`
-- Locale files live in `messages/`
-- Route localization is configured in `vite.config.ts`
-
-When changing locale configuration, regenerate any derived files before committing.
-
-## Appcast and GitHub Releases
-
-`/appcast.xml` is served by the Worker and generated from the latest GitHub releases in the `linearmouse/linearmouse` repository.
-
-The Worker expects a `GITHUB_TOKEN` secret for GitHub API access:
-
-```bash
-wrangler secret put GITHUB_TOKEN
-```
-
-If you update Worker bindings or secrets metadata in `wrangler.jsonc`, run:
-
-```bash
-pnpm run cf-typegen
-```
-
-## Deployment
-
-Deploy to Cloudflare Workers with:
-
-```bash
-pnpm run deploy
-```
-
-That command builds the app and then runs `wrangler deploy`.
+For Cloudflare Workers Builds, point the website Worker at `apps/website` as its root directory, matching Cloudflare's monorepo guidance.
