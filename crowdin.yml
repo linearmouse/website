@@ -1,3 +1,6 @@
+pull_request_title: Update translations
+commit_message: Update translations (%language%)
+append_commit_message: 
 files:
   - source: /apps/website/messages/en.json
     translation: /%original_path%/%locale%.json
