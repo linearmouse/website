@@ -1,5 +1,3 @@
-import { createRequire } from 'node:module'
-
 import { paraglideVitePlugin } from '@inlang/paraglide-js'
 import { defineConfig } from 'vite'
 import { devtools } from '@tanstack/devtools-vite'
@@ -9,9 +7,9 @@ import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { cloudflare } from '@cloudflare/vite-plugin'
+import projectSettingsJson from './project.inlang/settings.json'
 
-const require = createRequire(import.meta.url)
-const projectSettings = require('./project.inlang/settings.json') as {
+const projectSettings = projectSettingsJson as {
   locales: readonly string[]
 }
 
