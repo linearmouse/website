@@ -7,11 +7,7 @@ import { tanstackStart } from '@tanstack/react-start/plugin/vite'
 import viteReact from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { cloudflare } from '@cloudflare/vite-plugin'
-import projectSettingsJson from './project.inlang/settings.json'
-
-const projectSettings = projectSettingsJson as {
-  locales: readonly string[]
-}
+import projectSettings from './project.inlang/settings.json' with { type: 'json' }
 
 const localeRootPatterns = projectSettings.locales.map(
   (locale) => [locale, `/${locale}/`] satisfies [string, string],
