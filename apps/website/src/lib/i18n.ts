@@ -15,6 +15,7 @@ export const localeNames: Record<AppLocale, string> = {
   'fr-FR': 'Français',
   'he-IL': 'עברית',
   'hu-HU': 'Magyar',
+  'id-ID': 'Bahasa Indonesia',
   'it-IT': 'Italiano',
   'ja-JP': '日本語',
   'ko-KR': '한국어',
