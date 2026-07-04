@@ -25,8 +25,10 @@
   --download-solid-text: light-dark(#f5f5f7, #111111);
   --download-solid-divider: light-dark(hsl(0 0% 100% / 0.14), hsl(0 0% 0% / 0.14));
   --header-download-height: 1.75rem;
-  --header-float-radius: calc((var(--header-download-height) / 2) + clamp(0.375rem, 1vw, 0.625rem));
   --header-height: 3.5rem;
+  --header-float-radius: calc((var(--header-download-height) / 2) + clamp(0.375rem, 1vw, 0.625rem));
+  --header-float-top: 0.75rem;
+  --header-float-hidden-top: calc(-1 * var(--header-height) - var(--header-float-top));
 }
 
 html[data-theme='light'] {
@@ -167,10 +169,9 @@ button:disabled,
 .header-float {
   position: fixed;
   inset-inline: 0;
-  top: 0.75rem;
+  top: var(--header-float-hidden-top);
   visibility: hidden;
   pointer-events: none;
-  transform: translateY(calc(-100% - 1rem));
 }
 
 .header-bar-float {
@@ -188,7 +189,7 @@ button:disabled,
 @keyframes header-float-scroll {
   0% {
     visibility: hidden;
-    transform: translateY(calc(-100% - 1rem));
+    top: var(--header-float-hidden-top);
   }
 
   0.01% {
@@ -197,7 +198,7 @@ button:disabled,
 
   100% {
     visibility: visible;
-    transform: translateY(0);
+    top: var(--header-float-top);
   }
 }
 
