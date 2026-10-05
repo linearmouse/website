@@ -29,5 +29,22 @@
   "feature_pointer_title": "Pekarkontroll,\n{#strong}Finjusterad.{/strong}",
   "feature_pointer_description": "Finjustera acceleration och hastighet, hoppa tillbaka till systemets standarder när du vill eller stäng av acceleration helt för stabil och förutsägbar precision.",
   "feature_buttons_title": "Knappar Som\n{#strong}Gör Mer.{/strong}",
-  "feature_buttons_description": "Omfördela knappar och rullåtgärder till genvägar, mediekontroller, Mission Control och geststyrda arbetsflöden som håller dig i rörelse."
+  "feature_buttons_description": "Omfördela knappar och rullåtgärder till genvägar, mediekontroller, Mission Control och geststyrda arbetsflöden som håller dig i rörelse.",
+  "github_stars": "Stjärnor på GitHub",
+  "testimonials": {
+    "title": "Vad användarna säger",
+    "translated": "Översatt",
+    "previous": "Föregående omdöme",
+    "next": "Nästa omdöme",
+    "quotes": {
+      "daniel_lockyer": "Jag ber er alla: installera inte Logitech Options+, använd LinearMouse.",
+      "inner_association448": "Välj bara ”linjär” och sätt hastigheten i mitten, så blir rullningen lika mjuk som i Windows.",
+      "matt_emp": "LinearMouse är toppen, det bara fungerar.",
+      "sercan_solmaz": "LinearMouse stänger av acceleration och återställer den tydliga, precisa markörstyrningen från Windows.",
+      "that_josh_guy": "Ersätter hemska Logi Options+ med en inbyggt plattformsanpassad app som faktiskt fungerar bra.",
+      "transporter_accident": "Den här appen är underskattad. Så mycket bättre än Logitech Options.",
+      "death02620085": "Efter att jag installerat LinearMouse fungerade bakåtknappen och användningen blev mycket bekvämare.",
+      "daniel_dunderfelt": "Den enda tredjepartsappen som löser detta är LinearMouse, som jag använder nu."
+    }
+  }
 }

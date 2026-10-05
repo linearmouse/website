@@ -1,6 +1,6 @@
 import { Menu } from '@base-ui/react/menu'
 import { Button } from '@base-ui/react/button'
-import { Download, Github, Menu as MenuIcon, MessageSquare, Terminal } from 'lucide-react'
+import { Download, Github, Menu as MenuIcon, Terminal } from 'lucide-react'
 
 import { m } from '#/paraglide/messages'
 
@@ -48,14 +48,6 @@ export function MobileMenu() {
             >
               <Github className="size-3.5" strokeWidth={1.8} />
               <span>{m.nav_github()}</span>
-            </Menu.LinkItem>
-
-            <Menu.LinkItem
-              href="https://github.com/linearmouse/linearmouse/discussions"
-              className={menuItemClass}
-            >
-              <MessageSquare className="size-3.5" strokeWidth={1.8} />
-              <span>{m.nav_discussions()}</span>
             </Menu.LinkItem>
           </Menu.Popup>
         </Menu.Positioner>

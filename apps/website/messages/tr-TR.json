@@ -29,5 +29,22 @@
   "feature_pointer_title": "İmleç Kontrolü,\n{#strong}Tam Ayarında.{/strong}",
   "feature_pointer_description": "Hızlanma ve hızı hassas biçimde ayarlayın, istediğiniz an sistem varsayılanlarına dönün ya da stabil ve öngörülebilir hassasiyet için hızlanmayı tamamen kapatın.",
   "feature_buttons_title": "Düğmelerle\n{#strong}Daha Fazlası.{/strong}",
-  "feature_buttons_description": "Düğmeleri ve kaydırma eylemlerini kısayollara, medya kontrollerine, Mission Control'e ve sizi akışta tutan jest odaklı iş akışlarına yeniden atayın."
+  "feature_buttons_description": "Düğmeleri ve kaydırma eylemlerini kısayollara, medya kontrollerine, Mission Control'e ve sizi akışta tutan jest odaklı iş akışlarına yeniden atayın.",
+  "github_stars": "GitHub yıldızları",
+  "testimonials": {
+    "title": "Kullanıcılar ne diyor",
+    "translated": "Çeviri",
+    "previous": "Önceki yorum",
+    "next": "Sonraki yorum",
+    "quotes": {
+      "daniel_lockyer": "Hepinizden rica ediyorum, Logitech Options+ kurmayın, LinearMouse kullanın.",
+      "inner_association448": "“Doğrusal” seçeneğini seçip hızı ortaya getirmek yeterli, kaydırma Windows’taki kadar akıcı oluyor.",
+      "matt_emp": "LinearMouse harika, sorunsuz çalışıyor.",
+      "sercan_solmaz": "çözüm: linearmouse (ivmeyi kapatır, windows'taki o net ve keskin imleç kontrolünü geri verir.)",
+      "that_josh_guy": "Berbat Logi Options+ yerine gerçekten iyi çalışan yerel bir uygulama sunuyor.",
+      "transporter_accident": "Bu uygulamanın değeri yeterince bilinmiyor. Logitech Options'tan çok daha iyi.",
+      "death02620085": "LinearMouse'u yükleyince geri düğmesi çalışmaya başladı ve kullanım çok daha rahat oldu.",
+      "daniel_dunderfelt": "Bunu çözen tek üçüncü taraf uygulama LinearMouse; şu anda da onu kullanıyorum."
+    }
+  }
 }

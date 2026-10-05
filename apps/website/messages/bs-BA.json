@@ -29,5 +29,22 @@
   "feature_pointer_title": "Kontrola Pokazivača,\n{#strong}Fino Podešena.{/strong}",
   "feature_pointer_description": "Fino podesite ubrzanje i brzinu, vratite se na sistemske zadane vrijednosti ili potpuno isključite ubrzanje za stabilnu, predvidivu preciznost.",
   "feature_buttons_title": "Dugmad Koja\n{#strong}Mogu Više.{/strong}",
-  "feature_buttons_description": "Preslikajte dugmad i radnje točkića na prečice, medijske kontrole, Mission Control i radne tokove vođene gestama koji prate vaš tempo."
+  "feature_buttons_description": "Preslikajte dugmad i radnje točkića na prečice, medijske kontrole, Mission Control i radne tokove vođene gestama koji prate vaš tempo.",
+  "github_stars": "Zvjezdice na GitHubu",
+  "testimonials": {
+    "title": "Šta kažu korisnici",
+    "translated": "Prevedeno",
+    "previous": "Prethodna recenzija",
+    "next": "Sljedeća recenzija",
+    "quotes": {
+      "daniel_lockyer": "Molim vas sve da ne instalirate Logitech Options+, nego koristite LinearMouse.",
+      "inner_association448": "Samo odaberite „linearno” i postavite brzinu na sredinu, pa je pomicanje glatko kao u Windowsu.",
+      "matt_emp": "LinearMouse je odličan, jednostavno radi.",
+      "sercan_solmaz": "LinearMouse isključuje ubrzanje i vraća jasnu, preciznu kontrolu kursora iz Windowsa.",
+      "that_josh_guy": "Zamjenjuje užasni Logi Options+ nativnom aplikacijom koja zaista dobro radi.",
+      "transporter_accident": "Ova aplikacija je potcijenjena. Mnogo bolja od Logitech Optionsa.",
+      "death02620085": "Nakon instalacije LinearMousea proradilo je dugme za povratak i korištenje je postalo mnogo ugodnije.",
+      "daniel_dunderfelt": "Jedina aplikacija treće strane koja to rješava je LinearMouse, koji trenutno koristim."
+    }
+  }
 }

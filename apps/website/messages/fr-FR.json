@@ -29,5 +29,22 @@
   "feature_pointer_title": "Contrôle Du Pointeur,\n{#strong}Parfaitement Réglé.{/strong}",
   "feature_pointer_description": "Affinez l'accélération et la vitesse, revenez aux réglages système quand vous le souhaitez ou désactivez totalement l'accélération pour une précision stable et prévisible.",
   "feature_buttons_title": "Des Boutons Qui\n{#strong}En Font Plus.{/strong}",
-  "feature_buttons_description": "Réaffectez boutons et actions de défilement à des raccourcis, aux commandes multimédias, à Mission Control et à des flux pilotés par gestes qui vous gardent dans l'élan."
+  "feature_buttons_description": "Réaffectez boutons et actions de défilement à des raccourcis, aux commandes multimédias, à Mission Control et à des flux pilotés par gestes qui vous gardent dans l'élan.",
+  "github_stars": "Étoiles sur GitHub",
+  "testimonials": {
+    "title": "Ce qu’en disent les utilisateurs",
+    "translated": "Traduit",
+    "previous": "Avis précédent",
+    "next": "Avis suivant",
+    "quotes": {
+      "daniel_lockyer": "Je vous en prie, n'installez pas Logitech Options+ et utilisez LinearMouse.",
+      "inner_association448": "Il suffit de choisir « linéaire » et une vitesse moyenne : le défilement est aussi fluide que sous Windows.",
+      "matt_emp": "LinearMouse est génial, ça marche tout simplement.",
+      "sercan_solmaz": "LinearMouse désactive l'accélération et retrouve le contrôle net et précis du curseur de Windows.",
+      "that_josh_guy": "Remplace cet affreux Logi Options+ par une application native qui fonctionne vraiment bien.",
+      "transporter_accident": "Cette application est sous-estimée. Tellement mieux que Logitech Options.",
+      "death02620085": "Après avoir installé LinearMouse, le bouton de retour s'est mis à fonctionner et l'utilisation est devenue bien plus agréable.",
+      "daniel_dunderfelt": "La seule appli tierce qui résout ce problème est LinearMouse, et c’est celle que j’utilise actuellement."
+    }
+  }
 }

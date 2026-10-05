@@ -29,5 +29,22 @@
   "feature_pointer_title": "Osoittimen Hallinta,\n{#strong}Kohdalleen Säädetty.{/strong}",
   "feature_pointer_description": "Hienosäädä kiihtyvyyttä ja nopeutta, palaa järjestelmän oletuksiin milloin tahansa tai poista kiihtyvyys kokonaan saadaksesi vakaata ja ennakoitavaa tarkkuutta.",
   "feature_buttons_title": "Painikkeet, Jotka\n{#strong}Tekevät Enemmän.{/strong}",
-  "feature_buttons_description": "Määritä painikkeet ja vieritystoiminnot uudelleen pikanäppäimiin, medianhallintaan, Mission Controliin ja eleohjattuihin työnkulkuihin, jotka pitävät sinut liikkeessä."
+  "feature_buttons_description": "Määritä painikkeet ja vieritystoiminnot uudelleen pikanäppäimiin, medianhallintaan, Mission Controliin ja eleohjattuihin työnkulkuihin, jotka pitävät sinut liikkeessä.",
+  "github_stars": "GitHub-tähdet",
+  "testimonials": {
+    "title": "Käyttäjien kokemuksia",
+    "translated": "Käännös",
+    "previous": "Edellinen arvio",
+    "next": "Seuraava arvio",
+    "quotes": {
+      "daniel_lockyer": "Pyydän teitä kaikkia: älkää asentako Logitech Options+:aa, vaan käyttäkää LinearMousea.",
+      "inner_association448": "Valitse vain lineaarinen tila ja nopeus puoliväliin, niin vieritys on yhtä sujuvaa kuin Windowsissa.",
+      "matt_emp": "LinearMouse on loistava, se vain toimii.",
+      "sercan_solmaz": "LinearMouse poistaa kiihdytyksen käytöstä ja palauttaa Windowsin selkeän, tarkan osoitinohjauksen.",
+      "that_josh_guy": "Korvaa surkean Logi Options+:n natiivisovelluksella, joka toimii oikeasti hyvin.",
+      "transporter_accident": "Tämä sovellus on aliarvostettu. Paljon parempi kuin Logitech Options.",
+      "death02620085": "LinearMousen asentamisen jälkeen takaisin-painike alkoi toimia, ja käytöstä tuli paljon mukavampaa.",
+      "daniel_dunderfelt": "Ainoa kolmannen osapuolen sovellus, joka ratkaisee tämän, on LinearMouse, jota käytän nyt."
+    }
+  }
 }

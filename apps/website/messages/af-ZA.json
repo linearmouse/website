@@ -29,5 +29,22 @@
   "feature_pointer_title": "Wyserbeheer,\n{#strong}Fyn Ingestel.{/strong}",
   "feature_pointer_description": "Stel versnelling en spoed fyn in, spring terug na stelselverstek, of skakel versnelling heeltemal af vir bestendige, voorspelbare presisie.",
   "feature_buttons_title": "Knoppies Wat\n{#strong}Meer Doen.{/strong}",
-  "feature_buttons_description": "Herkarteer knoppies en rolaksies na kortpaaie, mediabeheer, Mission Control en gebaar-gedrewe werkvloeie wat by jou tempo hou."
+  "feature_buttons_description": "Herkarteer knoppies en rolaksies na kortpaaie, mediabeheer, Mission Control en gebaar-gedrewe werkvloeie wat by jou tempo hou.",
+  "github_stars": "GitHub-sterre",
+  "testimonials": {
+    "title": "Wat gebruikers sê",
+    "translated": "Vertaal",
+    "previous": "Vorige resensie",
+    "next": "Volgende resensie",
+    "quotes": {
+      "daniel_lockyer": "Ek smeek julle almal om nie Logitech Options+ te installeer nie, maar LinearMouse te gebruik.",
+      "inner_association448": "Stel dit net op 'lineêr' en die spoed halfpad, en nou rol dit so glad soos in Windows.",
+      "matt_emp": "LinearMouse is puik, dit werk net.",
+      "sercan_solmaz": "LinearMouse skakel versnelling af en bring Windows se duidelike, presiese wyserbeheer terug.",
+      "that_josh_guy": "Vervang die verskriklike Logi Options+ met 'n inheemse toepassing wat werklik goed werk.",
+      "transporter_accident": "Hierdie toepassing word onderskat. Soveel beter as Logitech Options.",
+      "death02620085": "Nadat ek LinearMouse geïnstalleer het, het die terugknoppie gewerk en alles was baie gemakliker.",
+      "daniel_dunderfelt": "Die enigste derdepartytoepassing wat dit oplos, is LinearMouse, wat ek tans gebruik."
+    }
+  }
 }

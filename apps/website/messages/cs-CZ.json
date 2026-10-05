@@ -29,5 +29,22 @@
   "feature_pointer_title": "Ovládání Ukazatele,\n{#strong}Vyladěné Do Detailu.{/strong}",
   "feature_pointer_description": "Jemně dolaďte akceleraci i rychlost, vraťte se k systémovým výchozím hodnotám nebo akceleraci úplně vypněte pro stabilní a předvídatelnou přesnost.",
   "feature_buttons_title": "Tlačítka, Která\n{#strong}Zvládnou Víc.{/strong}",
-  "feature_buttons_description": "Namapujte tlačítka a akce kolečka na zkratky, ovládání médií, Mission Control a pracovní postupy řízené gesty, které drží krok s vámi."
+  "feature_buttons_description": "Namapujte tlačítka a akce kolečka na zkratky, ovládání médií, Mission Control a pracovní postupy řízené gesty, které drží krok s vámi.",
+  "github_stars": "Hvězdičky na GitHubu",
+  "testimonials": {
+    "title": "Co říkají uživatelé",
+    "translated": "Překlad",
+    "previous": "Předchozí hodnocení",
+    "next": "Další hodnocení",
+    "quotes": {
+      "daniel_lockyer": "Prosím vás všechny, neinstalujte Logitech Options+ a používejte LinearMouse.",
+      "inner_association448": "Stačí zvolit „lineární“ režim a rychlost uprostřed, posouvání je pak stejně plynulé jako ve Windows.",
+      "matt_emp": "LinearMouse je skvělý, prostě funguje.",
+      "sercan_solmaz": "LinearMouse vypne akceleraci a vrátí jasné a přesné ovládání kurzoru známé z Windows.",
+      "that_josh_guy": "Nahrazuje příšerný Logi Options+ nativní aplikací, která opravdu dobře funguje.",
+      "transporter_accident": "Tahle aplikace je nedoceněná. Je mnohem lepší než Logitech Options.",
+      "death02620085": "Po instalaci LinearMouse začalo fungovat tlačítko zpět a používání je mnohem pohodlnější.",
+      "daniel_dunderfelt": "Jediná aplikace třetí strany, která to řeší, je LinearMouse, který právě používám."
+    }
+  }
 }

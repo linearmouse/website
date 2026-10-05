@@ -29,5 +29,22 @@
   "feature_pointer_title": "Control del puntero,\n{#strong}bien ajustado.{/strong}",
   "feature_pointer_description": "Ajusta con precisión la aceleración y la velocidad, vuelve a los valores del sistema cuando quieras o desactiva por completo la aceleración para lograr una precisión estable y predecible.",
   "feature_buttons_title": "Botones que\n{#strong}hacen más.{/strong}",
-  "feature_buttons_description": "Reasigna botones y acciones de desplazamiento a atajos, controles multimedia, Mission Control y flujos basados en gestos que te mantienen en movimiento."
+  "feature_buttons_description": "Reasigna botones y acciones de desplazamiento a atajos, controles multimedia, Mission Control y flujos basados en gestos que te mantienen en movimiento.",
+  "github_stars": "Estrellas en GitHub",
+  "testimonials": {
+    "title": "Lo que dicen los usuarios",
+    "translated": "Traducción",
+    "previous": "Opinión anterior",
+    "next": "Siguiente opinión",
+    "quotes": {
+      "daniel_lockyer": "Os lo ruego: no instaléis Logitech Options+ y usad LinearMouse.",
+      "inner_association448": "Basta con elegir «lineal» y poner la velocidad a la mitad: ahora el desplazamiento es tan fluido como en Windows.",
+      "matt_emp": "LinearMouse es genial, simplemente funciona.",
+      "sercan_solmaz": "LinearMouse desactiva la aceleración y recupera ese control claro y preciso del cursor de Windows.",
+      "that_josh_guy": "Sustituye el horrible Logi Options+ por una aplicación nativa que funciona realmente bien.",
+      "transporter_accident": "Esta aplicación está infravalorada. Es mucho mejor que Logitech Options.",
+      "death02620085": "Tras instalar LinearMouse, el botón de retroceso empezó a funcionar y todo se volvió mucho más cómodo.",
+      "daniel_dunderfelt": "La única app de terceros que lo resuelve es LinearMouse, que es la que uso actualmente."
+    }
+  }
 }

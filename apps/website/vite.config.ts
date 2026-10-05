@@ -28,7 +28,6 @@ const config = defineConfig(({ mode }) => {
       paraglideVitePlugin({
       project: './project.inlang',
       outdir: './src/paraglide',
-      emitTsDeclarations: true,
       outputStructure: 'message-modules',
       strategy: ['url', 'preferredLanguage', 'baseLocale'],
       urlPatterns: [

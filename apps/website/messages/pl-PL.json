@@ -29,5 +29,22 @@
   "feature_pointer_title": "Kontrola Kursora,\n{#strong}Dopracowana.{/strong}",
   "feature_pointer_description": "Precyzyjnie ustaw akcelerację i szybkość, wróć do ustawień systemowych w dowolnej chwili albo całkowicie wyłącz akcelerację, by uzyskać stabilną i przewidywalną precyzję.",
   "feature_buttons_title": "Przyciski, Które\n{#strong}Potrafią Więcej.{/strong}",
-  "feature_buttons_description": "Przypisz przyciski i akcje przewijania do skrótów, sterowania multimediami, Mission Control i opartych na gestach przepływów pracy, które nie wybijają Cię z rytmu."
+  "feature_buttons_description": "Przypisz przyciski i akcje przewijania do skrótów, sterowania multimediami, Mission Control i opartych na gestach przepływów pracy, które nie wybijają Cię z rytmu.",
+  "github_stars": "Gwiazdki na GitHubie",
+  "testimonials": {
+    "title": "Co mówią użytkownicy",
+    "translated": "Tłumaczenie",
+    "previous": "Poprzednia opinia",
+    "next": "Następna opinia",
+    "quotes": {
+      "daniel_lockyer": "Błagam was wszystkich: nie instalujcie Logitech Options+, używajcie LinearMouse.",
+      "inner_association448": "Wystarczy wybrać tryb „liniowy” i ustawić prędkość pośrodku, a przewijanie jest równie płynne jak w Windows.",
+      "matt_emp": "LinearMouse jest świetny, po prostu działa.",
+      "sercan_solmaz": "LinearMouse wyłącza przyspieszenie i przywraca wyraźne, precyzyjne sterowanie kursorem znane z Windows.",
+      "that_josh_guy": "Zastępuje okropny Logi Options+ natywną aplikacją, która naprawdę dobrze działa.",
+      "transporter_accident": "Ta aplikacja jest niedoceniana. O wiele lepsza niż Logitech Options.",
+      "death02620085": "Po zainstalowaniu LinearMouse przycisk wstecz zaczął działać i korzystanie stało się znacznie wygodniejsze.",
+      "daniel_dunderfelt": "Jedyna aplikacja innej firmy, która to rozwiązuje, to LinearMouse, którego obecnie używam."
+    }
+  }
 }

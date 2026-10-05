@@ -29,5 +29,22 @@
   "feature_pointer_title": "指针控制{#hang}，{/hang}\n{#strong}调得刚刚好{#hang}。{/hang}{/strong}",
   "feature_pointer_description": "细调加速度和速度，随时回到系统默认，或者彻底关闭加速度，换来稳定、可预期的精确手感。",
   "feature_buttons_title": "让按钮\n{#strong}更有用{#hang}。{/hang}{/strong}",
-  "feature_buttons_description": "把按钮和滚轮动作重新映射到快捷键、媒体控制、Mission Control 和手势驱动的工作流，让操作节奏跟上你的手。"
+  "feature_buttons_description": "把按钮和滚轮动作重新映射到快捷键、媒体控制、Mission Control 和手势驱动的工作流，让操作节奏跟上你的手。",
+  "github_stars": "GitHub 星标数",
+  "testimonials": {
+    "title": "用户怎么说",
+    "translated": "译文",
+    "previous": "上一条评价",
+    "next": "下一条评价",
+    "quotes": {
+      "daniel_lockyer": "拜托大家别装 Logitech Options+ 了，用 LinearMouse 吧。",
+      "inner_association448": "只要设成「线性」模式，把速度调到中间，滚动就和 Windows 一样流畅了。",
+      "matt_emp": "LinearMouse 太棒了，用起来就是省心。",
+      "sercan_solmaz": "LinearMouse 关闭加速度，让 Windows 上那种清晰、精准的光标控制回来了。",
+      "that_josh_guy": "用一个真正好用的原生应用，替换掉糟透了的 Logi Options+。",
+      "transporter_accident": "这个应用被低估了，比 Logitech Options 好用多了。",
+      "death02620085": "装了 LinearMouse 之后，返回键终于能用了，舒服多了。",
+      "daniel_dunderfelt": "唯一能解决这个问题的第三方 App 是 LinearMouse，我现在就在用。"
+    }
+  }
 }

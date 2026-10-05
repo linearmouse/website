@@ -3,6 +3,7 @@
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["dist"],
   "compilerOptions": {
+    "allowJs": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],

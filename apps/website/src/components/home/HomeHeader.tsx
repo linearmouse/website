@@ -1,9 +1,8 @@
 import type { CSSProperties } from 'react'
 
-import { m } from '#/paraglide/messages'
-
 import { Brand } from './Brand'
-import { containerClass, navTriggerBaseClass } from './constants'
+import { containerClass } from './constants'
+import { GitHubStars } from './GitHubStars'
 import { HeaderDownload } from './HeaderDownload'
 import { LanguageMenu } from './LanguageMenu'
 import { MobileMenu } from './MobileMenu'
@@ -25,18 +24,9 @@ function HeaderBar({ floating }: { floating: boolean }) {
       <Brand />
 
       <nav className="flex items-center gap-0.5 text-sm">
-        <a
-          href="https://github.com/linearmouse/linearmouse"
-          className={`${navTriggerBaseClass} hidden lg:inline-flex`}
-        >
-          {m.nav_github()}
-        </a>
-        <a
-          href="https://github.com/linearmouse/linearmouse/discussions"
-          className={`${navTriggerBaseClass} hidden xl:inline-flex`}
-        >
-          {m.nav_discussions()}
-        </a>
+        <div className="hidden lg:block me-2">
+          <GitHubStars />
+        </div>
         <span className="hidden lg:inline-flex">
           <ThemeMenu />
         </span>

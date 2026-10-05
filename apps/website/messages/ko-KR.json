@@ -29,5 +29,22 @@
   "feature_pointer_title": "포인터 제어{#hang},{/hang}\n{#strong}정밀하게 맞춤{#hang}.{/hang}{/strong}",
   "feature_pointer_description": "가속과 속도를 세밀하게 조정하고, 언제든 시스템 기본값으로 돌아가거나, 가속을 완전히 꺼서 안정적이고 예측 가능한 정밀도를 얻을 수 있습니다.",
   "feature_buttons_title": "버튼으로\n{#strong}더 많은 작업을{#hang}.{/hang}{/strong}",
-  "feature_buttons_description": "버튼과 스크롤 동작을 단축키, 미디어 제어, Mission Control, 제스처 기반 워크플로로 다시 매핑해 흐름을 끊지 않고 작업할 수 있습니다."
+  "feature_buttons_description": "버튼과 스크롤 동작을 단축키, 미디어 제어, Mission Control, 제스처 기반 워크플로로 다시 매핑해 흐름을 끊지 않고 작업할 수 있습니다.",
+  "github_stars": "GitHub 스타 수",
+  "testimonials": {
+    "title": "사용자들의 이야기",
+    "translated": "번역",
+    "previous": "이전 리뷰",
+    "next": "다음 리뷰",
+    "quotes": {
+      "daniel_lockyer": "제발 Logitech Options+를 설치하지 말고 LinearMouse를 쓰세요.",
+      "inner_association448": "‘선형’으로 설정하고 속도를 중간으로 맞추니 Windows만큼 부드럽게 스크롤돼요.",
+      "matt_emp": "LinearMouse 정말 좋아요. 그냥 잘 됩니다.",
+      "sercan_solmaz": "LinearMouse는 가속을 끄고 Windows의 명확하고 정밀한 커서 제어를 되찾아 줍니다.",
+      "that_josh_guy": "끔찍한 Logi Options+를 실제로 잘 작동하는 네이티브 앱으로 대체해 줍니다.",
+      "transporter_accident": "이 앱은 저평가되어 있어요. Logitech Options보다 훨씬 좋아요.",
+      "death02620085": "LinearMouse를 설치하니 뒤로 가기 버튼이 작동해서 훨씬 편해졌어요.",
+      "daniel_dunderfelt": "이 문제를 해결하는 유일한 서드 파티 앱이 LinearMouse이고, 지금도 쓰고 있어요."
+    }
+  }
 }
