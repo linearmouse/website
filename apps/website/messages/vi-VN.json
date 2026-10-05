@@ -29,5 +29,22 @@
   "feature_pointer_title": "Điều Khiển Con Trỏ,\n{#strong}Chuẩn Từng Chi Tiết.{/strong}",
   "feature_pointer_description": "Tinh chỉnh gia tốc và tốc độ, quay lại mặc định hệ thống bất cứ lúc nào, hoặc tắt hẳn gia tốc để có độ chính xác ổn định và dễ đoán.",
   "feature_buttons_title": "Nút Bấm\n{#strong}Làm Được Nhiều Hơn.{/strong}",
-  "feature_buttons_description": "Gán lại nút bấm và thao tác cuộn thành phím tắt, điều khiển media, Mission Control và các quy trình dựa trên cử chỉ giúp bạn giữ nhịp làm việc."
+  "feature_buttons_description": "Gán lại nút bấm và thao tác cuộn thành phím tắt, điều khiển media, Mission Control và các quy trình dựa trên cử chỉ giúp bạn giữ nhịp làm việc.",
+  "github_stars": "Sao trên GitHub",
+  "testimonials": {
+    "title": "Người dùng nói gì",
+    "translated": "Bản dịch",
+    "previous": "Đánh giá trước",
+    "next": "Đánh giá tiếp theo",
+    "quotes": {
+      "daniel_lockyer": "Tôi xin mọi người đừng cài Logitech Options+, hãy dùng LinearMouse.",
+      "inner_association448": "Chỉ cần chọn chế độ “tuyến tính” và đặt tốc độ ở giữa là cuộn mượt như trên Windows.",
+      "matt_emp": "LinearMouse tuyệt vời, cứ thế mà hoạt động tốt.",
+      "sercan_solmaz": "LinearMouse tắt gia tốc và mang lại khả năng điều khiển con trỏ rõ ràng, chính xác như trên Windows.",
+      "that_josh_guy": "Thay thế Logi Options+ tệ hại bằng một ứng dụng gốc thực sự hoạt động tốt.",
+      "transporter_accident": "Ứng dụng này chưa được đánh giá đúng mức. Tốt hơn Logitech Options rất nhiều.",
+      "death02620085": "Sau khi cài LinearMouse, nút quay lại hoạt động và sử dụng thoải mái hơn nhiều.",
+      "daniel_dunderfelt": "Ứng dụng bên thứ ba duy nhất giải quyết được vấn đề này là LinearMouse, cũng là ứng dụng tôi đang dùng."
+    }
+  }
 }

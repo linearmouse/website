@@ -8,6 +8,7 @@ import { HomeFeatures } from './HomeFeatures'
 import { HomeFooter } from './HomeFooter'
 import { HomeHeader } from './HomeHeader'
 import { HomeHero } from './HomeHero'
+import { HomeTestimonials } from './HomeTestimonials'
 import { ThemeProvider } from './ThemeProvider'
 
 export function HomePage() {
@@ -26,6 +27,7 @@ export function HomePage() {
         <main>
           <HomeHero />
           <HomeFeatures />
+          <HomeTestimonials />
         </main>
         <HomeFooter />
       </div>

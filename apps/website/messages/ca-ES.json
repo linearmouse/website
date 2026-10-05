@@ -29,5 +29,22 @@
   "feature_pointer_title": "Control Del Punter,\n{#strong}Ben Afinat.{/strong}",
   "feature_pointer_description": "Ajusta amb precisió l'acceleració i la velocitat, torna als valors del sistema quan vulguis o desactiva del tot l'acceleració per obtenir una precisió estable i previsible.",
   "feature_buttons_title": "Botons Que\n{#strong}Fan Més.{/strong}",
-  "feature_buttons_description": "Reassigna botons i accions de desplaçament a dreceres, controls multimèdia, Mission Control i fluxos de treball guiats per gestos que segueixen el teu ritme."
+  "feature_buttons_description": "Reassigna botons i accions de desplaçament a dreceres, controls multimèdia, Mission Control i fluxos de treball guiats per gestos que segueixen el teu ritme.",
+  "github_stars": "Estrelles a GitHub",
+  "testimonials": {
+    "title": "Què en diuen els usuaris",
+    "translated": "Traducció",
+    "previous": "Opinió anterior",
+    "next": "Opinió següent",
+    "quotes": {
+      "daniel_lockyer": "Us ho prego: no instal·leu Logitech Options+ i feu servir LinearMouse.",
+      "inner_association448": "Només cal triar «lineal» i posar la velocitat a la meitat: el desplaçament és tan fluid com al Windows.",
+      "matt_emp": "LinearMouse és genial, simplement funciona.",
+      "sercan_solmaz": "LinearMouse desactiva l'acceleració i recupera el control clar i precís del cursor de Windows.",
+      "that_josh_guy": "Substitueix l'horrible Logi Options+ per una aplicació nativa que funciona realment bé.",
+      "transporter_accident": "Aquesta aplicació està infravalorada. Molt millor que Logitech Options.",
+      "death02620085": "Després d'instal·lar LinearMouse, el botó d'enrere va començar a funcionar i tot es va tornar molt més còmode.",
+      "daniel_dunderfelt": "L’única aplicació de tercers que ho resol és LinearMouse, que és la que faig servir ara."
+    }
+  }
 }

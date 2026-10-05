@@ -29,5 +29,22 @@
   "feature_pointer_title": "Controlul Cursorului,\n{#strong}Reglat Fin.{/strong}",
   "feature_pointer_description": "Reglează fin accelerația și viteza, revino oricând la valorile de sistem sau oprește complet accelerația pentru o precizie stabilă și previzibilă.",
   "feature_buttons_title": "Butoane Care\n{#strong}Fac Mai Mult.{/strong}",
-  "feature_buttons_description": "Remapează butoane și acțiuni de derulare către scurtături, controale media, Mission Control și fluxuri bazate pe gesturi care te țin în mișcare."
+  "feature_buttons_description": "Remapează butoane și acțiuni de derulare către scurtături, controale media, Mission Control și fluxuri bazate pe gesturi care te țin în mișcare.",
+  "github_stars": "Stele pe GitHub",
+  "testimonials": {
+    "title": "Ce spun utilizatorii",
+    "translated": "Traducere",
+    "previous": "Recenzia anterioară",
+    "next": "Recenzia următoare",
+    "quotes": {
+      "daniel_lockyer": "Vă rog pe toți: nu instalați Logitech Options+, folosiți LinearMouse.",
+      "inner_association448": "Alegi „liniar” și pui viteza la mijloc, iar derularea devine la fel de fluidă ca în Windows.",
+      "matt_emp": "LinearMouse e grozav, pur și simplu funcționează.",
+      "sercan_solmaz": "LinearMouse dezactivează accelerația și readuce controlul clar și precis al cursorului din Windows.",
+      "that_josh_guy": "Înlocuiește groaznicul Logi Options+ cu o aplicație nativă care chiar funcționează bine.",
+      "transporter_accident": "Aplicația aceasta este subestimată. Mult mai bună decât Logitech Options.",
+      "death02620085": "După ce am instalat LinearMouse, butonul Înapoi a început să funcționeze, iar utilizarea a devenit mult mai comodă.",
+      "daniel_dunderfelt": "Singura aplicație terță care rezolvă asta este LinearMouse, pe care îl folosesc acum."
+    }
+  }
 }

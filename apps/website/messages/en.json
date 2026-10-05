@@ -29,5 +29,22 @@
   "feature_pointer_title": "Pointer Control,\n{#strong}Dialed In.{/strong}",
   "feature_pointer_description": "Fine-tune acceleration and speed, snap back to system defaults, or turn acceleration off completely for steady, predictable precision.",
   "feature_buttons_title": "Buttons That\n{#strong}Do More.{/strong}",
-  "feature_buttons_description": "Remap buttons and scroll actions to shortcuts, media controls, Mission Control, and gesture-driven workflows that keep you moving."
+  "feature_buttons_description": "Remap buttons and scroll actions to shortcuts, media controls, Mission Control, and gesture-driven workflows that keep you moving.",
+  "github_stars": "GitHub stars",
+  "testimonials": {
+    "title": "What people are saying",
+    "translated": "Translated",
+    "previous": "Previous review",
+    "next": "Next review",
+    "quotes": {
+      "daniel_lockyer": "I beg you all not to install Logitech Options+ and to use LinearMouse",
+      "inner_association448": "Just set it to 'linear' and halfway speed and now scrolling feels as smooth as in Windows.",
+      "matt_emp": "linearmouse rocks, it just works",
+      "sercan_solmaz": "LinearMouse turns off acceleration and brings back that clear, precise cursor control from Windows.",
+      "that_josh_guy": "Replaces the god awful Logi Options+ with a native app, that actually works well.",
+      "transporter_accident": "This app is slept on. So much better than Logitech Options.",
+      "death02620085": "After installing LinearMouse, the back button worked and things became much more comfortable.",
+      "daniel_dunderfelt": "The only third party app that solves it is LinearMouse which is what I’m using currently."
+    }
+  }
 }

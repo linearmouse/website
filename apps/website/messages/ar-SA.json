@@ -29,5 +29,22 @@
   "feature_pointer_title": "تحكم بالمؤشر،\n{#strong}بدقة تامة.{/strong}",
   "feature_pointer_description": "اضبط التسارع والسرعة بدقة، وارجع إلى إعدادات النظام الافتراضية، أو عطّل التسارع بالكامل لتحصل على ثبات ودقة يمكن التنبؤ بهما.",
   "feature_buttons_title": "أزرار تقوم\n{#strong}بالمزيد.{/strong}",
-  "feature_buttons_description": "أعِد تعيين الأزرار وإجراءات التمرير إلى اختصارات، وعناصر تحكم الوسائط، وMission Control، وسير عمل يعتمد على الإيماءات ليواكب سرعتك."
+  "feature_buttons_description": "أعِد تعيين الأزرار وإجراءات التمرير إلى اختصارات، وعناصر تحكم الوسائط، وMission Control، وسير عمل يعتمد على الإيماءات ليواكب سرعتك.",
+  "github_stars": "نجوم GitHub",
+  "testimonials": {
+    "title": "آراء المستخدمين",
+    "translated": "مترجم",
+    "previous": "التقييم السابق",
+    "next": "التقييم التالي",
+    "quotes": {
+      "daniel_lockyer": "أرجوكم، لا تثبّتوا Logitech Options+ واستخدموا LinearMouse.",
+      "inner_association448": "ما عليك إلا اختيار الوضع «الخطي» وضبط السرعة في المنتصف، ليصبح التمرير سلسًا كما في Windows.",
+      "matt_emp": "LinearMouse رائع، يعمل ببساطة دون عناء.",
+      "sercan_solmaz": "يعطّل LinearMouse التسارع ويعيد التحكم الواضح والدقيق بالمؤشر كما في Windows.",
+      "that_josh_guy": "يستبدل Logi Options+ السيئ جدًا بتطبيق أصلي يعمل جيدًا فعلًا.",
+      "transporter_accident": "هذا التطبيق لا يحظى بما يستحقه من اهتمام. أفضل بكثير من Logitech Options.",
+      "death02620085": "بعد تثبيت LinearMouse، أصبح زر الرجوع يعمل وصار الاستخدام أكثر راحة بكثير.",
+      "daniel_dunderfelt": "التطبيق الوحيد من جهة خارجية الذي يحل هذه المشكلة هو LinearMouse، وهو ما أستخدمه حاليًا."
+    }
+  }
 }

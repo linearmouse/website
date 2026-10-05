@@ -29,5 +29,22 @@
   "feature_pointer_title": "Kontrol Pointer,\n{#strong}Disetel Tepat.{/strong}",
   "feature_pointer_description": "Sempurnakan akselerasi dan kecepatan, kembalikan ke bawaan sistem, atau matikan akselerasi sepenuhnya untuk presisi yang stabil dan mudah diprediksi.",
   "feature_buttons_title": "Tombol yang\n{#strong}Lebih Berdaya.{/strong}",
-  "feature_buttons_description": "Petakan ulang tombol dan aksi gulir ke pintasan, kontrol media, Mission Control, dan alur kerja berbasis gestur yang membuat pekerjaan tetap lancar."
+  "feature_buttons_description": "Petakan ulang tombol dan aksi gulir ke pintasan, kontrol media, Mission Control, dan alur kerja berbasis gestur yang membuat pekerjaan tetap lancar.",
+  "github_stars": "Bintang di GitHub",
+  "testimonials": {
+    "title": "Kata pengguna",
+    "translated": "Terjemahan",
+    "previous": "Ulasan sebelumnya",
+    "next": "Ulasan berikutnya",
+    "quotes": {
+      "daniel_lockyer": "Saya mohon, jangan pasang Logitech Options+, gunakan LinearMouse.",
+      "inner_association448": "Cukup atur ke 'linear' dan kecepatan di tengah, kini menggulir terasa semulus di Windows.",
+      "matt_emp": "LinearMouse keren, langsung berfungsi.",
+      "sercan_solmaz": "LinearMouse mematikan akselerasi dan mengembalikan kontrol kursor yang jelas dan presisi seperti di Windows.",
+      "that_josh_guy": "Menggantikan Logi Options+ yang buruk dengan aplikasi native yang benar-benar bekerja dengan baik.",
+      "transporter_accident": "Aplikasi ini kurang mendapat perhatian. Jauh lebih baik daripada Logitech Options.",
+      "death02620085": "Setelah memasang LinearMouse, tombol kembali berfungsi dan pemakaiannya jadi jauh lebih nyaman.",
+      "daniel_dunderfelt": "Satu-satunya aplikasi pihak ketiga yang mengatasinya adalah LinearMouse, yang sedang saya pakai."
+    }
+  }
 }

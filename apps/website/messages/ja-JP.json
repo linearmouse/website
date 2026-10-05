@@ -29,5 +29,22 @@
   "feature_pointer_title": "ポインター操作を\n{#strong}緻密に調整{#hang}。{/hang}{/strong}",
   "feature_pointer_description": "加速度と速度を細かく調整し、いつでもシステム標準に戻せます。必要なら加速度を完全に切って、安定した予測しやすい精度を得られます。",
   "feature_buttons_title": "ボタンを\n{#strong}もっと自在に{#hang}。{/hang}{/strong}",
-  "feature_buttons_description": "ボタンやスクロール操作をショートカット、メディア操作、Mission Control、ジェスチャー主体のワークフローへ再割り当てし、流れを止めずに操作できます。"
+  "feature_buttons_description": "ボタンやスクロール操作をショートカット、メディア操作、Mission Control、ジェスチャー主体のワークフローへ再割り当てし、流れを止めずに操作できます。",
+  "github_stars": "GitHub のスター数",
+  "testimonials": {
+    "title": "ユーザーの声",
+    "translated": "翻訳",
+    "previous": "前のレビュー",
+    "next": "次のレビュー",
+    "quotes": {
+      "daniel_lockyer": "お願いだからLogitech Options+は入れずに、LinearMouseを使ってほしい。",
+      "inner_association448": "「リニア」にして速度を真ん中にするだけで、Windows と同じくらいスムーズにスクロールできるようになりました。",
+      "matt_emp": "LinearMouse は最高。ちゃんと動く。",
+      "sercan_solmaz": "LinearMouseは加速を無効にして、Windowsのような明確で正確なカーソル操作を取り戻してくれる。",
+      "that_josh_guy": "ひどいLogi Options+を、ちゃんと動くネイティブアプリに置き換えられる。",
+      "transporter_accident": "このアプリはもっと評価されるべき。Logitech Optionsよりずっといい。",
+      "death02620085": "LinearMouseとゆうものをインストールしたら戻るボタン機能し快適になたよ",
+      "daniel_dunderfelt": "この問題を解決してくれる他社製アプリは LinearMouse だけで、今も使っています。"
+    }
+  }
 }

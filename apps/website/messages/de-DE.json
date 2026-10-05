@@ -29,5 +29,22 @@
   "feature_pointer_title": "Zeigerkontrolle,\n{#strong}Feinjustiert.{/strong}",
   "feature_pointer_description": "Passe Beschleunigung und Geschwindigkeit präzise an, spring jederzeit zu den Systemstandards zurück oder schalte Beschleunigung ganz aus – für ruhige, vorhersehbare Präzision.",
   "feature_buttons_title": "Tasten, Die\n{#strong}Mehr Können.{/strong}",
-  "feature_buttons_description": "Lege Tasten- und Scroll-Aktionen auf Kurzbefehle, Mediensteuerung, Mission Control und gestenbasierte Workflows, die dich im Fluss halten."
+  "feature_buttons_description": "Lege Tasten- und Scroll-Aktionen auf Kurzbefehle, Mediensteuerung, Mission Control und gestenbasierte Workflows, die dich im Fluss halten.",
+  "github_stars": "Sterne auf GitHub",
+  "testimonials": {
+    "title": "Das sagen die Nutzer",
+    "translated": "Übersetzt",
+    "previous": "Vorherige Bewertung",
+    "next": "Nächste Bewertung",
+    "quotes": {
+      "daniel_lockyer": "Ich bitte euch alle: Installiert nicht Logitech Options+, sondern nutzt LinearMouse.",
+      "inner_association448": "Einfach auf „linear“ stellen und die Geschwindigkeit auf die Mitte setzen – schon scrollt es sich so flüssig wie unter Windows.",
+      "matt_emp": "LinearMouse ist klasse, es funktioniert einfach.",
+      "sercan_solmaz": "LinearMouse schaltet die Beschleunigung ab und bringt die klare, präzise Cursorsteuerung von Windows zurück.",
+      "that_josh_guy": "Ersetzt das furchtbare Logi Options+ durch eine native App, die wirklich gut funktioniert.",
+      "transporter_accident": "Diese App wird unterschätzt. So viel besser als Logitech Options.",
+      "death02620085": "Nach der Installation von LinearMouse funktionierte die Zurück-Taste und alles wurde viel angenehmer.",
+      "daniel_dunderfelt": "Die einzige Drittanbieter-App, die das löst, ist LinearMouse, das ich derzeit verwende."
+    }
+  }
 }

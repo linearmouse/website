@@ -29,5 +29,22 @@
   "feature_pointer_title": "Pointercontrole,\n{#strong}Perfect Afgesteld.{/strong}",
   "feature_pointer_description": "Stel acceleratie en snelheid nauwkeurig af, spring terug naar de systeeminstellingen wanneer je wilt of schakel acceleratie helemaal uit voor stabiele, voorspelbare precisie.",
   "feature_buttons_title": "Knoppen Die\n{#strong}Meer Doen.{/strong}",
-  "feature_buttons_description": "Wijs knoppen en scrollacties opnieuw toe aan sneltoetsen, mediabediening, Mission Control en gebaren-gestuurde workflows die je in beweging houden."
+  "feature_buttons_description": "Wijs knoppen en scrollacties opnieuw toe aan sneltoetsen, mediabediening, Mission Control en gebaren-gestuurde workflows die je in beweging houden.",
+  "github_stars": "Sterren op GitHub",
+  "testimonials": {
+    "title": "Wat gebruikers zeggen",
+    "translated": "Vertaald",
+    "previous": "Vorige beoordeling",
+    "next": "Volgende beoordeling",
+    "quotes": {
+      "daniel_lockyer": "Ik smeek jullie allemaal: installeer geen Logitech Options+, maar gebruik LinearMouse.",
+      "inner_association448": "Kies gewoon 'lineair' en zet de snelheid halverwege: scrollen gaat nu net zo soepel als in Windows.",
+      "matt_emp": "LinearMouse is geweldig, het werkt gewoon.",
+      "sercan_solmaz": "LinearMouse schakelt versnelling uit en brengt de heldere, precieze cursorbesturing van Windows terug.",
+      "that_josh_guy": "Vervangt het afschuwelijke Logi Options+ door een native app die echt goed werkt.",
+      "transporter_accident": "Deze app wordt onderschat. Zoveel beter dan Logitech Options.",
+      "death02620085": "Na het installeren van LinearMouse werkte de terugknop en werd het gebruik een stuk prettiger.",
+      "daniel_dunderfelt": "De enige app van derden die dit oplost is LinearMouse, die ik nu gebruik."
+    }
+  }
 }

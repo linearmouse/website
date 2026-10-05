@@ -29,5 +29,22 @@
   "feature_pointer_title": "Pointer ထိန်းချုပ်မှု,\n{#strong}တိတိကျကျ ချိန်ညှိ။{/strong}",
   "feature_pointer_description": "Acceleration နဲ့ speed ကို အသေးစိတ်ချိန်ညှိနိုင်ပြီး system default ကို ချက်ချင်းပြန်သုံးနိုင်ပါသည်။ ပိုတည်ငြိမ်ပြီး ခန့်မှန်းရလွယ်တဲ့ တိကျမှုအတွက် acceleration ကို လုံးဝပိတ်ထားနိုင်ပါသည်။",
   "feature_buttons_title": "ပိုလုပ်ပေးနိုင်တဲ့\n{#strong}ခလုတ်များ{/strong}",
-  "feature_buttons_description": "ခလုတ်များနှင့် scroll လုပ်ဆောင်ချက်များကို shortcut များ၊ media control များ၊ Mission Control နှင့် gesture အခြေပြု workflow များသို့ ပြန်လည်သတ်မှတ်ပြီး သင့်အလုပ်လုပ်နှုန်းအတိုင်း လိုက်ပါစေပါသည်။"
+  "feature_buttons_description": "ခလုတ်များနှင့် scroll လုပ်ဆောင်ချက်များကို shortcut များ၊ media control များ၊ Mission Control နှင့် gesture အခြေပြု workflow များသို့ ပြန်လည်သတ်မှတ်ပြီး သင့်အလုပ်လုပ်နှုန်းအတိုင်း လိုက်ပါစေပါသည်။",
+  "github_stars": "GitHub ကြယ်ပွင့်အရေအတွက်",
+  "testimonials": {
+    "title": "အသုံးပြုသူများ၏ အမြင်",
+    "translated": "ဘာသာပြန်",
+    "previous": "ယခင် သုံးသပ်ချက်",
+    "next": "နောက် သုံးသပ်ချက်",
+    "quotes": {
+      "daniel_lockyer": "Logitech Options+ မတင်ဘဲ LinearMouse ကို သုံးကြဖို့ အားလုံးကို တောင်းဆိုပါတယ်။",
+      "inner_association448": "“Linear” ကိုရွေးပြီး အမြန်နှုန်းကို အလယ်မှာထားလိုက်ရုံနဲ့ Windows လိုပဲ ချောချောမွေ့မွေ့ ရွှေ့ကြည့်နိုင်ပြီ။",
+      "matt_emp": "LinearMouse က အရမ်းကောင်းတယ်၊ သုံးရတာ အဆင်ပြေတယ်။",
+      "sercan_solmaz": "LinearMouse က အရှိန်မြှင့်ခြင်းကို ပိတ်ပြီး Windows မှာလို ရှင်းလင်းတိကျတဲ့ ကာဆာထိန်းချုပ်မှုကို ပြန်ရစေပါတယ်။",
+      "that_josh_guy": "ဆိုးရွားတဲ့ Logi Options+ ကို တကယ်ကောင်းကောင်း အလုပ်လုပ်တဲ့ မူရင်းစနစ်အတွက် ဖန်တီးထားသော အက်ပ်နဲ့ အစားထိုးပေးပါတယ်။",
+      "transporter_accident": "ဒီအက်ပ်က ထိုက်သင့်သလောက် လူသိမများသေးပါဘူး။ Logitech Options ထက် အများကြီး ပိုကောင်းပါတယ်။",
+      "death02620085": "LinearMouse ကို ထည့်သွင်းပြီးနောက် နောက်ပြန်ခလုတ် အလုပ်လုပ်လာပြီး အသုံးပြုရတာ ပိုအဆင်ပြေလာပါတယ်။",
+      "daniel_dunderfelt": "ဒီပြဿနာကို ဖြေရှင်းပေးနိုင်တဲ့ တစ်ခုတည်းသော ပြင်ပအက်ပ်က LinearMouse ဖြစ်ပြီး အခုလည်း သုံးနေတယ်။"
+    }
+  }
 }

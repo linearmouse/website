@@ -29,5 +29,22 @@
   "feature_pointer_title": "Mutatóvezérlés,\n{#strong}Finomhangolva.{/strong}",
   "feature_pointer_description": "Finoman állítsd a gyorsítást és a sebességet, ugorj vissza a rendszer alapértékeihez, vagy kapcsold ki teljesen a gyorsítást a stabil, kiszámítható pontosságért.",
   "feature_buttons_title": "Gombok, Amik\n{#strong}Többre Képesek.{/strong}",
-  "feature_buttons_description": "Rendeld át a gombokat és görgetési műveleteket gyorsbillentyűkhöz, médiavezérléshez, Mission Controlhoz és gesztusvezérelt munkafolyamatokhoz, hogy megszakítás nélkül haladhass."
+  "feature_buttons_description": "Rendeld át a gombokat és görgetési műveleteket gyorsbillentyűkhöz, médiavezérléshez, Mission Controlhoz és gesztusvezérelt munkafolyamatokhoz, hogy megszakítás nélkül haladhass.",
+  "github_stars": "GitHub-csillagok",
+  "testimonials": {
+    "title": "Felhasználói vélemények",
+    "translated": "Fordítás",
+    "previous": "Előző vélemény",
+    "next": "Következő vélemény",
+    "quotes": {
+      "daniel_lockyer": "Kérlek benneteket, ne telepítsétek a Logitech Options+-t, használjatok LinearMouse-t.",
+      "inner_association448": "Csak válaszd a „lineáris” módot és állítsd középre a sebességet, a görgetés máris olyan sima, mint Windowson.",
+      "matt_emp": "A LinearMouse szuper, egyszerűen működik.",
+      "sercan_solmaz": "A LinearMouse kikapcsolja a gyorsítást, és visszaadja a Windows megszokott, egyértelmű és pontos kurzorvezérlését.",
+      "that_josh_guy": "A borzalmas Logi Options+-t egy valóban jól működő natív alkalmazással váltja fel.",
+      "transporter_accident": "Ez az alkalmazás alulértékelt. Sokkal jobb, mint a Logitech Options.",
+      "death02620085": "A LinearMouse telepítése után működni kezdett a vissza gomb, és sokkal kényelmesebb lett a használat.",
+      "daniel_dunderfelt": "Az egyetlen külső alkalmazás, amely megoldja ezt, a LinearMouse, és jelenleg is ezt használom."
+    }
+  }
 }

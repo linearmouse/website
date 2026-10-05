@@ -29,5 +29,22 @@
   "feature_pointer_title": "שליטה בסמן,\n{#strong}מכוונת בדיוק.{/strong}",
   "feature_pointer_description": "כוונו בעדינות את ההאצה והמהירות, חזרו לברירות המחדל של המערכת בכל רגע, או כבו את ההאצה לגמרי לדיוק יציב וצפוי.",
   "feature_buttons_title": "כפתורים שעושים\n{#strong}יותר.{/strong}",
-  "feature_buttons_description": "מפו מחדש כפתורים ופעולות גלילה לקיצורי דרך, בקרות מדיה, Mission Control וזרימות עבודה מבוססות מחוות ששומרות אתכם בתנועה."
+  "feature_buttons_description": "מפו מחדש כפתורים ופעולות גלילה לקיצורי דרך, בקרות מדיה, Mission Control וזרימות עבודה מבוססות מחוות ששומרות אתכם בתנועה.",
+  "github_stars": "כוכבים ב-GitHub",
+  "testimonials": {
+    "title": "מה המשתמשים אומרים",
+    "translated": "תרגום",
+    "previous": "הביקורת הקודמת",
+    "next": "הביקורת הבאה",
+    "quotes": {
+      "daniel_lockyer": "אני מתחנן, אל תתקינו Logitech Options+, השתמשו ב-LinearMouse.",
+      "inner_association448": "פשוט בוחרים במצב ״ליניארי״ ומהירות באמצע, והגלילה חלקה כמו ב-Windows.",
+      "matt_emp": "LinearMouse מעולה, הוא פשוט עובד.",
+      "sercan_solmaz": "LinearMouse מבטל האצה ומחזיר את השליטה הברורה והמדויקת בסמן שמוכרת מ-Windows.",
+      "that_josh_guy": "מחליף את Logi Options+ הנוראי באפליקציה מקורית שבאמת עובדת היטב.",
+      "transporter_accident": "האפליקציה הזאת לא מקבלת מספיק הערכה. הרבה יותר טובה מ-Logitech Options.",
+      "death02620085": "אחרי שהתקנתי את LinearMouse, כפתור החזרה התחיל לעבוד והשימוש נעשה הרבה יותר נוח.",
+      "daniel_dunderfelt": "אפליקציית הצד השלישי היחידה שפותרת את זה היא LinearMouse, ובה אני משתמש כרגע."
+    }
+  }
 }

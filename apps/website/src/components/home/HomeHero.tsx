@@ -1,6 +1,7 @@
 import { containerClass } from './constants'
 import { DownloadActions } from './DownloadActions'
 import { HeroSlogan } from './HeroSlogan'
+import { GitHubStars } from './GitHubStars'
 
 export function HomeHero() {
   return (
@@ -8,7 +9,12 @@ export function HomeHero() {
       <div className={`${containerClass} w-full text-center`}>
         <div className="scroll-reveal space-y-8 sm:space-y-10 lg:-translate-y-6">
           <HeroSlogan />
-          <DownloadActions />
+          <div className="space-y-5">
+            <DownloadActions />
+            <div className="lg:hidden">
+              <GitHubStars />
+            </div>
+          </div>
         </div>
       </div>
     </section>
