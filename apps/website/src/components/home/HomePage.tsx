@@ -13,7 +13,7 @@ import { ThemeProvider } from './ThemeProvider'
 
 export function HomePage() {
   const locale = getLocale()
-  const { theme } = RootRoute.useLoaderData()
+  const { theme, cookieConsentRequired } = RootRoute.useLoaderData()
 
   useEffect(() => {
     document.documentElement.lang = locale
@@ -29,7 +29,7 @@ export function HomePage() {
           <HomeFeatures />
           <HomeTestimonials />
         </main>
-        <HomeFooter />
+        <HomeFooter cookieConsentRequired={cookieConsentRequired} />
       </div>
     </ThemeProvider>
   )

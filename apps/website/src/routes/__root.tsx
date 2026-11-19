@@ -9,6 +9,11 @@ import {
   themeCookieName,
 } from '#/components/home/theme'
 import type { ThemeMode } from '#/components/home/constants'
+import {
+  countryHeaderName,
+  isCookieConsentRequired,
+  readCookieConsentRequiredFromDocument,
+} from '#/lib/cookie-consent'
 import { isRtlLocale } from '#/lib/i18n'
 import { getLocale } from '#/paraglide/runtime'
 import appCss from '../styles.css?url'
@@ -20,6 +25,14 @@ const getThemePreference = createIsomorphicFn()
     return parseThemeMode(getCookie(themeCookieName))
   })
   .client(() => readThemeModeFromDocument())
+
+const getCookieConsentRequired = createIsomorphicFn()
+  .server(async () => {
+    const { getRequestHeader } = await import('@tanstack/react-start/server')
+
+    return isCookieConsentRequired(getRequestHeader(countryHeaderName))
+  })
+  .client(() => readCookieConsentRequiredFromDocument())
 
 function getThemeInitScript(theme: ThemeMode) {
   return `
@@ -42,6 +55,7 @@ function getThemeInitScript(theme: ThemeMode) {
 export const Route = createRootRoute({
   loader: async () => ({
     theme: await getThemePreference(),
+    cookieConsentRequired: await getCookieConsentRequired(),
   }),
   head: () => ({
     meta: [
@@ -78,7 +92,7 @@ function RootLayout() {
 }
 
 function RootDocument({ children }: { children: ReactNode }) {
-  const { theme } = Route.useLoaderData()
+  const { theme, cookieConsentRequired } = Route.useLoaderData()
   const locale = getLocale()
   const initialResolvedTheme = theme === 'light' || theme === 'dark' ? theme : 'light'
 
@@ -88,6 +102,7 @@ function RootDocument({ children }: { children: ReactNode }) {
       dir={isRtlLocale(locale) ? 'rtl' : 'ltr'}
       data-theme={theme}
       data-resolved-theme={initialResolvedTheme}
+      data-cookie-consent={cookieConsentRequired ? 'required' : undefined}
       style={{ colorScheme: getThemeColorScheme(theme) }}
       suppressHydrationWarning
     >
