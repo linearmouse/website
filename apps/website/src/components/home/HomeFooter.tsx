@@ -3,7 +3,7 @@ import { m } from '#/paraglide/messages'
 import { containerClass } from './constants'
 import { CookieConsent } from './CookieConsent'
 
-export function HomeFooter() {
+export function HomeFooter({ cookieConsentRequired }: { cookieConsentRequired: boolean }) {
   return (
     <>
       <footer className="border-t border-[color:var(--line)] py-6">
@@ -27,7 +27,7 @@ export function HomeFooter() {
           </div>
         </div>
       </footer>
-      <CookieConsent />
+      <CookieConsent required={cookieConsentRequired} />
     </>
   )
 }

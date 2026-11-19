@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react'
 
+import { cookieConsentStorageKey } from '#/lib/cookie-consent'
 import { m } from '#/paraglide/messages'
 
-export function CookieConsent() {
+export function CookieConsent({ required }: { required: boolean }) {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    if (!localStorage.getItem('cookie_consent_informed')) {
+    if (required && !localStorage.getItem(cookieConsentStorageKey)) {
       setVisible(true)
     }
-  }, [])
+  }, [required])
 
   if (!visible) {
     return null
@@ -22,7 +23,7 @@ export function CookieConsent() {
         <button
           type="button"
           onClick={() => {
-            localStorage.setItem('cookie_consent_informed', '1')
+            localStorage.setItem(cookieConsentStorageKey, '1')
             setVisible(false)
           }}
           className="shrink-0 rounded-full bg-[color:var(--brand)] px-4 py-1.5 text-xs font-medium text-white transition-[background-color,transform] duration-200 ease-[var(--ease-out-quart)] hover:brightness-110 active:scale-[0.98]"
