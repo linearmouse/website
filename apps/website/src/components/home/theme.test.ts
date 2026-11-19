@@ -1,11 +1,10 @@
 // @vitest-environment jsdom
 
 import { fireEvent, render, screen } from '@testing-library/react'
-import { createElement } from 'react'
+import { createElement, Fragment } from 'react'
 import { beforeEach, describe, expect, it } from 'vitest'
 
 import {
-  applyThemeMode,
   parseThemeMode,
   readThemeModeFromCookieString,
   readThemeModeFromDocument,
@@ -54,12 +53,15 @@ describe('theme helpers', () => {
     }
 
     render(
-      createElement(
-        ThemeProvider,
-        { initialTheme: 'light' },
-        createElement(ThemeValue, { label: 'nav' }),
-        createElement(ThemeValue, { label: 'floating' }),
-      ),
+      createElement(ThemeProvider, {
+        initialTheme: 'light',
+        children: createElement(
+          Fragment,
+          null,
+          createElement(ThemeValue, { label: 'nav' }),
+          createElement(ThemeValue, { label: 'floating' }),
+        ),
+      }),
     )
 
     expect(screen.getByRole('button', { name: 'nav:light' })).not.toBeNull()
